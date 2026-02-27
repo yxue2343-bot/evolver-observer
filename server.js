@@ -41,6 +41,94 @@ const CATEGORY_HELP_ZH = {
   unknown: '用于沉淀经验，等待后续验证与固化。',
 };
 
+function readSimpleEnv(filePath) {
+  const out = {};
+  try {
+    if (!fs.existsSync(filePath)) return out;
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const lines = raw.split('\n');
+    for (const line of lines) {
+      const s = String(line || '').trim();
+      if (!s || s.startsWith('#')) continue;
+      const idx = s.indexOf('=');
+      if (idx <= 0) continue;
+      const k = s.slice(0, idx).trim();
+      const v = s.slice(idx + 1).trim();
+      out[k] = v;
+    }
+  } catch (_e) {}
+  return out;
+}
+
+function clipText(v, n = 80) {
+  const s = String(v || '');
+  if (s.length <= n) return s;
+  return `${s.slice(0, n)}...`;
+}
+
+function signalToZh(sig) {
+  const s = String(sig || '');
+  if (!s) return '未知信号';
+  if (/unknown command 'process'/i.test(s)) return '调用命令写法错误（process 命令）';
+  if (/repeated_tool_usage:exec/i.test(s)) return 'exec 调用过多，流程可能过重';
+  if (/protocol_drift/i.test(s)) return '输出/流程偏离约定';
+  if (/system_load_exceeded/i.test(s)) return '系统负载过高';
+  if (/timeout|aborted|queue/i.test(s)) return '请求超时或排队中断';
+  if (/error|exception|failed|log_error/i.test(s)) return '检测到报错信号';
+  return clipText(s, 42);
+}
+
+function summarizeSignals(signals, max = 3) {
+  const arr = Array.isArray(signals) ? signals : [];
+  const zh = arr.map(signalToZh).filter(Boolean);
+  return zh.slice(0, max);
+}
+
+function explainGeneZh(g, catZh, signals, tactic) {
+  const id = String(g.id || '').toLowerCase();
+  const sigText = signals.length ? `触发它的典型信号是：${signals.join('、')}。` : '';
+
+  if (id.includes('repair')) {
+    return {
+      purposeZh: '这个基因是“修 bug 用”的模板：先定位报错，再做小范围改动，最后做验证，避免越改越乱。',
+      detailZh: sigText || '它主要在报错场景下触发。',
+      tacticZh: tactic || '常见做法：先抓错误线索，再做最小修补。',
+    };
+  }
+
+  if (id.includes('optimize')) {
+    return {
+      purposeZh: '这个基因是“提效率用”的模板：减少重复步骤，让流程更快更稳。',
+      detailZh: sigText || '它主要在效率瓶颈场景下触发。',
+      tacticZh: tactic || '常见做法：整理提示词和资产结构，降低重复劳动。',
+    };
+  }
+
+  if (id.includes('innovate')) {
+    return {
+      purposeZh: '这个基因是“尝试新方法用”的模板：在可控风险下探索新能力。',
+      detailZh: sigText || '它主要在新机会出现时触发。',
+      tacticZh: tactic || '常见做法：先小步试验，再看效果是否值得固化。',
+    };
+  }
+
+  return {
+    purposeZh: `这是一个“${catZh}型”基因。${CATEGORY_HELP_ZH[g.category] || CATEGORY_HELP_ZH.unknown}`,
+    detailZh: sigText || '当前没有解析到明显触发信号。',
+    tacticZh: tactic || '暂无策略摘要。',
+  };
+}
+
+function inferProblemZh(text) {
+  const s = String(text || '');
+  if (/unknown command 'process'/i.test(s)) return '命令写错导致流程中断';
+  if (/429|rate limit/i.test(s)) return '接口限流导致请求失败';
+  if (/timeout|aborted/i.test(s)) return '请求超时或被中断';
+  if (/system load|load exceeded/i.test(s)) return '系统负载过高导致暂停';
+  if (/error|exception|failed/i.test(s)) return '运行中出现报错';
+  return '流程稳定性或效率问题';
+}
+
 function unauthorized(res) {
   res.set('WWW-Authenticate', 'Basic realm="evolver-observer"');
   res.status(401).send('Authentication required');
@@ -230,24 +318,31 @@ function loadAssets() {
 
   const genes = toArray(genesJson, 'genes').map((g) => {
     const cat = String(g.category || 'unknown').toLowerCase();
-    const signals = Array.isArray(g.signals_match) ? g.signals_match.slice(0, 4) : [];
-    const tactic = Array.isArray(g.strategy) ? (g.strategy[0] || '') : '';
     const catZh = INTENT_ZH[cat] || '未分类';
+    const signals = summarizeSignals(g.signals_match, 4);
+    const tactic = Array.isArray(g.strategy) ? clipText(g.strategy[0] || '', 80) : '';
+    const explain = explainGeneZh({ ...g, category: cat }, catZh, signals, tactic);
 
     return {
       id: g.id || null,
       category: cat,
       categoryZh: catZh,
       signals,
-      explainZh: `这是一个“${catZh}型”基因。${CATEGORY_HELP_ZH[cat] || CATEGORY_HELP_ZH.unknown}`,
-      tacticZh: tactic || '暂无策略摘要。',
+      purposeZh: explain.purposeZh,
+      detailZh: explain.detailZh,
+      tacticZh: explain.tacticZh,
     };
   });
 
   const capsules = toArray(capsulesJson, 'capsules').map((c) => {
     const score = c?.outcome?.score ?? null;
     const outcome = c?.outcome?.status || null;
-    const trigger = Array.isArray(c.trigger) ? c.trigger.slice(0, 4) : [];
+    const trigger = summarizeSignals(c.trigger, 4);
+    const problemZh = inferProblemZh(`${c.summary || ''} ${(Array.isArray(c.trigger) ? c.trigger.join(' ') : '')}`);
+    const outcomeZh = outcome === 'success' ? '成功' : outcome === 'failed' ? '失败' : '未知';
+    const blastFiles = c?.blast_radius?.files;
+    const blastLines = c?.blast_radius?.lines;
+
     return {
       id: c.id || null,
       gene: c.gene || null,
@@ -256,7 +351,9 @@ function loadAssets() {
       outcome,
       score,
       trigger,
-      explainZh: '这是一次可复用的“经验胶囊”，用于下次遇到类似场景时快速复现有效做法。',
+      problemZh,
+      resultZh: `结果：${outcomeZh}${score == null ? '' : `（评分 ${score}）`}`,
+      valueZh: `这条胶囊的作用是：下次再出现“${problemZh}”时，可以复用这套做法。${blastFiles == null ? '' : `当次改动规模约 ${blastFiles} 个文件`} ${blastLines == null ? '' : `${blastLines} 行`}。`,
     };
   });
 
@@ -266,6 +363,19 @@ function loadAssets() {
     const intentZh = INTENT_ZH[intent] || e.intent || '未知';
     const outcome = e?.outcome?.status || 'unknown';
     const score = e?.outcome?.score ?? null;
+    const signals = summarizeSignals(e.signals, 4);
+    const problemZh = inferProblemZh((Array.isArray(e.signals) ? e.signals.join(' ') : '') + ` ${e.id || ''}`);
+    const gene = Array.isArray(e.genes_used) && e.genes_used.length ? e.genes_used[0] : null;
+
+    let actionZh = `执行了“${intentZh}”策略。`;
+    if (intent === 'repair') actionZh = '针对报错做了一轮修复尝试。';
+    if (intent === 'optimize') actionZh = '针对流程效率做了一轮优化尝试。';
+    if (intent === 'innovate') actionZh = '针对新方法做了一轮小步试验。';
+
+    const resultZh = outcome === 'success'
+      ? `执行成功${score == null ? '' : `，评分 ${score}`}`
+      : `执行未成功${score == null ? '' : `，评分 ${score}`}`;
+
     return {
       id: e.id || null,
       at: e?.meta?.at || e.timestamp || null,
@@ -275,20 +385,31 @@ function loadAssets() {
       score,
       capsuleId: e.capsule_id || null,
       genesUsed: Array.isArray(e.genes_used) ? e.genes_used : [],
-      signals: Array.isArray(e.signals) ? e.signals.slice(0, 6) : [],
-      explainZh: `执行了一次“${intentZh}”演化，结果：${outcome}${score == null ? '' : `（评分 ${score}）`}。`,
+      signals,
+      problemZh,
+      actionZh,
+      resultZh,
+      explainZh: `本轮在处理“${problemZh}”。${gene ? `系统使用了 ${gene}。` : ''}${actionZh}最终：${resultZh}。`,
     };
   });
 
   const candidateRows = parseJsonlTail(FILES.candidates, 600);
-  const candidates = candidateRows.slice(-8).reverse().map((c) => ({
-    id: c.id || null,
-    title: c.title || c.summary || '未命名候选能力',
-    source: c.source || 'unknown',
-    createdAt: c.created_at || null,
-    signals: Array.isArray(c.signals) ? c.signals.slice(0, 3) : [],
-    explainZh: '候选能力 = 还在观察/验证中的想法，尚未固化为正式 Gene 或 Capsule。',
-  }));
+  const candidates = candidateRows.slice(-8).reverse().map((c) => {
+    const source = c.source || 'unknown';
+    const signals = summarizeSignals(c.signals, 3);
+    const sourceZh = source === 'transcript' ? '会话记录' : source === 'signals' ? '信号推断' : source;
+
+    return {
+      id: c.id || null,
+      title: c.title || c.summary || '未命名候选能力',
+      source,
+      sourceZh,
+      createdAt: c.created_at || null,
+      signals,
+      explainZh: '候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。',
+      nextZh: '如果后续反复出现同类信号，它会升级为正式基因或胶囊。',
+    };
+  });
 
   return {
     genes,
@@ -304,7 +425,7 @@ function loadAssets() {
   };
 }
 
-function computeStatus({ process, timeline, dormant, node }) {
+function computeStatus({ process, timeline, dormant, node, loadMax }) {
   if (!process.running) {
     return {
       code: 'stopped',
@@ -323,8 +444,8 @@ function computeStatus({ process, timeline, dormant, node }) {
       code: 'backoff',
       title: '回退中',
       level: 'warn',
-      reason: '系统负载偏高，Evolver 正在按保护策略暂停并重试。',
-      suggestion: '降低并发任务或调高 EVOLVE_LOAD_MAX，才能看到新的演化产出。',
+      reason: `系统负载偏高，Evolver 正在按保护策略暂停并重试（当前阈值 ${loadMax}）。`,
+      suggestion: '如果长期回退，可继续提高阈值或减少并发任务。',
     };
   }
 
@@ -342,8 +463,8 @@ function computeStatus({ process, timeline, dormant, node }) {
     code: 'running',
     title: '运行中',
     level: 'ok',
-    reason: 'Evolver 循环正常运行。',
-    suggestion: '重点关注“最近产出”和“最近动作”两块即可。',
+    reason: `Evolver 循环正常运行（当前阈值 ${loadMax}）。`,
+    suggestion: '重点看“最近在做什么”和“新增基因/胶囊解释”。',
   };
 }
 
@@ -394,10 +515,13 @@ app.get('/api/dashboard', async (_req, res) => {
   const process = processStatus();
   const node = await fetchNodeStatus();
 
+  const envCfg = readSimpleEnv(path.join(EVOLVER_ROOT, '.env'));
+  const loadMax = parseFloat(envCfg.EVOLVE_LOAD_MAX || process.env.EVOLVE_LOAD_MAX || '2');
+
   const assets = loadAssets();
-  const logLines = readTailLines(FILES.log, 900);
+  const logLines = readTailLines(FILES.log, 260);
   const timeline = summarizeTimeline(logLines);
-  const status = computeStatus({ process, timeline, dormant, node });
+  const status = computeStatus({ process, timeline, dormant, node, loadMax });
 
   const fileTimes = {
     logUpdatedAt: fileMtimeIso(FILES.log),
@@ -434,6 +558,7 @@ app.get('/api/dashboard', async (_req, res) => {
     { key: 'capsules', label: '胶囊', value: assets.counts.capsules, desc: '已验证经验包（可复用）' },
     { key: 'events', label: '演化事件', value: assets.counts.events, desc: '执行记录（不是项目）' },
     { key: 'candidates', label: '候选能力', value: assets.counts.candidates, desc: '待验证想法，尚未固化' },
+    { key: 'load_max', label: '负载阈值', value: loadMax, desc: '超过这个值会暂缓演化' },
     { key: 'published', label: '累计发布', value: node.totalPublished ?? '-', desc: '已对外发布到 EvoMap 的资产数' },
     { key: 'promoted', label: '累计 promoted', value: node.totalPromoted ?? '-', desc: '在网络中获得更高认可的资产数' },
   ];
@@ -456,6 +581,9 @@ app.get('/api/dashboard', async (_req, res) => {
     },
     personality,
     dormant,
+    runtime: {
+      loadMax,
+    },
     technical: {
       logTail: logLines.slice(-180),
       processCommand: process.command,

@@ -85,9 +85,9 @@ function renderGenes(data) {
   renderAssetList('genes', genes, (g) => `
     <div class="item">
       <div class="title">${esc(g.id || '未知基因')} · ${esc(g.categoryZh || '未分类')}</div>
-      <div class="meta">触发信号：${esc((g.signals || []).join(', ') || '-')}</div>
-      <div class="explain">${esc(g.explainZh || '')}</div>
-      <div class="meta">策略摘要：${esc(g.tacticZh || '-')}</div>
+      <div class="explain">${esc(g.purposeZh || '')}</div>
+      <div class="meta">它主要处理：${esc(g.detailZh || '-')}</div>
+      <div class="meta">处理方式：${esc(g.tacticZh || '-')}</div>
     </div>
   `);
 }
@@ -96,10 +96,12 @@ function renderCapsules(data) {
   const capsules = (data.assets && data.assets.capsules) || [];
   renderAssetList('capsules', capsules, (c) => `
     <div class="item">
-      <div class="title">${esc(c.id || '未知胶囊')} · score ${esc(c.score ?? '-')}</div>
-      <div class="meta">来源基因：${esc(c.gene || '-')} · outcome：${esc(c.outcome || '-')}</div>
-      <div class="explain">${esc(c.summary || '')}</div>
-      <div class="meta">用途说明：${esc(c.explainZh || '')}</div>
+      <div class="title">${esc(c.id || '未知胶囊')} · 评分 ${esc(c.score ?? '-')}</div>
+      <div class="meta">来源基因：${esc(c.gene || '-')}</div>
+      <div class="meta">这次处理的问题：${esc(c.problemZh || '-')}</div>
+      <div class="meta">${esc(c.resultZh || '-')}</div>
+      <div class="explain">${esc(c.valueZh || '')}</div>
+      <div class="meta">原始摘要：${esc(c.summary || '')}</div>
     </div>
   `);
 }
@@ -109,8 +111,9 @@ function renderCandidates(data) {
   renderAssetList('candidates', candidates, (c) => `
     <div class="item">
       <div class="title">${esc(c.title || '未命名候选')}</div>
-      <div class="meta">来源：${esc(c.source || '-')} · 时间：${esc(fmtTime(c.createdAt))}</div>
+      <div class="meta">来源：${esc(c.sourceZh || c.source || '-')} · 时间：${esc(fmtTime(c.createdAt))}</div>
       <div class="explain">${esc(c.explainZh || '')}</div>
+      <div class="meta">下一步：${esc(c.nextZh || '-')}</div>
       <div class="meta">关联信号：${esc((c.signals || []).join(', ') || '-')}</div>
     </div>
   `);
@@ -127,15 +130,18 @@ function renderEvents(data) {
   const events = (data.assets && data.assets.events) || [];
   document.getElementById('eventsBody').innerHTML = events.length
     ? events
-        .map((e) => `
+        .map((e) => {
+          const explain = `${e.explainZh || '-'} 触发信号：${(e.signals || []).join('、') || '-'}`;
+          return `
           <tr>
             <td>${esc(fmtTime(e.at))}</td>
             <td>${esc(e.intentZh || e.intent || '-')}</td>
-            <td>${esc(e.outcome || '-')}</td>
+            <td>${esc(e.resultZh || e.outcome || '-')}</td>
             <td>${esc(e.score ?? '-')}</td>
-            <td>${esc(e.explainZh || '-')}</td>
+            <td>${esc(explain)}</td>
           </tr>
-        `)
+        `;
+        })
         .join('')
     : '<tr><td colspan="5">暂无事件</td></tr>';
 }
@@ -147,7 +153,8 @@ function renderTech(data) {
 
 function renderHeader(data) {
   const fresh = data.freshness || {};
-  const line = `上次刷新：${fmtTime(data.now)} ｜ 数据更新：${ago(fresh.dataUpdatedAt)} ｜ 产出更新：${ago(fresh.outputUpdatedAt)}`;
+  const loadMax = data.runtime && data.runtime.loadMax != null ? data.runtime.loadMax : '-';
+  const line = `上次刷新：${fmtTime(data.now)} ｜ 数据更新：${ago(fresh.dataUpdatedAt)} ｜ 产出更新：${ago(fresh.outputUpdatedAt)} ｜ 阈值：${loadMax}`;
   document.getElementById('subline').textContent = line;
 
   const dot = document.getElementById('liveDot');
