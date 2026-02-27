@@ -7,36 +7,62 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Evolver Observer</h1>
-      <div id="statusLine">加载中...</div>
+    <header class="topbar">
+      <div>
+        <h1>Evolver Observer</h1>
+        <p id="subline">加载中...</p>
+      </div>
+      <div class="live">
+        <span class="dot" id="liveDot"></span>
+        <span id="liveText">检查中</span>
+      </div>
     </header>
 
     <main>
-      <section class="cards" id="topCards"></section>
+      <section class="panel hero" id="hero"></section>
 
       <section class="panel">
-        <h2>本轮状态</h2>
-        <div id="runSummary" class="kv"></div>
+        <h2>更新状态</h2>
+        <div class="kv" id="freshness"></div>
       </section>
 
       <section class="panel">
-        <h2>最近动作 (log 提取)</h2>
-        <ul id="actions"></ul>
+        <h2>核心指标（带解释）</h2>
+        <div id="metrics" class="metrics"></div>
+      </section>
+
+      <section class="panel split">
+        <div>
+          <h2>最近基因（它们有什么用）</h2>
+          <div id="genes" class="list"></div>
+        </div>
+        <div>
+          <h2>最近胶囊（它们沉淀了什么）</h2>
+          <div id="capsules" class="list"></div>
+        </div>
       </section>
 
       <section class="panel">
-        <h2>最近 EvolutionEvent</h2>
+        <h2>候选能力（还在观察）</h2>
+        <div id="candidates" class="list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>最近在做什么（中文时间线）</h2>
+        <ul id="timeline" class="timeline"></ul>
+      </section>
+
+      <section class="panel">
+        <h2>最近演化事件</h2>
         <div class="tableWrap">
           <table>
             <thead>
               <tr>
                 <th>时间</th>
-                <th>intent</th>
-                <th>outcome</th>
-                <th>score</th>
-                <th>gene</th>
-                <th>capsule</th>
+                <th>类型</th>
+                <th>结果</th>
+                <th>评分</th>
+                <th>说明</th>
               </tr>
             </thead>
             <tbody id="eventsBody"></tbody>
@@ -44,10 +70,10 @@
         </div>
       </section>
 
-      <section class="panel">
-        <h2>日志尾部</h2>
+      <details class="panel">
+        <summary>技术详情（原始日志）</summary>
         <pre id="logTail"></pre>
-      </section>
+      </details>
     </main>
 
     <script src="/app.js"></script>
