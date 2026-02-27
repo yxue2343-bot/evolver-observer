@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T17:37:05.366Z",
+  "now": "2026-02-27T17:38:08.475Z",
   "status": {
     "code": "running",
     "title": "运行中",
@@ -8,17 +8,17 @@
     "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-27T17:37:03.164Z",
+    "dataUpdatedAt": "2026-02-27T17:38:07.230Z",
     "outputUpdatedAt": "2026-02-27T16:03:13.869Z",
-    "nodeLastSeenAt": "2026-02-27T17:35:19.964Z",
-    "lastRunAt": "2026-02-27T17:37:03.164Z",
+    "nodeLastSeenAt": "2026-02-27T17:37:29.889Z",
+    "lastRunAt": "2026-02-27T17:38:06.789Z",
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-02-27T17:36:56.744Z",
-    "stateUpdatedAt": "2026-02-27T17:37:03.164Z",
+    "logUpdatedAt": "2026-02-27T17:38:07.230Z",
+    "stateUpdatedAt": "2026-02-27T17:38:06.789Z",
     "genesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "capsulesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "eventsUpdatedAt": "2026-02-27T16:03:13.869Z",
-    "candidatesUpdatedAt": "2026-02-27T17:37:02.993Z"
+    "candidatesUpdatedAt": "2026-02-27T17:38:06.622Z"
   },
   "metrics": [
     {
@@ -66,7 +66,7 @@
   ],
   "process": {
     "running": true,
-    "pid": 75599
+    "pid": 78308
   },
   "node": {
     "ok": true,
@@ -74,14 +74,14 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-02-27T17:35:19.964Z"
+    "lastSeenAt": "2026-02-27T17:37:29.889Z"
   },
   "runtime": {
     "loadMax": 9
   },
   "lastRun": {
-    "run_id": "run_1772213823147",
-    "created_at": "2026-02-27T17:37:03.164Z",
+    "run_id": "run_1772213886770",
+    "created_at": "2026-02-27T17:38:06.789Z",
     "parent_event_id": "evt_1770478341769",
     "selected_gene_id": "gene_gep_optimize_prompt_and_assets",
     "selected_capsule_id": null,
@@ -89,7 +89,7 @@
       "selected": "gene_gep_optimize_prompt_and_assets",
       "reason": [
         "signals match gene.signals_match",
-        "signals: protocol_drift, user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全, repeated_tool_usage:exec",
+        "signals: protocol_drift, user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全, high_tool_usage:exec, repeated_tool_usage:exec",
         "memory_graph: memory_prefer:gene_gep_optimize_prompt_and_assets | gene_prior:0.997",
         "drift_intensity: 0.577"
       ],
@@ -100,22 +100,24 @@
     "signals": [
       "protocol_drift",
       "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全",
+      "high_tool_usage:exec",
       "repeated_tool_usage:exec"
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1772213823146",
+      "id": "mut_1772213886770",
       "category": "innovate",
       "trigger_signals": [
         "protocol_drift",
         "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全",
+        "high_tool_usage:exec",
         "repeated_tool_usage:exec"
       ],
       "target": "gene:gene_gep_optimize_prompt_and_assets",
       "expected_effect": "explore new strategy combinations to escape local optimum",
       "risk_level": "medium"
     },
-    "mutation_id": "mut_1772213823146",
+    "mutation_id": "mut_1772213886770",
     "personality_state": {
       "type": "PersonalityState",
       "rigor": 0.7,
@@ -130,8 +132,8 @@
     "drift": false,
     "selected_by": "memory_graph+selector",
     "source_type": "reference",
-    "reused_asset_id": "sha256:ae5045fa86b980bb1883f95314952a1f30b25b3aa7f3f8a990bc41ba7634de21",
-    "reused_source_node": "node_15ffd5e14b5c",
+    "reused_asset_id": "sha256:6b3a91ee324d9b687e0ed073a860d68951102a04286f05b28307a85210b366a3",
+    "reused_source_node": "node_43729c7e22ed9fc6",
     "reused_chain_id": null,
     "baseline_untracked": [
       "assets/gep/failed_capsules.json",
@@ -304,11 +306,11 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:37:02.992Z",
+        "createdAt": "2026-02-27T17:38:06.622Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -318,11 +320,11 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:37:02.992Z",
+        "createdAt": "2026-02-27T17:38:06.622Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -332,11 +334,11 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:37:02.992Z",
+        "createdAt": "2026-02-27T17:38:06.622Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -346,11 +348,11 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:37:00.212Z",
+        "createdAt": "2026-02-27T17:38:03.887Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -360,11 +362,11 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:37:00.212Z",
+        "createdAt": "2026-02-27T17:38:03.887Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -374,11 +376,11 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:37:00.212Z",
+        "createdAt": "2026-02-27T17:38:03.887Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -388,11 +390,11 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:57.321Z",
+        "createdAt": "2026-02-27T17:38:01.107Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -402,16 +404,16 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:57.321Z",
+        "createdAt": "2026-02-27T17:38:01.107Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "high_tool_usage:exec"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       }
     ]
   },
-  "publishedAt": "2026-02-27T17:37:05.374Z"
+  "publishedAt": "2026-02-27T17:38:08.486Z"
 }
