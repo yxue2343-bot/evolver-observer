@@ -66,6 +66,16 @@ function clipText(v, n = 80) {
   return `${s.slice(0, n)}...`;
 }
 
+function stableHash(input) {
+  const s = String(input || '');
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0).toString(16).padStart(8, '0');
+}
+
 function signalToZh(sig) {
   const s = String(sig || '');
   if (!s) return '未知信号';
@@ -393,8 +403,24 @@ function loadAssets() {
     };
   });
 
-  const candidateRows = parseJsonlTail(FILES.candidates, 600);
-  const candidates = candidateRows.slice(-8).reverse().map((c) => {
+  const candidateRows = parseJsonlTail(FILES.candidates, 2000);
+  const candidateById = new Map();
+
+  for (const c of candidateRows) {
+    const id = c && c.id ? String(c.id) : `anon_${stableHash(JSON.stringify(c || {}))}`;
+    candidateById.set(id, c);
+  }
+
+  const uniqueCandidates = Array.from(candidateById.values());
+  const uniqueTail = uniqueCandidates.slice(-8).reverse();
+
+  const sourceStats = {};
+  for (const c of uniqueCandidates) {
+    const s = c && c.source ? String(c.source) : 'unknown';
+    sourceStats[s] = (sourceStats[s] || 0) + 1;
+  }
+
+  const candidates = uniqueTail.map((c) => {
     const source = c.source || 'unknown';
     const signals = summarizeSignals(c.signals, 3);
     const sourceZh = source === 'transcript' ? '会话记录' : source === 'signals' ? '信号推断' : source;
@@ -416,11 +442,18 @@ function loadAssets() {
     capsules,
     events,
     candidates,
+    candidateStats: {
+      raw: candidateRows.length,
+      unique: uniqueCandidates.length,
+      duplicates: Math.max(0, candidateRows.length - uniqueCandidates.length),
+      sourceStats,
+    },
     counts: {
       genes: genes.length,
       capsules: capsules.length,
       events: eventRows.length,
-      candidates: candidateRows.length,
+      candidates: uniqueCandidates.length,
+      candidatesRaw: candidateRows.length,
     },
   };
 }
@@ -553,11 +586,16 @@ app.get('/api/dashboard', async (_req, res) => {
     ...fileTimes,
   };
 
+  const candRaw = assets.candidateStats ? assets.candidateStats.raw : assets.counts.candidatesRaw;
+  const candUnique = assets.candidateStats ? assets.candidateStats.unique : assets.counts.candidates;
+  const candDup = assets.candidateStats ? assets.candidateStats.duplicates : Math.max(0, candRaw - candUnique);
+
   const metrics = [
     { key: 'genes', label: '基因', value: assets.counts.genes, desc: '可复用策略模板（不是任务数）' },
     { key: 'capsules', label: '胶囊', value: assets.counts.capsules, desc: '已验证经验包（可复用）' },
     { key: 'events', label: '演化事件', value: assets.counts.events, desc: '执行记录（不是项目）' },
-    { key: 'candidates', label: '候选能力', value: assets.counts.candidates, desc: '待验证想法，尚未固化' },
+    { key: 'candidates_unique', label: '候选能力(去重后)', value: candUnique, desc: `按 id 去重，已折叠 ${candDup} 条重复记录` },
+    { key: 'candidates_raw', label: '候选原始记录', value: candRaw, desc: '原始累计条数（会包含重复）' },
     { key: 'load_max', label: '负载阈值', value: loadMax, desc: '超过这个值会暂缓演化' },
     { key: 'published', label: '累计发布', value: node.totalPublished ?? '-', desc: '已对外发布到 EvoMap 的资产数' },
     { key: 'promoted', label: '累计 promoted', value: node.totalPromoted ?? '-', desc: '在网络中获得更高认可的资产数' },
@@ -578,6 +616,7 @@ app.get('/api/dashboard', async (_req, res) => {
       capsules: assets.capsules.slice(0, 6),
       events: assets.events.slice(0, 10),
       candidates: assets.candidates,
+      candidateStats: assets.candidateStats,
     },
     personality,
     dormant,

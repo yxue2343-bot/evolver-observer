@@ -108,7 +108,26 @@ function renderCapsules(data) {
 
 function renderCandidates(data) {
   const candidates = (data.assets && data.assets.candidates) || [];
-  renderAssetList('candidates', candidates, (c) => `
+  const stats = (data.assets && data.assets.candidateStats) || null;
+  const sourceStats = stats && stats.sourceStats ? stats.sourceStats : {};
+  const sourceTop = Object.entries(sourceStats)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([k, v]) => `${k}:${v}`)
+    .join(' / ');
+
+  const summaryCard = stats
+    ? [`
+    <div class="item">
+      <div class="title">候选统计（去重视角）</div>
+      <div class="meta">原始记录：${esc(stats.raw)} · 去重后：${esc(stats.unique)} · 重复折叠：${esc(stats.duplicates)}</div>
+      <div class="meta">来源分布：${esc(sourceTop || '-')}</div>
+      <div class="explain">说明：你之前看到“600+”主要是重复累计。现在默认展示去重后的候选，更接近真实可改进条目。</div>
+    </div>
+  `]
+    : [];
+
+  const cards = candidates.map((c) => `
     <div class="item">
       <div class="title">${esc(c.title || '未命名候选')}</div>
       <div class="meta">来源：${esc(c.sourceZh || c.source || '-')} · 时间：${esc(fmtTime(c.createdAt))}</div>
@@ -117,6 +136,9 @@ function renderCandidates(data) {
       <div class="meta">关联信号：${esc((c.signals || []).join(', ') || '-')}</div>
     </div>
   `);
+
+  const html = [...summaryCard, ...cards].join('');
+  document.getElementById('candidates').innerHTML = html || '<div class="item"><div class="explain">暂无数据</div></div>';
 }
 
 function renderTimeline(data) {
