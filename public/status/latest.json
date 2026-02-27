@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T18:00:09.058Z",
+  "now": "2026-02-27T18:01:11.859Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -40,10 +40,16 @@
       "desc": "执行记录（不是项目）"
     },
     {
-      "key": "candidates",
-      "label": "候选能力",
-      "value": 600,
-      "desc": "待验证想法，尚未固化"
+      "key": "candidates_unique",
+      "label": "候选能力(去重后)",
+      "value": 7,
+      "desc": "按 id 去重，已折叠 1993 条重复记录"
+    },
+    {
+      "key": "candidates_raw",
+      "label": "候选原始记录",
+      "value": 2000,
+      "desc": "原始累计条数（会包含重复）"
     },
     {
       "key": "load_max",
@@ -300,29 +306,15 @@
     ],
     "candidates": [
       {
-        "id": "cand_5eb089f2",
-        "title": "Apply user improvement suggestion",
+        "id": "cand_dd9067ac",
+        "title": "Repair recurring runtime errors",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:52:42.070Z",
+        "createdAt": "2026-02-27T17:42:08.578Z",
         "signals": [
-          "输出/流程偏离约定",
-          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
-        ],
-        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
-        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
-      },
-      {
-        "id": "cand_f38b3ae5",
-        "title": "Prevent protocol drift and enforce auditable outputs",
-        "source": "signals",
-        "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:52:42.070Z",
-        "signals": [
-          "输出/流程偏离约定",
-          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
+          "检测到报错信号",
+          "检测到报错信号",
+          "输出/流程偏离约定"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -332,6 +324,45 @@
         "title": "Repeated tool usage: write",
         "source": "transcript",
         "sourceZh": "会话记录",
+        "createdAt": "2026-02-27T17:52:42.070Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_2f2b5dde",
+        "title": "Repeated tool usage: read",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-27T17:50:54.703Z",
+        "signals": [
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态..."
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_68a5049a",
+        "title": "Repeated tool usage: edit",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-27T17:52:32.762Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态..."
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
+        "source": "signals",
+        "sourceZh": "信号推断",
         "createdAt": "2026-02-27T17:52:42.070Z",
         "signals": [
           "输出/流程偏离约定",
@@ -360,49 +391,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:52:35.666Z",
-        "signals": [
-          "输出/流程偏离约定",
-          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
-        ],
-        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
-        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
-      },
-      {
-        "id": "cand_f38b3ae5",
-        "title": "Prevent protocol drift and enforce auditable outputs",
-        "source": "signals",
-        "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:52:35.666Z",
-        "signals": [
-          "输出/流程偏离约定",
-          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
-        ],
-        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
-        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
-      },
-      {
-        "id": "cand_2fb72701",
-        "title": "Repeated tool usage: write",
-        "source": "transcript",
-        "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:52:35.666Z",
-        "signals": [
-          "输出/流程偏离约定",
-          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
-          "exec 调用过多，流程可能过重"
-        ],
-        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
-        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
-      },
-      {
-        "id": "cand_5afdf7f3",
-        "title": "Repeated tool usage: exec",
-        "source": "transcript",
-        "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:52:35.666Z",
+        "createdAt": "2026-02-27T17:52:42.070Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -411,7 +400,16 @@
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       }
-    ]
+    ],
+    "candidateStats": {
+      "raw": 2000,
+      "unique": 7,
+      "duplicates": 1993,
+      "sourceStats": {
+        "signals": 3,
+        "transcript": 4
+      }
+    }
   },
-  "publishedAt": "2026-02-27T18:00:09.067Z"
+  "publishedAt": "2026-02-27T18:01:11.866Z"
 }
