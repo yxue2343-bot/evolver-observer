@@ -11,6 +11,11 @@ const EVOLUTION_DIR = process.env.EVOLUTION_DIR || '/Users/xyt/memory/evolution'
 const EVOLVER_LOG = process.env.EVOLVER_LOG || '/Users/xyt/.openclaw/workspace/logs/evolver_official.log';
 const NODE_ID = process.env.EVOMAP_NODE_ID || 'node_97e143de9fe2';
 const EVOMAP_BASE = (process.env.EVOMAP_BASE || 'https://evomap.ai').replace(/\/+$/, '');
+const LOG_CANDIDATES = [
+  EVOLVER_LOG,
+  '/Users/xyt/.openclaw/workspace/logs/wrapper_out.log',
+  '/Users/xyt/.openclaw/workspace/logs/evolver_official.log',
+].filter(Boolean);
 
 const ASSETS_DIR = path.join(EVOLVER_ROOT, 'assets', 'gep');
 const FILES = {
@@ -177,6 +182,20 @@ function fileMtimeIso(p) {
   } catch (_e) {
     return null;
   }
+}
+
+function pickFreshLogPath(paths) {
+  let best = null;
+  for (const p of paths) {
+    try {
+      if (!p || !fs.existsSync(p)) continue;
+      const ms = fs.statSync(p).mtimeMs;
+      if (!best || ms > best.ms) best = { path: p, ms };
+    } catch (_e) {
+      // ignore unreadable path
+    }
+  }
+  return best ? best.path : (paths[0] || null);
 }
 
 function isoToMs(v) {
@@ -561,12 +580,13 @@ app.get('/api/dashboard', async (_req, res) => {
   const loadMax = parseFloat(envCfg.EVOLVE_LOAD_MAX || process.env.EVOLVE_LOAD_MAX || '2');
 
   const assets = loadAssets();
-  const logLines = readTailLines(FILES.log, 260);
+  const activeLogPath = pickFreshLogPath(LOG_CANDIDATES);
+  const logLines = readTailLines(activeLogPath || FILES.log, 260);
   const timeline = summarizeTimeline(logLines);
   const status = computeStatus({ process, timeline, dormant, node, loadMax });
 
   const fileTimes = {
-    logUpdatedAt: fileMtimeIso(FILES.log),
+    logUpdatedAt: fileMtimeIso(activeLogPath || FILES.log),
     stateUpdatedAt: fileMtimeIso(FILES.solidify),
     genesUpdatedAt: fileMtimeIso(FILES.genes),
     capsulesUpdatedAt: fileMtimeIso(FILES.capsules),
@@ -633,6 +653,7 @@ app.get('/api/dashboard', async (_req, res) => {
       loadMax,
     },
     technical: {
+      activeLogPath: activeLogPath || FILES.log,
       logTail: logLines.slice(-180),
       processCommand: process.command,
     },
