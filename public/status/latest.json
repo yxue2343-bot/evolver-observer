@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T22:12:57.982Z",
+  "now": "2026-02-27T22:14:00.609Z",
   "status": {
     "code": "running",
     "title": "运行中",
@@ -8,12 +8,12 @@
     "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-27T22:11:47.407Z",
+    "dataUpdatedAt": "2026-02-27T22:13:15.178Z",
     "outputUpdatedAt": "2026-02-27T16:03:13.869Z",
     "nodeLastSeenAt": "2026-02-27T17:51:52.687Z",
     "lastRunAt": "2026-02-27T17:52:42.275Z",
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-02-27T22:11:47.407Z",
+    "logUpdatedAt": "2026-02-27T22:13:15.178Z",
     "stateUpdatedAt": "2026-02-27T17:52:42.275Z",
     "genesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "capsulesUpdatedAt": "2026-02-27T16:03:13.869Z",
@@ -411,5 +411,5 @@
       }
     }
   },
-  "publishedAt": "2026-02-27T22:12:58.001Z"
+  "publishedAt": "2026-02-27T22:14:00.627Z"
 }
