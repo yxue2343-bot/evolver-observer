@@ -13,6 +13,32 @@ const NODE_ID = process.env.EVOMAP_NODE_ID || 'node_97e143de9fe2';
 const EVOMAP_BASE = (process.env.EVOMAP_BASE || 'https://evomap.ai').replace(/\/+$/, '');
 
 const ASSETS_DIR = path.join(EVOLVER_ROOT, 'assets', 'gep');
+const OBSERVER_USER = process.env.OBSERVER_USER || '';
+const OBSERVER_PASS = process.env.OBSERVER_PASS || '';
+const AUTH_ENABLED = Boolean(OBSERVER_USER && OBSERVER_PASS);
+
+function unauthorized(res) {
+  res.set('WWW-Authenticate', 'Basic realm="evolver-observer"');
+  res.status(401).send('Authentication required');
+}
+
+function authMiddleware(req, res, next) {
+  if (!AUTH_ENABLED) return next();
+
+  const header = req.headers.authorization || '';
+  if (!header.startsWith('Basic ')) return unauthorized(res);
+
+  try {
+    const raw = Buffer.from(header.slice(6), 'base64').toString('utf8');
+    const idx = raw.indexOf(':');
+    const user = idx >= 0 ? raw.slice(0, idx) : raw;
+    const pass = idx >= 0 ? raw.slice(idx + 1) : '';
+    if (user === OBSERVER_USER && pass === OBSERVER_PASS) return next();
+    return unauthorized(res);
+  } catch (_e) {
+    return unauthorized(res);
+  }
+}
 
 function safeReadJson(p) {
   try {
@@ -165,6 +191,11 @@ function latestEvolutionEvents(limit = 20) {
   return events;
 }
 
+app.get('/healthz', (_req, res) => {
+  res.json({ ok: true, ts: Date.now() });
+});
+
+app.use(authMiddleware);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/dashboard', async (_req, res) => {
@@ -196,10 +227,6 @@ app.get('/api/dashboard', async (_req, res) => {
     events: latestEvolutionEvents(20),
     logTail: logLines.slice(-200),
   });
-});
-
-app.get('/healthz', (_req, res) => {
-  res.json({ ok: true, ts: Date.now() });
 });
 
 app.listen(PORT, () => {
