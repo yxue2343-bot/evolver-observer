@@ -225,19 +225,28 @@ function parseJsonlTail(filePath, limit) {
 }
 
 function processStatus() {
-  try {
-    const cmd = `pgrep -af "${EVOLVER_ROOT}/index.js --loop"`;
-    const out = execSync(cmd, { encoding: 'utf8' }).trim();
-    const first = out.split('\n').filter(Boolean)[0] || '';
-    const pid = first.split(/\s+/)[0] || null;
-    return {
-      running: Boolean(first),
-      pid: pid && /^\d+$/.test(pid) ? Number(pid) : null,
-      command: first || null,
-    };
-  } catch (_e) {
-    return { running: false, pid: null, command: null };
+  const patterns = [
+    `${EVOLVER_ROOT}/index.js --loop`,
+    'feishu-evolver-wrapper/index.js --loop',
+  ];
+
+  for (const p of patterns) {
+    try {
+      const out = execSync(`pgrep -af "${p}"`, { encoding: 'utf8' }).trim();
+      const first = out.split('\n').filter(Boolean)[0] || '';
+      if (!first) continue;
+      const pid = first.split(/\s+/)[0] || null;
+      return {
+        running: true,
+        pid: pid && /^\d+$/.test(pid) ? Number(pid) : null,
+        command: first || null,
+      };
+    } catch (_e) {
+      // try next pattern
+    }
   }
+
+  return { running: false, pid: null, command: null };
 }
 
 function parseLogAction(line) {
