@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "tunnel": "node tunnel.js"
+    "tunnel": "node tunnel.js",
+    "export:status": "node scripts/export_status.js",
+    "publish:status": "bash scripts/publish_status.sh"
   },
   "dependencies": {
     "express": "^4.19.2",

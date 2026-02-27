@@ -169,10 +169,20 @@ function renderHeader(data) {
   }
 }
 
-async function refresh() {
+async function loadDashboardData() {
   try {
     const res = await fetch('/api/dashboard', { cache: 'no-store' });
-    const data = await res.json();
+    if (res.ok) return await res.json();
+  } catch (_e) {}
+
+  const fallback = await fetch(`./status/latest.json?t=${Date.now()}`, { cache: 'no-store' });
+  if (!fallback.ok) throw new Error(`静态状态文件不可用: HTTP ${fallback.status}`);
+  return await fallback.json();
+}
+
+async function refresh() {
+  try {
+    const data = await loadDashboardData();
 
     renderHeader(data);
     renderHero(data);

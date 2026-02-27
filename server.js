@@ -436,7 +436,7 @@ function computeStatus({ process, timeline, dormant, node, loadMax }) {
     };
   }
 
-  const hasBackoff = timeline.some((x) => String(x.text).includes('系统负载'));
+  const hasBackoff = timeline.length > 0 && String(timeline[0].text).includes('系统负载');
   const dormantReason = dormant && dormant.backoff_reason ? String(dormant.backoff_reason) : '';
 
   if (hasBackoff || dormantReason === 'system_load_exceeded') {

@@ -40,15 +40,30 @@ You can use your own LaunchAgent or run:
 nohup node server.js > /Users/xyt/.openclaw/workspace/logs/evolver_observer.log 2>&1 &
 ```
 
-## External access (optional)
+## Fixed public URL (GitHub Pages)
 
-A companion tunnel process can expose your local dashboard to the internet.
-This project includes `tunnel.js` (localtunnel-based) and writes current URL to:
+This repo is configured for GitHub Pages via Actions.
+Public URL:
 
-- `/Users/xyt/.openclaw/workspace/logs/evolver_observer_tunnel.json`
+- `https://yxue2343-bot.github.io/evolver-observer/`
+
+How it works:
+
+- Local dashboard API stays on `http://127.0.0.1:8787/api/dashboard`
+- `scripts/export_status.js` snapshots local runtime state into `public/status/latest.json`
+- `scripts/publish_status.sh` commits + pushes snapshot updates
+- GitHub Actions deploys `public/` to Pages on every push
+
+## Auto publish snapshot (macOS)
+
+LaunchAgent:
+
+- `/Users/xyt/Library/LaunchAgents/com.xyt.evolver-observer-publisher.plist`
+
+It runs every 60s and updates `public/status/latest.json` when data changes.
 
 ## Notes
 
 - This dashboard is read-only. It does not mutate Evolver state.
-- Data refresh interval on UI is 15 seconds.
-- For internet exposure, always enable `OBSERVER_USER` + `OBSERVER_PASS`.
+- UI refresh interval is 10 seconds.
+- On GitHub Pages, data is near-realtime (depends on snapshot push + pages deploy latency).

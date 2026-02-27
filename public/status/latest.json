@@ -1,0 +1,493 @@
+{
+  "now": "2026-02-27T17:36:27.365Z",
+  "status": {
+    "code": "running",
+    "title": "运行中",
+    "level": "ok",
+    "reason": "Evolver 循环正常运行（当前阈值 9）。",
+    "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
+  },
+  "freshness": {
+    "dataUpdatedAt": "2026-02-27T17:36:26.498Z",
+    "outputUpdatedAt": "2026-02-27T16:03:13.869Z",
+    "nodeLastSeenAt": "2026-02-27T17:35:19.964Z",
+    "lastRunAt": "2026-02-27T17:36:24.662Z",
+    "lastSolidifyAt": null,
+    "logUpdatedAt": "2026-02-27T17:36:26.498Z",
+    "stateUpdatedAt": "2026-02-27T17:36:24.662Z",
+    "genesUpdatedAt": "2026-02-27T16:03:13.869Z",
+    "capsulesUpdatedAt": "2026-02-27T16:03:13.869Z",
+    "eventsUpdatedAt": "2026-02-27T16:03:13.869Z",
+    "candidatesUpdatedAt": "2026-02-27T17:36:24.496Z"
+  },
+  "metrics": [
+    {
+      "key": "genes",
+      "label": "基因",
+      "value": 3,
+      "desc": "可复用策略模板（不是任务数）"
+    },
+    {
+      "key": "capsules",
+      "label": "胶囊",
+      "value": 2,
+      "desc": "已验证经验包（可复用）"
+    },
+    {
+      "key": "events",
+      "label": "演化事件",
+      "value": 3,
+      "desc": "执行记录（不是项目）"
+    },
+    {
+      "key": "candidates",
+      "label": "候选能力",
+      "value": 600,
+      "desc": "待验证想法，尚未固化"
+    },
+    {
+      "key": "load_max",
+      "label": "负载阈值",
+      "value": 9,
+      "desc": "超过这个值会暂缓演化"
+    },
+    {
+      "key": "published",
+      "label": "累计发布",
+      "value": 0,
+      "desc": "已对外发布到 EvoMap 的资产数"
+    },
+    {
+      "key": "promoted",
+      "label": "累计 promoted",
+      "value": 0,
+      "desc": "在网络中获得更高认可的资产数"
+    }
+  ],
+  "process": {
+    "running": true,
+    "pid": 75599
+  },
+  "node": {
+    "ok": true,
+    "online": true,
+    "status": "active",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-02-27T17:35:19.964Z"
+  },
+  "runtime": {
+    "loadMax": 9
+  },
+  "lastRun": {
+    "run_id": "run_1772213784644",
+    "created_at": "2026-02-27T17:36:24.662Z",
+    "parent_event_id": "evt_1770478341769",
+    "selected_gene_id": "gene_gep_optimize_prompt_and_assets",
+    "selected_capsule_id": null,
+    "selector": {
+      "selected": "gene_gep_optimize_prompt_and_assets",
+      "reason": [
+        "signals match gene.signals_match",
+        "signals: protocol_drift, user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全, repeated_tool_usage:exec",
+        "memory_graph: memory_prefer:gene_gep_optimize_prompt_and_assets | gene_prior:0.997",
+        "drift_intensity: 0.577"
+      ],
+      "alternatives": [
+        "gene_gep_innovate_from_opportunity"
+      ]
+    },
+    "signals": [
+      "protocol_drift",
+      "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全",
+      "repeated_tool_usage:exec"
+    ],
+    "mutation": {
+      "type": "Mutation",
+      "id": "mut_1772213784644",
+      "category": "innovate",
+      "trigger_signals": [
+        "protocol_drift",
+        "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态空间模型，则难以对耦合项进行统一刻画并支撑控制器设计。基于小信号线性化模型，若不能建立相对增益、参与因子等定量判据以识别主导耦合通道并给出可解耦性判定与整定依据，则虚拟磁路重构容易停留在经验补偿层面，难以在宽工况下保持解耦效果与动态性能一致。因而亟需形成“全",
+        "repeated_tool_usage:exec"
+      ],
+      "target": "gene:gene_gep_optimize_prompt_and_assets",
+      "expected_effect": "explore new strategy combinations to escape local optimum",
+      "risk_level": "medium"
+    },
+    "mutation_id": "mut_1772213784644",
+    "personality_state": {
+      "type": "PersonalityState",
+      "rigor": 0.7,
+      "creativity": 0.35,
+      "verbosity": 0.25,
+      "risk_tolerance": 0.4,
+      "obedience": 0.85
+    },
+    "personality_key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+    "personality_known": false,
+    "personality_mutations": [],
+    "drift": false,
+    "selected_by": "memory_graph+selector",
+    "source_type": "reference",
+    "reused_asset_id": "sha256:ae5045fa86b980bb1883f95314952a1f30b25b3aa7f3f8a990bc41ba7634de21",
+    "reused_source_node": "node_15ffd5e14b5c",
+    "reused_chain_id": null,
+    "baseline_untracked": [
+      "assets/gep/failed_capsules.json",
+      "assets/gep/genes.jsonl",
+      "evolver.pid",
+      "package-lock.json"
+    ],
+    "baseline_git_head": "1bf5ba93fd56484130f63aafa070303a861e372e",
+    "blast_radius_estimate": {
+      "files": 20,
+      "lines": 1600
+    },
+    "active_task_id": null,
+    "active_task_title": null,
+    "applied_lessons": [
+      "cmm54mg2u00spnv33x35z3oa4",
+      "cmm54mp5o015knv36uc40egx3",
+      "cmm54oi360020pk33vhskiwki",
+      "cmm53abxq0dtbmv3581c90gro",
+      "cmm55kt6u038yo134njcoxejs",
+      "cmm55nur6003ao636rccbx9ka"
+    ],
+    "hub_lessons": [
+      {
+        "lesson_id": "cmm54mg2u00spnv33x35z3oa4",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [],
+        "content": "When the intent is \"innovate\" and the environment signals high potential for novel solutions (indicated by a",
+        "effectiveness": 0.99,
+        "source_node_id": "node_19732f00c3c7053f"
+      },
+      {
+        "lesson_id": "cmm54mp5o015knv36uc40egx3",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [],
+        "content": "When the intent is to innovate and the environment signals high receptivity to novel approaches (evid",
+        "effectiveness": 0.99,
+        "source_node_id": "node_19732f00c3c7053f"
+      },
+      {
+        "lesson_id": "cmm54oi360020pk33vhskiwki",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [],
+        "content": "When the intent is to `innovate` and the problem space allows for non-obvious",
+        "effectiveness": 0.99,
+        "source_node_id": "node_19732f00c3c7053f"
+      },
+      {
+        "lesson_id": "cmm53abxq0dtbmv3581c90gro",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [
+          "429",
+          "rate_limit",
+          "timeout",
+          "ECONNRESET",
+          "ECONNREFUSED"
+        ],
+        "content": "This repair strategy succeeded by accurately identifying a specific structural or logical inconsistency and applying a targeted, pre-validated",
+        "effectiveness": 0.98,
+        "source_node_id": "node_a56d6def66ec4f6a_claude"
+      },
+      {
+        "lesson_id": "cmm55kt6u038yo134njcoxejs",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [
+          "unhandled_error",
+          "exception",
+          "crash",
+          "error_logging"
+        ],
+        "content": "When facing a \"repair\" intent, success often hinges on identifying and applying a targeted corrective action rather",
+        "effectiveness": 0.97,
+        "source_node_id": "node_a56d6def66ec4f6a_claude"
+      },
+      {
+        "lesson_id": "cmm55nur6003ao636rccbx9ka",
+        "lesson_type": "positive",
+        "scenario": "success",
+        "signals": [
+          "timeout",
+          "api_fail"
+        ],
+        "content": "When an \"optimize\" intent succeeds, it indicates the agent effectively identified and refined existing inefficiencies or suboptimal",
+        "effectiveness": 0.85,
+        "source_node_id": "node_1772206380_27134"
+      }
+    ]
+  },
+  "lastSolidify": null,
+  "timeline": [],
+  "assets": {
+    "genes": [
+      {
+        "id": "gene_gep_repair_from_errors",
+        "category": "repair",
+        "categoryZh": "修复",
+        "signals": [
+          "检测到报错信号",
+          "检测到报错信号",
+          "检测到报错信号",
+          "unstable"
+        ],
+        "purposeZh": "这个基因是“修 bug 用”的模板：先定位报错，再做小范围改动，最后做验证，避免越改越乱。",
+        "detailZh": "触发它的典型信号是：检测到报错信号、检测到报错信号、检测到报错信号、unstable。",
+        "tacticZh": "Extract structured signals from logs and user instructions"
+      },
+      {
+        "id": "gene_gep_optimize_prompt_and_assets",
+        "category": "optimize",
+        "categoryZh": "优化",
+        "signals": [
+          "protocol",
+          "gep",
+          "prompt",
+          "audit"
+        ],
+        "purposeZh": "这个基因是“提效率用”的模板：减少重复步骤，让流程更快更稳。",
+        "detailZh": "触发它的典型信号是：protocol、gep、prompt、audit。",
+        "tacticZh": "Extract signals and determine selection rationale via Selector JSON"
+      },
+      {
+        "id": "gene_gep_innovate_from_opportunity",
+        "category": "innovate",
+        "categoryZh": "创新",
+        "signals": [
+          "user_feature_request",
+          "user_improvement_suggestion",
+          "perf_bottleneck",
+          "capability_gap"
+        ],
+        "purposeZh": "这个基因是“尝试新方法用”的模板：在可控风险下探索新能力。",
+        "detailZh": "触发它的典型信号是：user_feature_request、user_improvement_suggestion、perf_bottleneck、capability_gap。",
+        "tacticZh": "Extract opportunity signals and identify the specific user need or system gap"
+      }
+    ],
+    "capsules": [
+      {
+        "id": "capsule_1770477654236",
+        "gene": "gene_gep_repair_from_errors",
+        "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 1 文件 / 2 行。",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“命令写错导致流程中断”时，可以复用这套做法。当次改动规模约 1 个文件 2 行。"
+      },
+      {
+        "id": "capsule_1770478341769",
+        "gene": "gene_gep_repair_from_errors",
+        "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 2 文件 / 44 行。",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“命令写错导致流程中断”时，可以复用这套做法。当次改动规模约 2 个文件 44 行。"
+      }
+    ],
+    "events": [
+      {
+        "id": "evt_1770478341769",
+        "at": "2026-02-07T15:32:21.769Z",
+        "intent": "repair",
+        "intentZh": "修复",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1770478341769",
+        "genesUsed": [
+          "gene_gep_repair_from_errors"
+        ],
+        "signals": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "actionZh": "针对报错做了一轮修复尝试。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“命令写错导致流程中断”。系统使用了 gene_gep_repair_from_errors。针对报错做了一轮修复尝试。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1770477654236",
+        "at": "2026-02-07T15:20:54.236Z",
+        "intent": "repair",
+        "intentZh": "修复",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1770477654236",
+        "genesUsed": [
+          "gene_gep_repair_from_errors"
+        ],
+        "signals": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "actionZh": "针对报错做了一轮修复尝试。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“命令写错导致流程中断”。系统使用了 gene_gep_repair_from_errors。针对报错做了一轮修复尝试。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1770477201173",
+        "at": "2026-02-07T15:13:21.173Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "failed",
+        "score": 0.2,
+        "capsuleId": null,
+        "genesUsed": [
+          "gene_gep_innovate_from_opportunity"
+        ],
+        "signals": [
+          "user_missing",
+          "user_feature_request"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行未成功，评分 0.2",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_innovate_from_opportunity。针对新方法做了一轮小步试验。最终：执行未成功，评分 0.2。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "cand_5eb089f2",
+        "title": "Apply user improvement suggestion",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:24.496Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:24.496Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5afdf7f3",
+        "title": "Repeated tool usage: exec",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-27T17:36:24.496Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5eb089f2",
+        "title": "Apply user improvement suggestion",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:20.758Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:20.758Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5afdf7f3",
+        "title": "Repeated tool usage: exec",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-27T17:36:20.758Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5eb089f2",
+        "title": "Apply user improvement suggestion",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:17.390Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T17:36:17.390Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
+          "exec 调用过多，流程可能过重"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      }
+    ]
+  },
+  "publishedAt": "2026-02-27T17:36:27.374Z"
+}
