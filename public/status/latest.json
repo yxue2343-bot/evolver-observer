@@ -1,11 +1,11 @@
 {
-  "now": "2026-02-27T18:28:30.072Z",
+  "now": "2026-02-27T18:29:32.976Z",
   "status": {
-    "code": "running",
-    "title": "运行中",
-    "level": "ok",
-    "reason": "Evolver 循环正常运行（当前阈值 9）。",
-    "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
+    "code": "stopped",
+    "title": "已停止",
+    "level": "bad",
+    "reason": "Evolver 循环进程未运行。",
+    "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
     "dataUpdatedAt": "2026-02-27T18:27:43.463Z",
@@ -71,8 +71,8 @@
     }
   ],
   "process": {
-    "running": true,
-    "pid": 93156
+    "running": false,
+    "pid": null
   },
   "node": {
     "ok": true,
@@ -411,5 +411,5 @@
       }
     }
   },
-  "publishedAt": "2026-02-27T18:28:30.090Z"
+  "publishedAt": "2026-02-27T18:29:32.995Z"
 }
