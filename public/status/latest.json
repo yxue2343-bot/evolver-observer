@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T17:45:28.693Z",
+  "now": "2026-02-27T17:46:31.471Z",
   "status": {
     "code": "running",
     "title": "运行中",
@@ -8,17 +8,17 @@
     "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-27T17:45:26.744Z",
+    "dataUpdatedAt": "2026-02-27T17:46:30.751Z",
     "outputUpdatedAt": "2026-02-27T16:03:13.869Z",
-    "nodeLastSeenAt": "2026-02-27T17:43:01.016Z",
-    "lastRunAt": "2026-02-27T17:45:26.743Z",
+    "nodeLastSeenAt": "2026-02-27T17:45:40.298Z",
+    "lastRunAt": "2026-02-27T17:46:29.348Z",
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-02-27T17:45:20.294Z",
-    "stateUpdatedAt": "2026-02-27T17:45:26.744Z",
+    "logUpdatedAt": "2026-02-27T17:46:30.751Z",
+    "stateUpdatedAt": "2026-02-27T17:46:29.348Z",
     "genesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "capsulesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "eventsUpdatedAt": "2026-02-27T16:03:13.869Z",
-    "candidatesUpdatedAt": "2026-02-27T17:45:26.560Z"
+    "candidatesUpdatedAt": "2026-02-27T17:46:29.159Z"
   },
   "metrics": [
     {
@@ -74,14 +74,14 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-02-27T17:43:01.016Z"
+    "lastSeenAt": "2026-02-27T17:45:40.298Z"
   },
   "runtime": {
     "loadMax": 9
   },
   "lastRun": {
-    "run_id": "run_1772214326726",
-    "created_at": "2026-02-27T17:45:26.743Z",
+    "run_id": "run_1772214389331",
+    "created_at": "2026-02-27T17:46:29.348Z",
     "parent_event_id": "evt_1770478341769",
     "selected_gene_id": "gene_gep_optimize_prompt_and_assets",
     "selected_capsule_id": null,
@@ -104,7 +104,7 @@
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1772214326725",
+      "id": "mut_1772214389331",
       "category": "innovate",
       "trigger_signals": [
         "protocol_drift",
@@ -115,7 +115,7 @@
       "expected_effect": "explore new strategy combinations to escape local optimum",
       "risk_level": "medium"
     },
-    "mutation_id": "mut_1772214326725",
+    "mutation_id": "mut_1772214389331",
     "personality_state": {
       "type": "PersonalityState",
       "rigor": 0.7,
@@ -304,7 +304,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:26.560Z",
+        "createdAt": "2026-02-27T17:46:29.159Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -318,7 +318,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:26.560Z",
+        "createdAt": "2026-02-27T17:46:29.159Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -332,7 +332,7 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:45:26.560Z",
+        "createdAt": "2026-02-27T17:46:29.159Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -346,7 +346,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:23.704Z",
+        "createdAt": "2026-02-27T17:46:26.389Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -360,7 +360,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:23.704Z",
+        "createdAt": "2026-02-27T17:46:26.389Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -374,7 +374,7 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:45:23.704Z",
+        "createdAt": "2026-02-27T17:46:26.389Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -388,7 +388,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:20.808Z",
+        "createdAt": "2026-02-27T17:46:23.441Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -402,7 +402,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:45:20.808Z",
+        "createdAt": "2026-02-27T17:46:23.441Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -413,5 +413,5 @@
       }
     ]
   },
-  "publishedAt": "2026-02-27T17:45:28.703Z"
+  "publishedAt": "2026-02-27T17:46:31.480Z"
 }
