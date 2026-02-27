@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evolver Observer</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Evolver Observer</h1>
+      <div id="statusLine">加载中...</div>
+    </header>
+
+    <main>
+      <section class="cards" id="topCards"></section>
+
+      <section class="panel">
+        <h2>本轮状态</h2>
+        <div id="runSummary" class="kv"></div>
+      </section>
+
+      <section class="panel">
+        <h2>最近动作 (log 提取)</h2>
+        <ul id="actions"></ul>
+      </section>
+
+      <section class="panel">
+        <h2>最近 EvolutionEvent</h2>
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>intent</th>
+                <th>outcome</th>
+                <th>score</th>
+                <th>gene</th>
+                <th>capsule</th>
+              </tr>
+            </thead>
+            <tbody id="eventsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>日志尾部</h2>
+        <pre id="logTail"></pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
