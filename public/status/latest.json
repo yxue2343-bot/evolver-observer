@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-27T17:36:27.365Z",
+  "now": "2026-02-27T17:37:05.366Z",
   "status": {
     "code": "running",
     "title": "运行中",
@@ -8,17 +8,17 @@
     "suggestion": "重点看“最近在做什么”和“新增基因/胶囊解释”。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-27T17:36:26.498Z",
+    "dataUpdatedAt": "2026-02-27T17:37:03.164Z",
     "outputUpdatedAt": "2026-02-27T16:03:13.869Z",
     "nodeLastSeenAt": "2026-02-27T17:35:19.964Z",
-    "lastRunAt": "2026-02-27T17:36:24.662Z",
+    "lastRunAt": "2026-02-27T17:37:03.164Z",
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-02-27T17:36:26.498Z",
-    "stateUpdatedAt": "2026-02-27T17:36:24.662Z",
+    "logUpdatedAt": "2026-02-27T17:36:56.744Z",
+    "stateUpdatedAt": "2026-02-27T17:37:03.164Z",
     "genesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "capsulesUpdatedAt": "2026-02-27T16:03:13.869Z",
     "eventsUpdatedAt": "2026-02-27T16:03:13.869Z",
-    "candidatesUpdatedAt": "2026-02-27T17:36:24.496Z"
+    "candidatesUpdatedAt": "2026-02-27T17:37:02.993Z"
   },
   "metrics": [
     {
@@ -80,8 +80,8 @@
     "loadMax": 9
   },
   "lastRun": {
-    "run_id": "run_1772213784644",
-    "created_at": "2026-02-27T17:36:24.662Z",
+    "run_id": "run_1772213823147",
+    "created_at": "2026-02-27T17:37:03.164Z",
     "parent_event_id": "evt_1770478341769",
     "selected_gene_id": "gene_gep_optimize_prompt_and_assets",
     "selected_capsule_id": null,
@@ -104,7 +104,7 @@
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1772213784644",
+      "id": "mut_1772213823146",
       "category": "innovate",
       "trigger_signals": [
         "protocol_drift",
@@ -115,7 +115,7 @@
       "expected_effect": "explore new strategy combinations to escape local optimum",
       "risk_level": "medium"
     },
-    "mutation_id": "mut_1772213784644",
+    "mutation_id": "mut_1772213823146",
     "personality_state": {
       "type": "PersonalityState",
       "rigor": 0.7,
@@ -146,84 +146,8 @@
     },
     "active_task_id": null,
     "active_task_title": null,
-    "applied_lessons": [
-      "cmm54mg2u00spnv33x35z3oa4",
-      "cmm54mp5o015knv36uc40egx3",
-      "cmm54oi360020pk33vhskiwki",
-      "cmm53abxq0dtbmv3581c90gro",
-      "cmm55kt6u038yo134njcoxejs",
-      "cmm55nur6003ao636rccbx9ka"
-    ],
-    "hub_lessons": [
-      {
-        "lesson_id": "cmm54mg2u00spnv33x35z3oa4",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [],
-        "content": "When the intent is \"innovate\" and the environment signals high potential for novel solutions (indicated by a",
-        "effectiveness": 0.99,
-        "source_node_id": "node_19732f00c3c7053f"
-      },
-      {
-        "lesson_id": "cmm54mp5o015knv36uc40egx3",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [],
-        "content": "When the intent is to innovate and the environment signals high receptivity to novel approaches (evid",
-        "effectiveness": 0.99,
-        "source_node_id": "node_19732f00c3c7053f"
-      },
-      {
-        "lesson_id": "cmm54oi360020pk33vhskiwki",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [],
-        "content": "When the intent is to `innovate` and the problem space allows for non-obvious",
-        "effectiveness": 0.99,
-        "source_node_id": "node_19732f00c3c7053f"
-      },
-      {
-        "lesson_id": "cmm53abxq0dtbmv3581c90gro",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [
-          "429",
-          "rate_limit",
-          "timeout",
-          "ECONNRESET",
-          "ECONNREFUSED"
-        ],
-        "content": "This repair strategy succeeded by accurately identifying a specific structural or logical inconsistency and applying a targeted, pre-validated",
-        "effectiveness": 0.98,
-        "source_node_id": "node_a56d6def66ec4f6a_claude"
-      },
-      {
-        "lesson_id": "cmm55kt6u038yo134njcoxejs",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [
-          "unhandled_error",
-          "exception",
-          "crash",
-          "error_logging"
-        ],
-        "content": "When facing a \"repair\" intent, success often hinges on identifying and applying a targeted corrective action rather",
-        "effectiveness": 0.97,
-        "source_node_id": "node_a56d6def66ec4f6a_claude"
-      },
-      {
-        "lesson_id": "cmm55nur6003ao636rccbx9ka",
-        "lesson_type": "positive",
-        "scenario": "success",
-        "signals": [
-          "timeout",
-          "api_fail"
-        ],
-        "content": "When an \"optimize\" intent succeeds, it indicates the agent effectively identified and refined existing inefficiencies or suboptimal",
-        "effectiveness": 0.85,
-        "source_node_id": "node_1772206380_27134"
-      }
-    ]
+    "applied_lessons": [],
+    "hub_lessons": []
   },
   "lastSolidify": null,
   "timeline": [],
@@ -380,7 +304,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:24.496Z",
+        "createdAt": "2026-02-27T17:37:02.992Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -394,7 +318,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:24.496Z",
+        "createdAt": "2026-02-27T17:37:02.992Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -408,7 +332,7 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:36:24.496Z",
+        "createdAt": "2026-02-27T17:37:02.992Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -422,7 +346,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:20.758Z",
+        "createdAt": "2026-02-27T17:37:00.212Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -436,7 +360,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:20.758Z",
+        "createdAt": "2026-02-27T17:37:00.212Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -450,7 +374,7 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T17:36:20.758Z",
+        "createdAt": "2026-02-27T17:37:00.212Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -464,7 +388,7 @@
         "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:17.390Z",
+        "createdAt": "2026-02-27T17:36:57.321Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -478,7 +402,7 @@
         "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T17:36:17.390Z",
+        "createdAt": "2026-02-27T17:36:57.321Z",
         "signals": [
           "输出/流程偏离约定",
           "user_improvement_suggestion:耦合电感矩阵的全阶非线性状态...",
@@ -489,5 +413,5 @@
       }
     ]
   },
-  "publishedAt": "2026-02-27T17:36:27.374Z"
+  "publishedAt": "2026-02-27T17:37:05.374Z"
 }
