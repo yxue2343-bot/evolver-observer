@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T01:04:21.851Z",
+  "now": "2026-02-28T01:05:25.164Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,47 +8,47 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-28T01:02:05.484Z",
-    "outputUpdatedAt": null,
+    "dataUpdatedAt": "2026-02-28T01:05:03.884Z",
+    "outputUpdatedAt": "2026-02-28T01:05:03.848Z",
     "nodeLastSeenAt": "2026-02-27T17:51:52.687Z",
     "lastRunAt": "2026-02-28T01:02:05.484Z",
     "lastSolidifyAt": "2026-02-27T23:47:38.027Z",
     "logUpdatedAt": "2026-02-27T23:47:57.625Z",
     "stateUpdatedAt": "2026-02-28T01:02:05.484Z",
-    "genesUpdatedAt": null,
-    "capsulesUpdatedAt": null,
-    "eventsUpdatedAt": null,
-    "candidatesUpdatedAt": "2026-02-28T01:02:05.457Z"
+    "genesUpdatedAt": "2026-02-28T01:05:03.848Z",
+    "capsulesUpdatedAt": "2026-02-28T01:05:03.848Z",
+    "eventsUpdatedAt": "2026-02-28T01:05:03.848Z",
+    "candidatesUpdatedAt": "2026-02-28T01:05:03.884Z"
   },
   "metrics": [
     {
       "key": "genes",
       "label": "基因",
-      "value": 0,
+      "value": 5,
       "desc": "可复用策略模板（不是任务数）"
     },
     {
       "key": "capsules",
       "label": "胶囊",
-      "value": 0,
+      "value": 5,
       "desc": "已验证经验包（可复用）"
     },
     {
       "key": "events",
       "label": "演化事件",
-      "value": 0,
+      "value": 81,
       "desc": "执行记录（不是项目）"
     },
     {
       "key": "candidates_unique",
       "label": "候选能力(去重后)",
-      "value": 4,
-      "desc": "按 id 去重，已折叠 0 条重复记录"
+      "value": 11,
+      "desc": "按 id 去重，已折叠 1989 条重复记录"
     },
     {
       "key": "candidates_raw",
       "label": "候选原始记录",
-      "value": 4,
+      "value": 2000,
       "desc": "原始累计条数（会包含重复）"
     },
     {
@@ -156,70 +156,502 @@
   },
   "timeline": [],
   "assets": {
-    "genes": [],
-    "capsules": [],
-    "events": [],
-    "candidates": [
+    "genes": [
       {
-        "id": "cand_5eb089f2",
-        "title": "Apply user improvement suggestion",
-        "source": "signals",
-        "sourceZh": "信号推断",
-        "createdAt": "2026-02-28T01:02:05.457Z",
+        "id": "gene_gep_repair_from_errors",
+        "category": "repair",
+        "categoryZh": "修复",
         "signals": [
-          "user_improvement_suggestion",
+          "检测到报错信号",
+          "检测到报错信号",
+          "检测到报错信号",
+          "unstable"
+        ],
+        "purposeZh": "这个基因是“修 bug 用”的模板：先定位报错，再做小范围改动，最后做验证，避免越改越乱。",
+        "detailZh": "触发它的典型信号是：检测到报错信号、检测到报错信号、检测到报错信号、unstable。",
+        "tacticZh": "Extract structured signals from logs and user instructions"
+      },
+      {
+        "id": "gene_gep_optimize_prompt_and_assets",
+        "category": "optimize",
+        "categoryZh": "优化",
+        "signals": [
+          "protocol",
+          "gep",
+          "prompt",
+          "audit"
+        ],
+        "purposeZh": "这个基因是“提效率用”的模板：减少重复步骤，让流程更快更稳。",
+        "detailZh": "触发它的典型信号是：protocol、gep、prompt、audit。",
+        "tacticZh": "Extract signals and determine selection rationale via Selector JSON"
+      },
+      {
+        "id": "gene_auto_d44f81ba",
+        "category": "optimize",
+        "categoryZh": "优化",
+        "signals": [
+          "user_feature_request",
+          "capability_gap",
+          "high_tool_usage:exec",
           "exec 调用过多，流程可能过重"
         ],
-        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
-        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+        "purposeZh": "这是一个“优化型”基因。用于提升效率和质量，让流程更稳、更快。",
+        "detailZh": "触发它的典型信号是：user_feature_request、capability_gap、high_tool_usage:exec、exec 调用过多，流程可能过重。",
+        "tacticZh": "Extract structured signals from logs and user instructions"
       },
+      {
+        "id": "gene_auto_7f8f52c0",
+        "category": "optimize",
+        "categoryZh": "优化",
+        "signals": [
+          "perf_bottleneck"
+        ],
+        "purposeZh": "这是一个“优化型”基因。用于提升效率和质量，让流程更稳、更快。",
+        "detailZh": "触发它的典型信号是：perf_bottleneck。",
+        "tacticZh": "Extract structured signals from logs and user instructions"
+      },
+      {
+        "id": "gene_auto_f9bdf97a",
+        "category": "innovate",
+        "categoryZh": "创新",
+        "signals": [
+          "evolution_stagnation_detected",
+          "stable_success_plateau",
+          "empty_cycle_loop_detected"
+        ],
+        "purposeZh": "这是一个“创新型”基因。用于探索新能力或新策略，扩展系统上限。",
+        "detailZh": "触发它的典型信号是：evolution_stagnation_detected、stable_success_plateau、empty_cycle_loop_detected。",
+        "tacticZh": "Extract structured signals from logs and user instructions"
+      }
+    ],
+    "capsules": [
+      {
+        "id": "capsule_1770477654236",
+        "gene": "gene_gep_optimize_prompt_and_assets",
+        "summary": "system-pulse process count cache and CPU_COUNT constant",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“命令写错导致流程中断”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
+      },
+      {
+        "id": "capsule_1770478341769",
+        "gene": "gene_gep_repair_from_errors",
+        "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 2 文件 / 44 行。",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "检测到报错信号",
+          "调用命令写法错误（process 命令）",
+          "user_missing",
+          "windows_shell_incompatible"
+        ],
+        "problemZh": "命令写错导致流程中断",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“命令写错导致流程中断”时，可以复用这套做法。当次改动规模约 2 个文件 44 行。"
+      },
+      {
+        "id": "capsule_1772160579152",
+        "gene": "gene_gep_optimize_prompt_and_assets",
+        "summary": "Created file-age skill for scanning file modification times, finding stale files, and reporting oldest/newest files in directory trees",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion",
+          "force_innovation_after_repair_loop"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“流程稳定性或效率问题”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
+      },
+      {
+        "id": "capsule_1772161356326",
+        "gene": "gene_gep_optimize_prompt_and_assets",
+        "summary": "Created text-stats skill for analyzing text files with word count, line count, reading time, sentence count, and character stats",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "user_feature_request",
+          "capability_gap",
+          "high_tool_usage:exec",
+          "exec 调用过多，流程可能过重"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“流程稳定性或效率问题”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
+      },
+      {
+        "id": "capsule_1772164949570",
+        "gene": "gene_gep_optimize_prompt_and_assets",
+        "summary": "Created markdown-toc skill for extracting headings and generating linked table of contents from markdown files",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "evolution_stagnation_detected",
+          "stable_success_plateau",
+          "empty_cycle_loop_detected"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“流程稳定性或效率问题”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
+      }
+    ],
+    "events": [
+      {
+        "id": "evt_1772236058027",
+        "at": "2026-02-27T23:47:38.027Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "user_improvement_suggestion",
+          "perf_bottleneck",
+          "high_tool_usage:exec",
+          "empty_cycle_loop_detected"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772235610921",
+        "at": "2026-02-27T23:40:10.921Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "high_tool_usage:exec",
+          "empty_cycle_loop_detected",
+          "stable_success_plateau",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772235198884",
+        "at": "2026-02-27T23:33:18.884Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772160579152",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion",
+          "exec 调用过多，流程可能过重",
+          "empty_cycle_loop_detected"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772234779149",
+        "at": "2026-02-27T23:26:19.149Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772160579152",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion",
+          "perf_bottleneck",
+          "exec 调用过多，流程可能过重"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772234374107",
+        "at": "2026-02-27T23:19:34.107Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "exec 调用过多，流程可能过重",
+          "empty_cycle_loop_detected",
+          "stable_success_plateau",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772233960983",
+        "at": "2026-02-27T23:12:40.983Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "evolution_stagnation_detected",
+          "stable_success_plateau",
+          "empty_cycle_loop_detected",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772233292363",
+        "at": "2026-02-27T23:01:32.363Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "evolution_stagnation_detected",
+          "stable_success_plateau",
+          "empty_cycle_loop_detected",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772232874259",
+        "at": "2026-02-27T22:54:34.259Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "输出/流程偏离约定",
+          "perf_bottleneck",
+          "empty_cycle_loop_detected",
+          "stable_success_plateau"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772232455218",
+        "at": "2026-02-27T22:47:35.218Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "evolution_stagnation_detected",
+          "stable_success_plateau",
+          "empty_cycle_loop_detected",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      },
+      {
+        "id": "evt_1772232032081",
+        "at": "2026-02-27T22:40:32.081Z",
+        "intent": "innovate",
+        "intentZh": "创新",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772164949570",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "perf_bottleneck",
+          "empty_cycle_loop_detected",
+          "stable_success_plateau",
+          "force_steady_state"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对新方法做了一轮小步试验。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
+      }
+    ],
+    "candidates": [
       {
         "id": "cand_5a91a6db",
         "title": "Repeated tool usage: process",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-28T01:02:05.457Z",
+        "createdAt": "2026-02-26T13:40:58.261Z",
         "signals": [
-          "user_improvement_suggestion",
-          "exec 调用过多，流程可能过重"
+          "检测到报错信号",
+          "请求超时或排队中断",
+          "integration_key_missing"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       },
       {
-        "id": "cand_5afdf7f3",
-        "title": "Repeated tool usage: exec",
+        "id": "cand_68a5049a",
+        "title": "Repeated tool usage: edit",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-28T01:02:05.457Z",
+        "createdAt": "2026-02-26T13:05:31.573Z",
         "signals": [
-          "user_improvement_suggestion",
-          "exec 调用过多，流程可能过重"
+          "检测到报错信号",
+          "请求超时或排队中断",
+          "integration_key_missing"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       },
       {
-        "id": "cand_2f2b5dde",
-        "title": "Repeated tool usage: read",
-        "source": "transcript",
-        "sourceZh": "会话记录",
-        "createdAt": "2026-02-28T01:02:05.457Z",
+        "id": "cand_625fbb0c",
+        "title": "Fill capability gap",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T02:51:11.406Z",
         "signals": [
-          "user_improvement_suggestion",
-          "exec 调用过多，流程可能过重"
+          "输出/流程偏离约定",
+          "user_feature_request",
+          "user_improvement_suggestion"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_dd9067ac",
+        "title": "Repair recurring runtime errors",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-26T13:40:58.261Z",
+        "signals": [
+          "检测到报错信号",
+          "请求超时或排队中断",
+          "integration_key_missing"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_7f8f52c0",
+        "title": "Resolve performance bottleneck",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-26T13:23:36.862Z",
+        "signals": [
+          "检测到报错信号",
+          "请求超时或排队中断",
+          "输出/流程偏离约定"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5eb089f2",
+        "title": "Apply user improvement suggestion",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T02:51:11.406Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_feature_request",
+          "user_improvement_suggestion"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_947d4ea5",
+        "title": "Implement user-requested feature",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T02:51:11.406Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_feature_request",
+          "user_improvement_suggestion"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
+        "source": "signals",
+        "sourceZh": "信号推断",
+        "createdAt": "2026-02-27T02:51:11.406Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_feature_request",
+          "user_improvement_suggestion"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       }
     ],
     "candidateStats": {
-      "raw": 4,
-      "unique": 4,
-      "duplicates": 0,
+      "raw": 2000,
+      "unique": 11,
+      "duplicates": 1989,
       "sourceStats": {
-        "transcript": 3,
-        "signals": 1
+        "transcript": 5,
+        "signals": 6
       }
     }
   },
@@ -348,5 +780,5 @@
       "[Wrapper] Saturation detected (force_steady_state). Entering steady-state mode, sleep 300s."
     ]
   },
-  "publishedAt": "2026-02-28T01:04:21.870Z"
+  "publishedAt": "2026-02-28T01:05:25.181Z"
 }
