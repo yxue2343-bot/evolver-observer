@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T06:29:39.534Z",
+  "now": "2026-02-28T06:30:42.495Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -10,7 +10,7 @@
   "freshness": {
     "dataUpdatedAt": "2026-02-28T01:09:41.987Z",
     "outputUpdatedAt": "2026-02-28T01:09:41.987Z",
-    "nodeLastSeenAt": null,
+    "nodeLastSeenAt": "2026-02-27T17:51:52.687Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
     "logUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": "-",
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": "-",
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -75,12 +75,12 @@
     "pid": null
   },
   "node": {
-    "ok": false,
-    "online": null,
-    "status": null,
-    "totalPublished": null,
-    "totalPromoted": null,
-    "lastSeenAt": null
+    "ok": true,
+    "online": false,
+    "status": "active",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-02-27T17:51:52.687Z"
   },
   "runtime": {
     "loadMax": 2
@@ -592,5 +592,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T06:29:39.544Z"
+  "publishedAt": "2026-02-28T06:30:42.506Z"
 }
