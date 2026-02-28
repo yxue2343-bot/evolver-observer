@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T09:50:21.302Z",
+  "now": "2026-02-28T09:51:24.179Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,17 +8,17 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-28T09:48:25.283Z",
+    "dataUpdatedAt": "2026-02-28T09:51:13.398Z",
     "outputUpdatedAt": "2026-02-28T09:32:51.961Z",
     "nodeLastSeenAt": "2026-02-28T08:27:27.243Z",
-    "lastRunAt": "2026-02-28T09:48:25.282Z",
+    "lastRunAt": "2026-02-28T09:51:13.398Z",
     "lastSolidifyAt": null,
     "logUpdatedAt": null,
-    "stateUpdatedAt": "2026-02-28T09:48:25.283Z",
+    "stateUpdatedAt": "2026-02-28T09:51:13.398Z",
     "genesUpdatedAt": "2026-02-28T09:32:51.959Z",
     "capsulesUpdatedAt": "2026-02-28T09:32:51.961Z",
     "eventsUpdatedAt": "2026-02-28T09:32:51.960Z",
-    "candidatesUpdatedAt": "2026-02-28T09:48:19.366Z"
+    "candidatesUpdatedAt": "2026-02-28T09:51:12.177Z"
   },
   "metrics": [
     {
@@ -86,8 +86,8 @@
     "loadMax": 2
   },
   "lastRun": {
-    "run_id": "run_1772272105234",
-    "created_at": "2026-02-28T09:48:25.282Z",
+    "run_id": "run_1772272273311",
+    "created_at": "2026-02-28T09:51:13.398Z",
     "parent_event_id": "evt_1772271171958",
     "selected_gene_id": "gene_auto_7f8f52c0",
     "selected_capsule_id": "capsule_1772164949570",
@@ -97,7 +97,7 @@
         "signals match gene.signals_match",
         "capsule trigger matches signals",
         "signals: perf_bottleneck, empty_cycle_loop_detected, stable_success_plateau, force_steady_state, evolution_saturation",
-        "memory_graph: memory_prefer:gene_gep_repair_from_errors",
+        "memory_graph: memory_prefer:gene_auto_7f8f52c0 | gene_prior:0.667",
         "drift_intensity: 0.447"
       ],
       "alternatives": [
@@ -113,7 +113,7 @@
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1772272105230",
+      "id": "mut_1772272273307",
       "category": "innovate",
       "trigger_signals": [
         "perf_bottleneck",
@@ -126,7 +126,7 @@
       "expected_effect": "explore new strategy combinations to escape local optimum",
       "risk_level": "medium"
     },
-    "mutation_id": "mut_1772272105230",
+    "mutation_id": "mut_1772272273307",
     "personality_state": {
       "type": "PersonalityState",
       "rigor": 0.7,
@@ -544,7 +544,7 @@
         "title": "Explore new strategies during stability plateau",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-28T09:48:19.365Z",
+        "createdAt": "2026-02-28T09:51:12.176Z",
         "signals": [
           "perf_bottleneck",
           "empty_cycle_loop_detected",
@@ -558,7 +558,7 @@
         "title": "Repeated tool usage: browser",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-28T09:48:19.365Z",
+        "createdAt": "2026-02-28T09:51:12.176Z",
         "signals": [
           "perf_bottleneck",
           "empty_cycle_loop_detected",
@@ -624,29 +624,29 @@
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       },
       {
-        "id": "cand_f38b3ae5",
-        "title": "Prevent protocol drift and enforce auditable outputs",
-        "source": "signals",
-        "sourceZh": "信号推断",
-        "createdAt": "2026-02-27T02:51:11.406Z",
+        "id": "cand_2fb72701",
+        "title": "Repeated tool usage: write",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-26T11:18:39.601Z",
         "signals": [
-          "输出/流程偏离约定",
-          "user_feature_request",
-          "user_improvement_suggestion"
+          "integration_key_missing",
+          "user_improvement_suggestion",
+          "perf_bottleneck"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       },
       {
-        "id": "cand_2f2b5dde",
-        "title": "Repeated tool usage: read",
+        "id": "cand_5afdf7f3",
+        "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-27T02:51:11.406Z",
+        "createdAt": "2026-02-28T09:51:12.176Z",
         "signals": [
-          "输出/流程偏离约定",
-          "user_feature_request",
-          "user_improvement_suggestion"
+          "perf_bottleneck",
+          "empty_cycle_loop_detected",
+          "stable_success_plateau"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -657,8 +657,8 @@
       "unique": 13,
       "duplicates": 1987,
       "sourceStats": {
-        "signals": 7,
-        "transcript": 6
+        "transcript": 6,
+        "signals": 7
       }
     }
   },
@@ -666,5 +666,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T09:50:21.314Z"
+  "publishedAt": "2026-02-28T09:51:24.191Z"
 }
