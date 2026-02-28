@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T09:29:03.625Z",
+  "now": "2026-02-28T09:30:06.976Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,16 +8,16 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-28T09:27:05.312Z",
-    "outputUpdatedAt": "2026-02-28T09:27:05.312Z",
+    "dataUpdatedAt": "2026-02-28T09:30:05.319Z",
+    "outputUpdatedAt": "2026-02-28T09:30:05.319Z",
     "nodeLastSeenAt": "2026-02-28T08:27:27.243Z",
     "lastRunAt": "2026-02-28T08:53:18.407Z",
     "lastSolidifyAt": null,
     "logUpdatedAt": null,
     "stateUpdatedAt": "2026-02-28T09:26:30.423Z",
-    "genesUpdatedAt": "2026-02-28T09:27:05.312Z",
-    "capsulesUpdatedAt": "2026-02-28T09:27:05.311Z",
-    "eventsUpdatedAt": "2026-02-28T09:27:05.312Z",
+    "genesUpdatedAt": "2026-02-28T09:30:05.318Z",
+    "capsulesUpdatedAt": "2026-02-28T09:29:44.923Z",
+    "eventsUpdatedAt": "2026-02-28T09:30:05.319Z",
     "candidatesUpdatedAt": "2026-02-28T09:27:05.308Z"
   },
   "metrics": [
@@ -30,13 +30,13 @@
     {
       "key": "capsules",
       "label": "胶囊",
-      "value": 8,
+      "value": 9,
       "desc": "已验证经验包（可复用）"
     },
     {
       "key": "events",
       "label": "演化事件",
-      "value": 84,
+      "value": 86,
       "desc": "执行记录（不是项目）"
     },
     {
@@ -319,6 +319,49 @@
     ],
     "events": [
       {
+        "id": "evt_1772271005273",
+        "at": "2026-02-28T09:30:05.273Z",
+        "intent": "repair",
+        "intentZh": "修复",
+        "outcome": "failed",
+        "score": 0.2,
+        "capsuleId": null,
+        "genesUsed": [
+          "gene_gep_repair_from_errors"
+        ],
+        "signals": [
+          "检测到报错信号",
+          "errsig:Cannot find module '../feishu-commo...",
+          "capability_gap",
+          "exec 调用过多，流程可能过重"
+        ],
+        "problemZh": "运行中出现报错",
+        "actionZh": "针对报错做了一轮修复尝试。",
+        "resultZh": "执行未成功，评分 0.2",
+        "explainZh": "本轮在处理“运行中出现报错”。系统使用了 gene_gep_repair_from_errors。针对报错做了一轮修复尝试。最终：执行未成功，评分 0.2。"
+      },
+      {
+        "id": "evt_1772269069868",
+        "at": "2026-02-28T08:57:49.868Z",
+        "intent": "optimize",
+        "intentZh": "优化",
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772269069868",
+        "genesUsed": [
+          "gene_gep_optimize_prompt_and_assets"
+        ],
+        "signals": [
+          "user_task_contract_active",
+          "exec 调用过多，流程可能过重",
+          "user_task_pending"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "actionZh": "针对流程效率做了一轮优化尝试。",
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对流程效率做了一轮优化尝试。最终：执行成功，评分 0.85。"
+      },
+      {
         "id": "evt_1772267396872",
         "at": "2026-02-28T08:29:56.872Z",
         "intent": "innovate",
@@ -486,50 +529,6 @@
         "actionZh": "针对新方法做了一轮小步试验。",
         "resultZh": "执行成功，评分 0.85",
         "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
-      },
-      {
-        "id": "evt_1772233960983",
-        "at": "2026-02-27T23:12:40.983Z",
-        "intent": "innovate",
-        "intentZh": "创新",
-        "outcome": "success",
-        "score": 0.85,
-        "capsuleId": "capsule_1772164949570",
-        "genesUsed": [
-          "gene_gep_optimize_prompt_and_assets"
-        ],
-        "signals": [
-          "evolution_stagnation_detected",
-          "stable_success_plateau",
-          "empty_cycle_loop_detected",
-          "force_steady_state"
-        ],
-        "problemZh": "流程稳定性或效率问题",
-        "actionZh": "针对新方法做了一轮小步试验。",
-        "resultZh": "执行成功，评分 0.85",
-        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
-      },
-      {
-        "id": "evt_1772233292363",
-        "at": "2026-02-27T23:01:32.363Z",
-        "intent": "innovate",
-        "intentZh": "创新",
-        "outcome": "success",
-        "score": 0.85,
-        "capsuleId": "capsule_1772164949570",
-        "genesUsed": [
-          "gene_gep_optimize_prompt_and_assets"
-        ],
-        "signals": [
-          "evolution_stagnation_detected",
-          "stable_success_plateau",
-          "empty_cycle_loop_detected",
-          "force_steady_state"
-        ],
-        "problemZh": "流程稳定性或效率问题",
-        "actionZh": "针对新方法做了一轮小步试验。",
-        "resultZh": "执行成功，评分 0.85",
-        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对新方法做了一轮小步试验。最终：执行成功，评分 0.85。"
       }
     ],
     "candidates": [
@@ -660,5 +659,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T09:29:03.636Z"
+  "publishedAt": "2026-02-28T09:30:06.985Z"
 }
