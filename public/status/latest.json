@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T06:51:56.690Z",
+  "now": "2026-02-28T06:53:03.771Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,16 +8,16 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-28T06:51:37.396Z",
-    "outputUpdatedAt": "2026-02-28T06:51:37.396Z",
-    "nodeLastSeenAt": "2026-02-28T06:48:02.560Z",
+    "dataUpdatedAt": "2026-02-28T06:52:43.663Z",
+    "outputUpdatedAt": "2026-02-28T06:52:43.665Z",
+    "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
     "logUpdatedAt": null,
     "stateUpdatedAt": null,
-    "genesUpdatedAt": "2026-02-28T06:51:37.396Z",
-    "capsulesUpdatedAt": "2026-02-28T06:49:20.542Z",
-    "eventsUpdatedAt": "2026-02-28T06:51:37.396Z",
+    "genesUpdatedAt": "2026-02-28T06:52:43.663Z",
+    "capsulesUpdatedAt": "2026-02-28T06:52:43.665Z",
+    "eventsUpdatedAt": "2026-02-28T06:52:43.663Z",
     "candidatesUpdatedAt": "2026-02-28T06:49:20.539Z"
   },
   "metrics": [
@@ -30,7 +30,7 @@
     {
       "key": "capsules",
       "label": "胶囊",
-      "value": 5,
+      "value": 6,
       "desc": "已验证经验包（可复用）"
     },
     {
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 0,
+      "value": "-",
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 0,
+      "value": "-",
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -75,12 +75,12 @@
     "pid": null
   },
   "node": {
-    "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 0,
-    "totalPromoted": 0,
-    "lastSeenAt": "2026-02-28T06:48:02.560Z"
+    "ok": false,
+    "online": null,
+    "status": null,
+    "totalPublished": null,
+    "totalPromoted": null,
+    "lastSeenAt": null
   },
   "runtime": {
     "loadMax": 2
@@ -240,27 +240,43 @@
         "problemZh": "流程稳定性或效率问题",
         "resultZh": "结果：成功（评分 0.85）",
         "valueZh": "这条胶囊的作用是：下次再出现“流程稳定性或效率问题”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
+      },
+      {
+        "id": "capsule_1772261563662",
+        "gene": "gene_gep_optimize_prompt_and_assets",
+        "summary": "固化：gene_gep_optimize_prompt_and_assets 命中信号 protocol_drift, user_improvement_suggestion，变更 0 文件 / 0 行。",
+        "confidence": 0.85,
+        "outcome": "success",
+        "score": 0.85,
+        "trigger": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
+        ],
+        "problemZh": "流程稳定性或效率问题",
+        "resultZh": "结果：成功（评分 0.85）",
+        "valueZh": "这条胶囊的作用是：下次再出现“流程稳定性或效率问题”时，可以复用这套做法。当次改动规模约 0 个文件 0 行。"
       }
     ],
     "events": [
       {
-        "id": "evt_1772261497344",
-        "at": "2026-02-28T06:51:37.344Z",
+        "id": "evt_1772261563662",
+        "at": "2026-02-28T06:52:43.662Z",
         "intent": "optimize",
         "intentZh": "优化",
-        "outcome": "failed",
-        "score": 0.2,
-        "capsuleId": null,
+        "outcome": "success",
+        "score": 0.85,
+        "capsuleId": "capsule_1772261563662",
         "genesUsed": [
           "gene_gep_optimize_prompt_and_assets"
         ],
         "signals": [
-          "stable_success_plateau"
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
         ],
         "problemZh": "流程稳定性或效率问题",
         "actionZh": "针对流程效率做了一轮优化尝试。",
-        "resultZh": "执行未成功，评分 0.2",
-        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对流程效率做了一轮优化尝试。最终：执行未成功，评分 0.2。"
+        "resultZh": "执行成功，评分 0.85",
+        "explainZh": "本轮在处理“流程稳定性或效率问题”。系统使用了 gene_gep_optimize_prompt_and_assets。针对流程效率做了一轮优化尝试。最终：执行成功，评分 0.85。"
       },
       {
         "id": "evt_1772236058027",
@@ -589,5 +605,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T06:51:56.700Z"
+  "publishedAt": "2026-02-28T06:53:03.781Z"
 }
