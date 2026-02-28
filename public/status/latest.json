@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T09:25:51.009Z",
+  "now": "2026-02-28T09:26:53.546Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,17 +8,17 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-02-28T09:25:47.227Z",
+    "dataUpdatedAt": "2026-02-28T09:26:44.989Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-02-28T08:27:27.243Z",
-    "lastRunAt": null,
+    "lastRunAt": "2026-02-28T08:53:18.407Z",
     "lastSolidifyAt": null,
     "logUpdatedAt": null,
-    "stateUpdatedAt": null,
+    "stateUpdatedAt": "2026-02-28T09:26:30.423Z",
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
     "eventsUpdatedAt": null,
-    "candidatesUpdatedAt": "2026-02-28T09:25:47.227Z"
+    "candidatesUpdatedAt": "2026-02-28T09:26:44.989Z"
   },
   "metrics": [
     {
@@ -42,13 +42,13 @@
     {
       "key": "candidates_unique",
       "label": "候选能力(去重后)",
-      "value": 3,
+      "value": 4,
       "desc": "按 id 去重，已折叠 0 条重复记录"
     },
     {
       "key": "candidates_raw",
       "label": "候选原始记录",
-      "value": 3,
+      "value": 4,
       "desc": "原始累计条数（会包含重复）"
     },
     {
@@ -85,7 +85,67 @@
   "runtime": {
     "loadMax": 2
   },
-  "lastRun": null,
+  "lastRun": {
+    "run_id": "run_1772268798359",
+    "created_at": "2026-02-28T08:53:18.407Z",
+    "parent_event_id": null,
+    "selected_gene_id": null,
+    "selected_capsule_id": null,
+    "selector": {
+      "selected": null,
+      "reason": [
+        "no matching gene found; new gene may be required",
+        "signals: user_task_contract_active, repeated_tool_usage:exec, user_task_pending",
+        "memory_graph: memory_prefer:gene_gep_repair_from_errors",
+        "drift_intensity: 0.707"
+      ],
+      "alternatives": []
+    },
+    "signals": [
+      "user_task_contract_active",
+      "repeated_tool_usage:exec",
+      "user_task_pending"
+    ],
+    "mutation": {
+      "type": "Mutation",
+      "id": "mut_1772268798356",
+      "category": "optimize",
+      "trigger_signals": [
+        "user_task_contract_active",
+        "repeated_tool_usage:exec",
+        "user_task_pending"
+      ],
+      "target": "behavior:protocol",
+      "expected_effect": "improve success rate and reduce repeated operational cost",
+      "risk_level": "low"
+    },
+    "mutation_id": "mut_1772268798356",
+    "personality_state": {
+      "type": "PersonalityState",
+      "rigor": 0.7,
+      "creativity": 0.35,
+      "verbosity": 0.25,
+      "risk_tolerance": 0.4,
+      "obedience": 0.85
+    },
+    "personality_key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+    "personality_known": false,
+    "personality_mutations": [],
+    "drift": false,
+    "selected_by": "memory_graph+selector",
+    "source_type": "generated",
+    "reused_asset_id": null,
+    "reused_source_node": null,
+    "reused_chain_id": null,
+    "baseline_untracked": [],
+    "baseline_git_head": "7e4bae47d83745b8b90982bcc823556ae283ad1c",
+    "blast_radius_estimate": {
+      "files": 12,
+      "lines": 960
+    },
+    "active_task_id": null,
+    "active_task_title": null
+  },
   "lastSolidify": null,
   "timeline": [],
   "assets": {
@@ -94,29 +154,40 @@
     "events": [],
     "candidates": [
       {
-        "id": "cand_625fbb0c",
-        "title": "Fill capability gap",
+        "id": "cand_5eb089f2",
+        "title": "Apply user improvement suggestion",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-28T09:25:47.225Z",
+        "createdAt": "2026-02-28T07:48:32.876Z",
         "signals": [
-          "检测到报错信号",
-          "检测到报错信号",
-          "capability_gap"
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       },
       {
-        "id": "cand_dd9067ac",
-        "title": "Repair recurring runtime errors",
+        "id": "cand_f38b3ae5",
+        "title": "Prevent protocol drift and enforce auditable outputs",
         "source": "signals",
         "sourceZh": "信号推断",
-        "createdAt": "2026-02-28T09:25:47.225Z",
+        "createdAt": "2026-02-28T07:48:32.876Z",
         "signals": [
-          "检测到报错信号",
-          "检测到报错信号",
-          "capability_gap"
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
+        ],
+        "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
+        "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
+      },
+      {
+        "id": "cand_5a91a6db",
+        "title": "Repeated tool usage: process",
+        "source": "transcript",
+        "sourceZh": "会话记录",
+        "createdAt": "2026-02-28T07:48:32.876Z",
+        "signals": [
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
@@ -126,22 +197,21 @@
         "title": "Repeated tool usage: exec",
         "source": "transcript",
         "sourceZh": "会话记录",
-        "createdAt": "2026-02-28T09:25:47.225Z",
+        "createdAt": "2026-02-28T07:48:32.875Z",
         "signals": [
-          "检测到报错信号",
-          "检测到报错信号",
-          "capability_gap"
+          "输出/流程偏离约定",
+          "user_improvement_suggestion"
         ],
         "explainZh": "候选能力 = 还在观察中的想法，暂时不会直接改动你的主流程。",
         "nextZh": "如果后续反复出现同类信号，它会升级为正式基因或胶囊。"
       }
     ],
     "candidateStats": {
-      "raw": 3,
-      "unique": 3,
+      "raw": 4,
+      "unique": 4,
       "duplicates": 0,
       "sourceStats": {
-        "transcript": 1,
+        "transcript": 2,
         "signals": 2
       }
     }
@@ -150,5 +220,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T09:25:51.021Z"
+  "publishedAt": "2026-02-28T09:26:53.555Z"
 }
