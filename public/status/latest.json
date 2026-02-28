@@ -1,5 +1,5 @@
 {
-  "now": "2026-02-28T07:51:54.949Z",
+  "now": "2026-02-28T07:53:00.078Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -603,5 +603,5 @@
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": []
   },
-  "publishedAt": "2026-02-28T07:51:54.958Z"
+  "publishedAt": "2026-02-28T07:53:00.089Z"
 }
