@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T08:21:42.311Z",
+  "now": "2026-03-14T08:22:46.870Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T08:21:36.620Z",
+    "dataUpdatedAt": "2026-03-14T08:22:36.919Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T07:53:50.945Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T08:21:36.620Z",
+    "logUpdatedAt": "2026-03-14T08:22:36.919Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```",
-      "--- SESSION (c2a2c7f4-16f9-4132-90cb-6d39e29c788a.jsonl) ---",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: System: [2026-03-14 13:21:32 GMT+8] 【本地自动恢复】上一轮因上游模型/网关瞬时错误中断。请仅在安全且无外部副作用时，继续刚才未完成的内部任务。若任务涉及发消息、改配置、删除、发布或其他可能重复执行的外部动作，先检查是否已经执行成功；若不确定，不要重复执行，先向用户说明并确认。本次自动恢复只允许一次，避免循环。 Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If ",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: System: [2026-03-14 13:21:32 GMT+8] 【本地自动恢复】上一轮因上游模型/网关瞬时错误中断。请仅在安全且无外部副作用时，继续刚才未完成的内部任务。若任务涉及发消息、改配置、删除、发布或其他可能重复执行的外部动作，先检查是否已经执行成功；若不确定，不要重复执行，先向用户说明并确认。本次自动恢复只允许一次，避免循环。 Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If ",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
-      "**ASSISTANT**: [LLM ERROR] Request timed out.",
-      "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
       "**ASSISTANT**: [LLM ERROR] Request timed out.",
       "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
       "**ASSISTANT**: [LLM ERROR] Request timed out.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 21866). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21934). Exiting."
+      "[Singleton] Evolver loop already running (PID 21934). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22023). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22082). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22137). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22215). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22268). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 22332). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T08:21:42.321Z"
+  "publishedAt": "2026-03-14T08:22:46.879Z"
 }
