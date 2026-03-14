@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T14:17:33.164Z",
+  "now": "2026-03-14T14:18:36.177Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T14:17:27.008Z",
+    "dataUpdatedAt": "2026-03-14T14:18:27.322Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-14T14:11:51.755Z",
+    "nodeLastSeenAt": "2026-03-14T14:18:01.587Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T14:17:27.008Z",
+    "logUpdatedAt": "2026-03-14T14:18:27.322Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 17,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 16,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 17,
-    "totalPromoted": 16,
-    "lastSeenAt": "2026-03-14T14:11:51.755Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-14T14:18:01.587Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**USER**: [Sat 2026-03-14 22:11 GMT+8] 请你帮我查一下Topology and Control Method for Reconstructable Hybrid Distribution Transformer to Enhance the Compensation Capability 这篇论文",
-      "**ASSISTANT**:  [[reply_to_current]] 这篇我帮你查到的关键信息如下： **基本信息** - **题目**：*Topology and Control Method for Reconstructable Hybrid Distribution Transformer to Enhance the Compensation Capability* - **作者**：Ming Ma, Fang Zhuo, Jinjun Liu, Chang Yuan, Jinmu Lai - **期刊**：**IEEE Transactions on Power Electronics** - **DOI*",
-      "**USER**: [Sat 2026-03-14 22:12 GMT+8] 请你帮我查一下Generalized Predictive Control of Matrix Converter Fed PMSM Drive with Active Damping 这篇论文",
-      "**ASSISTANT**:  我去查这篇的来源和核心内容，给你一个能直接用的中文版。 [TOOL: background_task]",
-      "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-generalized-predictive-contr-1773497560\",   \"title\": \"\",   \"shape\": \"minimax_then_codex\",   \"shape_reason\": \"defaulting to cheap first pass with codex closure\",   \"backend\": \"langgraph\",   \"started\": true,   \"workflow\": \"LangGraph background w",
-      "**ASSISTANT**: [[reply_to_current]] 已经提交去查了。   - **task_id**：`oclg-generalized-predictive-contr-1773497560`   - 现在走的是 **LangGraph 后台工作流**   - 初始执行路径是 **MiniMax-M2.5 (high)** 先查，后面必要时会接 **Codex** 做收口整理   我会继续在聊天里给你进度更新，等结果出来后直接给你一版中文可用总结。",
-      "**USER**: [Sat 2026-03-14 22:12 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 已收到，后台开始处理：`查找并总结论文 Generalized Predictive Control of Matrix Converter Fed PMSM Drive with Active Damping`。当前模式 `minimax_then_cod",
-      "**ASSISTANT**:  [[reply_to_current]] 已收到，后台开始处理：`查找并总结论文 Generalized Predictive Control of Matrix Converter Fed PMSM Drive with Active Damping`。当前模式 `minimax_then_codex`，我先让经理拆任务。",
-      "**USER**: [Sat 2026-03-14 22:12 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 25%：经理已选定模式 `minimax_then_codex`。已完成：任务分流。下一步：让 worker 执行当前步骤。",
-      "**ASSISTANT**: [[reply_to_current]] 进度 25%：经理已选定模式 `minimax_then_codex`。已完成：任务分流。下一步：让 worker 执行当前步骤。",
       "--- SESSION (ec8ef441-e837-49c0-a646-8c85873d9094.jsonl) ---",
       "**ASSISTANT**:  [TOOL: exec]",
       "**TOOLRESULT**: []",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 73887). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 73953). Exiting."
+      "[Singleton] Evolver loop already running (PID 73953). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74150). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74208). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74257). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74336). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74387). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 74470). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T14:17:33.174Z"
+  "publishedAt": "2026-03-14T14:18:36.188Z"
 }
