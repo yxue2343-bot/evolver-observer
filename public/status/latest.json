@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T22:14:18.268Z",
+  "now": "2026-03-14T22:15:21.172Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T22:14:16.883Z",
+    "dataUpdatedAt": "2026-03-14T22:15:17.273Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T22:09:51.620Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T22:14:16.883Z",
+    "logUpdatedAt": "2026-03-14T22:15:17.273Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "IMPORTANT: If you see 3+ consecutive \"repair\" cycles with the same gene, you MUST switch to \"innovate\" intent.",
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
       "**USER**: [Sun 2026-03-15 06:06 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。",
       "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。",
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 98845). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 98973). Exiting."
+      "[Singleton] Evolver loop already running (PID 98973). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99111). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99242). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99358). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99461). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99575). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 99702). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T22:14:18.282Z"
+  "publishedAt": "2026-03-14T22:15:21.185Z"
 }
