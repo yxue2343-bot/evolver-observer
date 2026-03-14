@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T23:31:00.051Z",
+  "now": "2026-03-14T23:32:05.103Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T23:30:57.494Z",
+    "dataUpdatedAt": "2026-03-14T23:31:57.784Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T23:08:51.021Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T23:30:57.494Z",
+    "logUpdatedAt": "2026-03-14T23:31:57.784Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**USER**: [Fri 2026-03-06 16:44 GMT+8] Agent-to-agent announce step.",
-      "**ASSISTANT**:  ANNOUNCE_SKIP",
-      "**USER**: [Thread starter - for context] 多agent配合 Note: The previous agent run was aborted by the user. Resume carefully or ask for clarification. Conversation info (untrusted metadata): ```json {   \"message_id\": \"1482256103046643773\",   \"sender_id\": \"1477273698191806515\",   \"conversation_label\": \"Guild #多age",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477273698191806515> 收到，连通正常。",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 1",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
       "```bash",
       "cat > ./logs/status_undefined.json << 'STATUSEOF'",
       "{",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 52926). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52949). Exiting."
+      "[Singleton] Evolver loop already running (PID 52949). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52986). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53062). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53153). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53254). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53337). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53421). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T23:31:00.058Z"
+  "publishedAt": "2026-03-14T23:32:05.115Z"
 }
