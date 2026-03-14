@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T23:27:47.250Z",
+  "now": "2026-03-14T23:28:50.665Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T23:27:46.375Z",
+    "dataUpdatedAt": "2026-03-14T23:28:46.732Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T23:08:51.021Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T23:27:46.375Z",
+    "logUpdatedAt": "2026-03-14T23:28:46.732Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。 assistant to=functions.background_task in analysis ҷкәынjson {\"action\":\"submit\",\"task\":\"Run HEARTBEAT patrol: execute `python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalled",
-      "**USER**: [Sun 2026-03-15 07:19 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。",
-      "**ASSISTANT**: 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。",
       "**USER**: [Sun 2026-03-15 07:19 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步",
       "**ASSISTANT**: 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 51075). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 51214). Exiting."
+      "[Singleton] Evolver loop already running (PID 51214). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51317). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51417). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51529). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51616). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51707). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 51811). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T23:27:47.263Z"
+  "publishedAt": "2026-03-14T23:28:50.678Z"
 }
