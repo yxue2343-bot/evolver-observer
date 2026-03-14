@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T17:05:12.805Z",
+  "now": "2026-03-14T17:06:15.692Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T17:05:07.525Z",
+    "dataUpdatedAt": "2026-03-14T17:06:07.382Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T16:08:47.427Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T17:05:07.525Z",
+    "logUpdatedAt": "2026-03-14T17:06:07.382Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,9 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  \"code_preview\": \"Regime-switching hidden Markov model for equity market state detection with transition probability estimation for dynamic asset allocation\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized transformation wi\",",
-      "  \"has_full_content\": true",
-      "}",
       "```",
       "Use this as your primary approach if applicable. Adapt to local context.",
       "Context [External Candidates]:",
@@ -122,7 +119,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #16319",
+      "  - Title: Evolution Cycle #16357",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -222,8 +219,11 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1874)"
+      "[Daemon] Restarting self (cycles=1, rssMb=1874)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86481). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T17:05:12.814Z"
+  "publishedAt": "2026-03-14T17:06:15.704Z"
 }
