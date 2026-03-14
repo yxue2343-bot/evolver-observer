@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:17:42.434Z",
+  "now": "2026-03-14T03:22:10.762Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": null,
+    "dataUpdatedAt": "2026-03-14T03:22:10.757Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": null,
+    "logUpdatedAt": "2026-03-14T03:22:10.757Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -87,7 +87,16 @@
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [],
+  "timeline": [
+    {
+      "level": "warn",
+      "text": "系统负载 43.94 高于阈值 9.，本轮演化暂停并在 60 秒后重试。（最近连续 2 次）"
+    },
+    {
+      "level": "ok",
+      "text": "后台循环模式已启用。"
+    }
+  ],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -102,7 +111,15 @@
   },
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
-    "logTail": []
+    "logTail": [
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "Loop mode enabled (internal daemon).",
+      "[Evolver] System load 43.94 exceeds max 9. Backing off 60000ms.",
+      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
+      "[Heartbeat] Hello failed (will retry via heartbeat): fetch failed",
+      "[Evolver] System load 25.50 exceeds max 9. Backing off 60000ms."
+    ]
   },
-  "publishedAt": "2026-03-14T03:17:42.444Z"
+  "publishedAt": "2026-03-14T03:22:10.771Z"
 }
