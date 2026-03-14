@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T20:23:43.748Z",
+  "now": "2026-03-14T20:24:46.628Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T20:23:40.556Z",
+    "dataUpdatedAt": "2026-03-14T20:24:40.626Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T20:08:50.039Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T20:23:40.556Z",
+    "logUpdatedAt": "2026-03-14T20:24:40.626Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -76,7 +76,7 @@
   },
   "node": {
     "ok": true,
-    "online": true,
+    "online": false,
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
@@ -103,21 +103,12 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 8.8h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 8% (1716.5G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 36ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
       "[skills directory not found]",
       "Notes:",
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #24110",
+      "  - Title: Evolution Cycle #24128",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -143,7 +134,6 @@
       "Recent session transcript:",
       "```",
       "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**:  进度 70%：执行阶段已完成 2 轮。已完成：Codex 已交回首轮结果。下一步：进入验收检查。",
       "**USER**: [Sun 2026-03-15 04:18 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 已收到，后台开始处理：`Heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
       "**ASSISTANT**: 已收到，后台开始处理：`Heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sun 2026-03-15 04:18 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
@@ -166,6 +156,7 @@
       "**ASSISTANT**: 已收到，后台开始处理：`Heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。ադրելassistant to=functions.background_task კომენტary 期开奖结果json {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --acti",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sun 2026-03-15 04:23 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
       "**ASSISTANT**: 进度 25%：已选路线 `minimax_then_codex`。已完成：任务分流，当前执行路径是 MiniMax-M2.5 (high) 起步，必要时再接 Codex。下一步：让当前 worker 开始执行检索/整理。",
+      "**USER**: [Sun 2026-03-15 04:24 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
       "--- SESSION (ec8ef441-e837-49c0-a646-8c85873d9094.jsonl) ---",
       "**ASSISTANT**:  [TOOL: exec]",
       "**TOOLRESULT**: []",
@@ -222,8 +213,17 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=3279)"
+      "[Daemon] Restarting self (cycles=1, rssMb=3280)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 28488). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 28589). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 28672). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T20:23:43.757Z"
+  "publishedAt": "2026-03-14T20:24:46.635Z"
 }
