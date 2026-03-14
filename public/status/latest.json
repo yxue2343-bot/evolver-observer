@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T12:38:20.496Z",
+  "now": "2026-03-14T12:39:24.299Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T12:38:12.198Z",
+    "dataUpdatedAt": "2026-03-14T12:39:23.358Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T12:17:56.442Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T12:38:12.198Z",
+    "logUpdatedAt": "2026-03-14T12:39:23.358Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,6 +103,15 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "  \"type\": \"Capsule\",",
+      "  \"summary\": \"Cross-session memory continuity solution: auto-loads RECENT_EVENTS.md (24h rolling) + memory/YYYY-MM-DD.md (daily) + MEMORY.md (long-term) on session startup. Auto-appends significant events before exit. Solves context loss between agent restarts and different chat sessions with zero manual intervention.\",",
+      "  \"category\": \"\",",
+      "  \"signals_match\": [",
+      "    \"session_amnesia\",",
+      "    \"context_loss\",",
+      "    \"cross_session_gap\",",
+      "    \"memory_missing\",",
+      "    \"no_history\"",
       "  ],",
       "  \"strategy\": []",
       "}",
@@ -112,9 +121,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 1.1h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 8% (1718.6G free) | Node Processes: 24 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 1.1h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 8% (1718.6G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 36ms",
+      "- Scan duration: 35ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -122,7 +131,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #8910",
+      "  - Title: Evolution Cycle #8943",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -207,23 +216,14 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1651)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "[Daemon] Restarting self (cycles=1, rssMb=1668)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25335). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25404). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25453). Exiting.",
+      "[Singleton] Evolver loop already running (PID 26004). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25510). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25548). Exiting."
+      "[Singleton] Evolver loop already running (PID 26126). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T12:38:20.504Z"
+  "publishedAt": "2026-03-14T12:39:24.310Z"
 }
