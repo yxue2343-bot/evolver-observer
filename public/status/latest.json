@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:32:41.500Z",
+  "now": "2026-03-14T03:33:42.749Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T03:32:34.029Z",
+    "dataUpdatedAt": "2026-03-14T03:33:34.442Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T03:30:32.163Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T03:32:34.029Z",
+    "logUpdatedAt": "2026-03-14T03:33:34.442Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (c2a2c7f4-16f9-4132-90cb-6d39e29c788a.jsonl) ---",
-      "**ASSISTANT**: [LLM ERROR] Connection error.",
       "   ... [Repeated 1 times] ...",
       "**USER**: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/xyt/.openclaw/workspace/HEARTBEAT.md (exact case). Do not read docs/heartbea",
       "**ASSISTANT**: [LLM ERROR] Connection error.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 5043). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 5043). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T03:32:41.513Z"
+  "publishedAt": "2026-03-14T03:33:42.764Z"
 }
