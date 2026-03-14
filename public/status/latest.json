@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:23:12.048Z",
+  "now": "2026-03-14T03:24:23.076Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T03:22:10.776Z",
+    "dataUpdatedAt": "2026-03-14T03:24:15.229Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T03:22:10.776Z",
+    "logUpdatedAt": "2026-03-14T03:24:15.229Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -90,7 +90,7 @@
   "timeline": [
     {
       "level": "warn",
-      "text": "系统负载 43.94 高于阈值 9.，本轮演化暂停并在 60 秒后重试。（最近连续 2 次）"
+      "text": "系统负载 43.94 高于阈值 9.，本轮演化暂停并在 60 秒后重试。（最近连续 3 次）"
     },
     {
       "level": "ok",
@@ -119,8 +119,14 @@
       "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
       "[Heartbeat] Hello failed (will retry via heartbeat): fetch failed",
       "[Evolver] System load 25.50 exceeds max 9. Backing off 60000ms.",
-      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded"
+      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
+      "[Evolver] System load 16.96 exceeds max 9. Backing off 60000ms.",
+      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
+      "[DormantHypothesis] Recovered partial state from previous backoff: system_load_exceeded",
+      "Scanning session logs...",
+      "[Maintenance] Found 174 session logs. Archiving old ones...",
+      "[Maintenance] Archived 124 logs to /Users/xyt/.openclaw/agents/main/sessions/archive"
     ]
   },
-  "publishedAt": "2026-03-14T03:23:12.058Z"
+  "publishedAt": "2026-03-14T03:24:23.084Z"
 }
