@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T16:12:46.102Z",
+  "now": "2026-03-14T16:13:49.134Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T16:12:43.972Z",
+    "dataUpdatedAt": "2026-03-14T16:13:44.361Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T16:08:47.427Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T16:12:43.972Z",
+    "logUpdatedAt": "2026-03-14T16:13:44.361Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**: [[reply_to_current]] 已开始查了，任务已提交到异步后台流程。 - task_id: `oclg-job-1773500739` - 运行方式: LangGraph background workflow - 初始执行路径: `MiniMax-M2.5 (high)` 子会话先跑；之后可能会接 `Codex` 做收口 - 我会继续在这里给你同步进度更新。",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sat 2026-03-14 23:05 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
-      "**ASSISTANT**:  已收到，后台开始处理：`查找并总结目标论文`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sat 2026-03-14 23:05 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
       "**ASSISTANT**:  进度 25%：已选路线 `minimax_then_codex`。已完成：任务分流，当前执行路径是 MiniMax-M2.5 (high) 起步，必要时再接 Codex。下一步：让当前 worker 开始执行检索/整理。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sat 2026-03-14 23:07 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 43787). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 43925). Exiting."
+      "[Singleton] Evolver loop already running (PID 43925). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44084). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44230). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44357). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44505). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44653). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 44834). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T16:12:46.113Z"
+  "publishedAt": "2026-03-14T16:13:49.146Z"
 }
