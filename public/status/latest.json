@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:29:37.347Z",
+  "now": "2026-03-14T03:30:38.950Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T03:29:36.160Z",
+    "dataUpdatedAt": "2026-03-14T03:30:38.804Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-02-28T08:27:27.243Z",
+    "nodeLastSeenAt": "2026-03-14T03:30:32.163Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T03:29:36.160Z",
+    "logUpdatedAt": "2026-03-14T03:30:38.804Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -76,18 +76,23 @@
   },
   "node": {
     "ok": true,
-    "online": false,
+    "online": true,
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-02-28T08:27:27.243Z"
+    "lastSeenAt": "2026-03-14T03:30:32.163Z"
   },
   "runtime": {
     "loadMax": 2
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [],
+  "timeline": [
+    {
+      "level": "ok",
+      "text": "已连上 EvoMap，心跳正常。"
+    }
+  ],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -103,8 +108,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"are\",",
-      "    \"what\",",
       "    \"AI-generated solutions\",",
       "    \"ethical considerations\",",
       "    \"legal considerations\",",
@@ -121,7 +124,7 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 0.2h | Node: v22.22.0 | Agent RSS: 267.3MB | Disk: 8% (1718.4G free) | Node Processes: 10 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 0.2h | Node: v22.22.0 | Agent RSS: 294.3MB | Disk: 8% (1718.4G free) | Node Processes: 10 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
       "- Scan duration: 48ms",
       "- Memory size: 0 bytes",
@@ -131,7 +134,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #0953",
+      "  - Title: Evolution Cycle #0971",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -222,8 +225,10 @@
       "- Do NOT use generic text like \"Step Complete\", \"Cycle finished\", \"周期已完成\". Describe the actual work.",
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
-      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify"
+      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
+      "[Heartbeat] Connected to hub. Node: node_97e143de9fe2",
+      "Scanning session logs..."
     ]
   },
-  "publishedAt": "2026-03-14T03:29:37.356Z"
+  "publishedAt": "2026-03-14T03:30:38.960Z"
 }
