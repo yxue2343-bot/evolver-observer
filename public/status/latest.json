@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:22:10.762Z",
+  "now": "2026-03-14T03:23:12.048Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T03:22:10.757Z",
+    "dataUpdatedAt": "2026-03-14T03:22:10.776Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T03:22:10.757Z",
+    "logUpdatedAt": "2026-03-14T03:22:10.776Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -118,8 +118,9 @@
       "[Evolver] System load 43.94 exceeds max 9. Backing off 60000ms.",
       "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
       "[Heartbeat] Hello failed (will retry via heartbeat): fetch failed",
-      "[Evolver] System load 25.50 exceeds max 9. Backing off 60000ms."
+      "[Evolver] System load 25.50 exceeds max 9. Backing off 60000ms.",
+      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded"
     ]
   },
-  "publishedAt": "2026-03-14T03:22:10.771Z"
+  "publishedAt": "2026-03-14T03:23:12.058Z"
 }
