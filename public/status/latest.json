@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T11:45:53.174Z",
+  "now": "2026-03-14T11:47:04.321Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T11:45:00.596Z",
+    "dataUpdatedAt": "2026-03-14T11:46:56.326Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T11:45:00.596Z",
+    "logUpdatedAt": "2026-03-14T11:46:56.326Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -90,7 +90,7 @@
   "timeline": [
     {
       "level": "warn",
-      "text": "系统负载 29.13 高于阈值 9.，本轮演化暂停并在 60 秒后重试。"
+      "text": "系统负载 29.13 高于阈值 9.，本轮演化暂停并在 60 秒后重试。（最近连续 2 次）"
     },
     {
       "level": "ok",
@@ -112,10 +112,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 80257). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
-      "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 80388). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
@@ -231,8 +227,12 @@
       "Loop mode enabled (internal daemon).",
       "[Evolver] System load 29.13 exceeds max 9. Backing off 60000ms.",
       "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
-      "[Heartbeat] Hello failed (will retry via heartbeat): The operation was aborted due to timeout"
+      "[Heartbeat] Hello failed (will retry via heartbeat): The operation was aborted due to timeout",
+      "[Evolver] System load 13.20 exceeds max 9. Backing off 60000ms.",
+      "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
+      "[DormantHypothesis] Recovered partial state from previous backoff: system_load_exceeded",
+      "Scanning session logs..."
     ]
   },
-  "publishedAt": "2026-03-14T11:45:53.183Z"
+  "publishedAt": "2026-03-14T11:47:04.331Z"
 }
