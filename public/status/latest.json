@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T21:23:51.666Z",
+  "now": "2026-03-14T21:24:55.403Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T21:23:46.045Z",
+    "dataUpdatedAt": "2026-03-14T21:24:46.303Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T21:11:37.130Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T21:23:46.045Z",
+    "logUpdatedAt": "2026-03-14T21:24:46.303Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "IMPORTANT: If you see 3+ consecutive \"repair\" cycles with the same gene, you MUST switch to \"innovate\" intent.",
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
       "**USER**: [Sun 2026-03-15 05:20 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步",
       "**ASSISTANT**:  一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 64501). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 64590). Exiting."
+      "[Singleton] Evolver loop already running (PID 64590). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64734). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64841). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64946). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 65068). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 65207). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 65321). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T21:23:51.809Z"
+  "publishedAt": "2026-03-14T21:24:55.415Z"
 }
