@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T17:12:33.706Z",
+  "now": "2026-03-14T17:13:36.951Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T17:12:29.692Z",
+    "dataUpdatedAt": "2026-03-14T17:13:31.451Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T17:09:14.168Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T17:12:29.692Z",
+    "logUpdatedAt": "2026-03-14T17:13:31.451Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,9 +103,18 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- System health: Uptime: 5.6h | Node: v22.22.0 | Agent RSS: 57.1MB | Disk: 8% (1717.0G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
+      "  \"code_preview\": \"Regime-switching hidden Markov model for equity market state detection with transition probability estimation for dynamic asset allocation\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized transformation wi\",",
+      "  \"has_full_content\": true",
+      "}",
+      "```",
+      "Use this as your primary approach if applicable. Adapt to local context.",
+      "Context [External Candidates]:",
+      "(none)",
+      "Context [Execution]:",
+      "Runtime state:",
+      "- System health: Uptime: 5.7h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 8% (1717.0G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 34ms",
+      "- Scan duration: 33ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -113,7 +122,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #16619",
+      "  - Title: Evolution Cycle #16688",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -213,17 +222,8 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1887)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 91090). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 91215). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 91343). Exiting."
+      "[Daemon] Restarting self (cycles=1, rssMb=1890)"
     ]
   },
-  "publishedAt": "2026-03-14T17:12:33.717Z"
+  "publishedAt": "2026-03-14T17:13:36.964Z"
 }
