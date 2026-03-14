@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T12:25:31.846Z",
+  "now": "2026-03-14T12:26:35.942Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T12:25:27.209Z",
+    "dataUpdatedAt": "2026-03-14T12:26:27.476Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T12:17:56.442Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T12:25:27.209Z",
+    "logUpdatedAt": "2026-03-14T12:26:27.476Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (5db564e9-32ff-488a-bf1e-5dcf5174f3db.jsonl) ---",
-      "**ASSISTANT**: ✅ New session started · model: gmn/gpt-5.4",
-      "**USER**: A new session was started via /new or /reset. Execute your Session Startup sequence now - read the required files before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and mood. Keep it to 1-3 sentences an",
-      "**ASSISTANT**:  [TOOL: read] [TOOL: read] [TOOL: read] [TOOL: read] [TOOL: read]",
-      "**TOOLRESULT**: {   \"status\": \"error\",   \"tool\": \"read\",   \"error\": \"Frontdesk background routing required before most tool calls in main session. Use the background_task tool for non-trivial work.\" }",
-      "   ... [Repeated 4 times] ...",
-      "**ASSISTANT**:  [[reply_to_current]] 晚上好，薛哥。我在这儿，状态正常，咱们直接开干就行——你今晚想让我帮你处理什么？",
       "--- SESSION (ec8ef441-e837-49c0-a646-8c85873d9094.jsonl) ---",
       "**ASSISTANT**:  [TOOL: exec]",
       "**TOOLRESULT**: []",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 19312). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 19367). Exiting."
+      "[Singleton] Evolver loop already running (PID 19367). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19474). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19547). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19597). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19635). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19719). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19794). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T12:25:31.857Z"
+  "publishedAt": "2026-03-14T12:26:35.951Z"
 }
