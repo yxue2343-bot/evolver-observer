@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T09:26:25.540Z",
+  "now": "2026-03-14T09:27:28.794Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T09:26:18.272Z",
+    "dataUpdatedAt": "2026-03-14T09:27:28.685Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T08:52:51.868Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T09:26:18.272Z",
+    "logUpdatedAt": "2026-03-14T09:27:28.685Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-14.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (3291871f-ff0b-4714-a3e6-1ab93b518a58.jsonl) ---",
-      "**TOOLRESULT**: {   \"status\": \"error\",   \"tool\": \"read\",   \"error\": \"ENOENT: no such file or directory, access '/Users/xyt/.openclaw/workspace/memory/2026-03-14.md'\" }",
-      "**TOOLRESULT**: {   \"status\": \"error\",   \"tool\": \"read\",   \"error\": \"ENOENT: no such file or directory, access '/Users/xyt/.openclaw/workspace/memory/2026-03-13.md'\" }",
-      "**TOOLRESULT**: # MEMORY.md ## Identity - Assistant name: Tomas - Style: reliable + decisive execution; gentle tone; facts > flattery; will push back when needed. ## User (high level) - Electrical engineering PhD student (Year 1) at Xi'an Jiaotong University (Xi'an). - Interests: fitness, singing; wants to learn pe",
-      "**ASSISTANT**:  [[reply_to_current]] 薛哥，我在。今天想先推进哪件事？",
-      "**USER**: Conversation info (untrusted metadata): ```json {   \"message_id\": \"1482304141920567380\",   \"sender_id\": \"1477234644125483051\",   \"sender\": \"今夕是何夕xyt\",   \"timestamp\": \"Sat 2026-03-14 17:07 GMT+8\" } ``` Sender (untrusted metadata): ```json {   \"label\": \"今夕是何夕xyt (1477234644125483051)\",   \"id\": \"147723",
-      "**ASSISTANT**:  [TOOL: exec]",
-      "**TOOLRESULT**: {   \"status\": \"error\",   \"tool\": \"exec\",   \"error\": \"Frontdesk intake required before exec in main session. Run: python3 /Users/xyt/.openclaw/workspace/automation/frontdesk_intake.py intake --task \\\"<your task>\\\"\" }",
-      "**ASSISTANT**:  我先走标准排查流程，把 OpenClaw 的本地文档和安装位置一起核一下，给你一个“哪些会被更新、哪些会保留”的明确版。 [TOOL: background_task]",
-      "--- SESSION (5a429a06-0f2b-4720-bd1d-838e73943530.jsonl) ---",
-      "**TOOLRESULT**: [orchestrator] 2026-03-14 14:54:36 ",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477234644125483051> 一句话结论：**按你这台机器现在的布局，OpenClaw 更新大概率是“替换程序包层，保留用户数据层”**。   也就是：**内置代码会更新，你自己在 `workspace/`、`~/.openclaw/skills/`、配置文件里的东西通常会保留。** **更新机制，粗暴理解就是这 3 步：** - 更新 OpenClaw 程序包本体 - 重启/重载 gateway 和相关进程 - 新版本继续读取你原来的配置和工作区 **大概率会被更新/覆盖的：** - `~/.openclaw/lib/node_mo",
       "--- SESSION (006dd30a-860e-4ab3-aedc-d4cd3df81d20-topic-1479121731158409388.jsonl) ---",
       "**TOOLRESULT**: Successfully replaced text in /Users/xyt/.openclaw/workspace/memory/2026-03-06.md.",
       "**ASSISTANT**: [[reply_to_current]] <@1477234644125483051> mcp-skill-review-001 DONE 一句话结论：`mcp-server-discovery` 是个“帮你查有哪些 MCP 服务器 + 顺手生成配置片段”的小工具，但对你目前**可选**、**不是刚需**。 三点解释： - **它干啥**：提供 `list / search / info / config` 这套命令，核心产出是标准的 `mcpServers` JSON 配置片段（让你少手写配置）。 - **它不干啥**：它不负责把 MCP server 真正装进/接入 OpenClaw，也不",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 47519). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 47581). Exiting."
+      "[Singleton] Evolver loop already running (PID 47581). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47670). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47722). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47778). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47834). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47901). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47952). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47993). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T09:26:25.551Z"
+  "publishedAt": "2026-03-14T09:27:28.805Z"
 }
