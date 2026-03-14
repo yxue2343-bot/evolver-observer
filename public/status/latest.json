@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T03:34:45.361Z",
+  "now": "2026-03-14T03:35:48.676Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T03:34:44.861Z",
+    "dataUpdatedAt": "2026-03-14T03:35:45.251Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-14T03:30:32.163Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T03:34:44.861Z",
+    "logUpdatedAt": "2026-03-14T03:35:45.251Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "   ... [Repeated 3 times] ...",
-      "--- SESSION (9ecaf787-c55d-47fd-b498-27527dbc5ea8.jsonl) ---",
-      "**USER**: [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做大范围检索。 【输入文件】 1) `/Users/xyt/.openclaw/workspace-fresh-03/radar/nsc-candidates.json` 2) `/Users/xyt/.openclaw/workspace-fresh-03/radar/subjournal-idea-state.json` 3) `/Users/xyt/.openclaw/workspace-fre",
-      "**ASSISTANT**: [LLM ERROR] Connection error.",
-      "   ... [Repeated 3 times] ...",
-      "**USER**: [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做大范围检索。 【输入文件】 1) `/Users/xyt/.openclaw/workspace-fresh-03/radar/nsc-candidates.json` 2) `/Users/xyt/.openclaw/workspace-fresh-03/radar/subjournal-idea-state.json` 3) `/Users/xyt/.openclaw/workspace-fre",
-      "**ASSISTANT**: [LLM ERROR] Connection error.",
-      "   ... [Repeated 3 times] ...",
-      "--- SESSION (6f254aab-3935-4e1d-99fb-609a8984f0df-topic-1481848769233551562.jsonl) ---",
-      "**TOOLRESULT**: [orchestrator] 2026-03-13 15:09:09 ",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477234644125483051> 还在，不过刚出现了一个小卡点：**第一轮提取已经跑完，但没拿到 PDF 的实际可读路径，所以还没进入正式审稿结论那一步。** - 当前状态：**不是挂了，是停在“取正文证据”这一步** - 已发现问题：那个 PDF 拆分通道没直接识别到附件文件 - 好消息：你这条线程里其实已经带了附件路径，我这边下一步就可以接着往下跑 如果你要，我就继续按这个附件把**结论 + 主要硬伤 + 可直接提交的审稿意见**给你整出来。",
-      "**USER**: [Thread starter - for context] 柳博的审稿 Conversation info (untrusted metadata): ```json {   \"message_id\": \"1481913754634555402\",   \"sender_id\": \"1477234644125483051\",   \"conversation_label\": \"Guild #ijepes审稿 channel id:1481848769233551562\",   \"sender\": \"今夕是何夕xyt\",   \"timestamp\": \"Fri 2026-03-13 15:16 G",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477234644125483051> 确实不该这么久。不是这活本身难，是我先绕去走自动拆 PDF 的路，结果附件识别卡住了，时间浪费在“取全文”而不是“做判断”上；这个锅在我。 **一句话结论：** 就你贴出来的题目、摘要、亮点和变量表看，**我倾向给 Major Revision，不建议直接拒。** **为什么先这么判断：** - **方向是对口的**：配电网可靠性、故障恢复、MILP（混合整数线性规划）这些内容和 IJEPES 的口味基本匹配。   - **但结果写得太满**：ENS、SAIDI、SAIFI 一串大幅提升，再加 874-b",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
       "- recommended_intent: optimize",
       "━━━━━━━━━━━━━━━━━━━━━━",
       "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 5043). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 5043). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 5043). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T03:34:45.373Z"
+  "publishedAt": "2026-03-14T03:35:48.688Z"
 }
