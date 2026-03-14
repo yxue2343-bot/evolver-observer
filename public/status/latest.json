@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-14T21:09:03.589Z",
+  "now": "2026-03-14T21:10:07.061Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-14T21:08:58.046Z",
+    "dataUpdatedAt": "2026-03-14T21:09:58.624Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-14T21:08:49.738Z",
+    "nodeLastSeenAt": "2026-03-14T21:09:33.877Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-14T21:08:58.046Z",
+    "logUpdatedAt": "2026-03-14T21:09:58.624Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 0,
+      "value": 2,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 0,
+      "value": 1,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -78,9 +78,9 @@
     "ok": true,
     "online": true,
     "status": "active",
-    "totalPublished": 0,
-    "totalPromoted": 0,
-    "lastSeenAt": "2026-03-14T21:08:49.738Z"
+    "totalPublished": 2,
+    "totalPromoted": 1,
+    "lastSeenAt": "2026-03-14T21:09:33.877Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**ASSISTANT**: [[reply_to_current]] <@1477234644125483051> mcp-skill-review-001 DONE 一句话结论：`mcp-server-discovery` 是个“帮你查有哪些 MCP 服务器 + 顺手生成配置片段”的小工具，但对你目前**可选**、**不是刚需**。 三点解释： - **它干啥**：提供 `list / search / info / config` 这套命令，核心产出是标准的 `mcpServers` JSON 配置片段（让你少手写配置）。 - **它不干啥**：它不负责把 MCP server 真正装进/接入 OpenClaw，也不",
-      "**USER**: [Fri 2026-03-06 16:43 GMT+8] DONE 一句话结论：`mcp-server-discovery`=“查 MCP 服务器/生成配置片段”的工具型技能；对薛哥当前**可选**（不刚需）。 三点解释： - 干什么：`scripts/mcp_discover.py` 提供 list/search/info/config，列出/搜索/查看 MCP server，并生成标准 `mcpServers` JSON 配置。 - 现在是否有用：目前我们已能用现成技能/MCP server（我这边 `mcp list` 已见 github/matlab 等），而该技能主要是“硬编码 KN",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477234644125483051> 收到，这个结论我认可：`mcp-server-discovery` 目前对你是**可选项**，不属于“装了立刻解决痛点”的那类。 如果你想把它变成“对你有用”，一般要先明确你要补的能力方向。你回我一个关键词就行： - A 文献/Arxiv 检索与摘要 - B 网页抓取与结构化提取 - C 本地知识库/向量库检索 - D 画图/制图/科研可视化 - E 代码执行/实验编排（比如 Python/Matlab 工作流） 我按你的选项，直接给你 1–2 个最匹配的 MCP/技能接入方案（含怎么配、怎么验证）。",
-      "**USER**: [Fri 2026-03-06 16:44 GMT+8] Agent-to-agent announce step.",
-      "**ASSISTANT**:  ANNOUNCE_SKIP",
-      "**USER**: [Thread starter - for context] 多agent配合 Note: The previous agent run was aborted by the user. Resume carefully or ask for clarification. Conversation info (untrusted metadata): ```json {   \"message_id\": \"1482256103046643773\",   \"sender_id\": \"1477273698191806515\",   \"conversation_label\": \"Guild #多age",
-      "**ASSISTANT**:  [[reply_to_current]] <@1477273698191806515> 收到，连通正常。",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 2",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
       "The wrapper will handle reporting AFTER git push.",
       "If core write is unavailable for any reason, create fallback status JSON manually.",
       "Write a JSON file with your status:",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 55146). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 55233). Exiting."
+      "[Singleton] Evolver loop already running (PID 55233). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55335). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55436). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55523). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55606). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55696). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55787). Exiting."
     ]
   },
-  "publishedAt": "2026-03-14T21:09:03.599Z"
+  "publishedAt": "2026-03-14T21:10:07.069Z"
 }
