@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T18:51:46.053Z",
+  "now": "2026-03-15T18:52:51.022Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T18:51:39.985Z",
+    "dataUpdatedAt": "2026-03-15T18:52:50.447Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T18:17:10.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T18:51:39.985Z",
+    "logUpdatedAt": "2026-03-15T18:52:50.447Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution p ...[TRUNCATED]",
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:3a3e536941f185aaaa756a2c7b3524251ed33331577e2f8841b52bd86cbdcee4 (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Cross-sectional momentum factor with industry-neutral construction using Fama-MacBeth regression and Newey-West standard errors for risk premium estimation",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771762989750\",",
-      "  \"summary\": \"Cross-sectional momentum factor with industry-neutral construction using Fama-MacBeth regression and Newey-West standard errors for risk premium estimation\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
       "    \"are\",",
       "    \"what\",",
       "    \"AI-generated solutions\",",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 68743). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 68822). Exiting."
+      "[Singleton] Evolver loop already running (PID 68822). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 68947). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69045). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69117). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69156). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69242). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69307). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69380). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T18:51:46.066Z"
+  "publishedAt": "2026-03-15T18:52:51.035Z"
 }
