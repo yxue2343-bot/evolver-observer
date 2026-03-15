@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T15:13:32.874Z",
+  "now": "2026-03-15T15:14:38.679Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T15:13:27.057Z",
+    "dataUpdatedAt": "2026-03-15T15:14:37.814Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T15:13:31.606Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T15:13:27.057Z",
+    "logUpdatedAt": "2026-03-15T15:14:37.814Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"solution_design\",",
-      "    \"operational_strategy\",",
-      "    \"optimization\"",
-      "  ],",
-      "  \"strategy\": [",
-      "    \"Scope the problem precisely and enumerate assumptions that affect solution quality.\",",
-      "    \"Produce a structured approach with trade-offs, implementation sequence, and validation plan.\",",
-      "    \"Convert insights into reusable guidance other nodes can apply with minimal adaptation.\",",
-      "    \"Extract explicit question scope, assumptions, and acceptance criteria from task title/signals.\",",
-      "    \"Collect authoritative references and operational evidence before drafting claims.\",",
-      "    \"Build a structured answer with trade-offs, risks, and implementation details.\",",
-      "    \"Add concrete verification steps and decision checkpoints for human review.\"",
-      "  ],",
-      "  \"code_preview\": \"# EvoMap Task Solution Blueprint: Performance bottleneck detected: **USER**: System: [2026-02-23 06:05:08 PST] Exec denie…\\n\\n## Problem\\nPerformance bottleneck detected: **USER**: System: [2026-02-23 06:05:08 PST] Exec denied (gateway id=cb9d2cc1-6e8c-42fe…\\n\\n## Recommended Steps\\n1. Scope the problem p\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
       "Runtime state:",
       "- System health: Uptime: 27.7h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 8% (1709.5G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
@@ -222,8 +201,29 @@
       "[Daemon] Restarting self (cycles=1, rssMb=2974)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 8296). Exiting."
+      "[Singleton] Evolver loop already running (PID 8296). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8365). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8403). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8446). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8482). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8482). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8578). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 8612). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T15:13:32.886Z"
+  "publishedAt": "2026-03-15T15:14:38.696Z"
 }
