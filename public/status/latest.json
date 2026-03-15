@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T18:32:41.536Z",
+  "now": "2026-03-15T18:33:45.017Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T18:32:38.252Z",
+    "dataUpdatedAt": "2026-03-15T18:33:38.601Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T18:17:10.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T18:32:38.252Z",
+    "logUpdatedAt": "2026-03-15T18:33:38.601Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  1. [innovate] signals=[user_missing, user_feature_request] gene=gene_gep_innovate_from_opportunity outcome=failed @2026-02-07T15:13:21.173Z",
-      "  2. [repair] signals=[log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing] gene=gene_gep_repair_from_errors outcome=success @2026-02-07T15:20:54.236Z",
-      "  3. [repair] signals=[log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing] gene=gene_gep_repair_from_errors outcome=success @2026-02-07T15:32:21.769Z",
-      "IMPORTANT: If you see 3+ consecutive \"repair\" cycles with the same gene, you MUST switch to \"innovate\" intent.",
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-15.md",
-      "```",
       "Recent session transcript:",
       "```",
       "--- SESSION (9230c4b1-af1c-4354-86c9-827cde3b5ef7.jsonl) ---",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 61059). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 61112). Exiting."
+      "[Singleton] Evolver loop already running (PID 61112). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61202). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61265). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61344). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61400). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61471). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 61539). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T18:32:41.552Z"
+  "publishedAt": "2026-03-15T18:33:45.030Z"
 }
