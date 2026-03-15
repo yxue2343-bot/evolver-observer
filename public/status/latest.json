@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T18:16:43.850Z",
+  "now": "2026-03-15T18:17:48.116Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T18:16:34.531Z",
+    "dataUpdatedAt": "2026-03-15T18:17:47.515Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-15T18:11:34.979Z",
+    "nodeLastSeenAt": "2026-03-15T18:17:10.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T18:16:34.531Z",
+    "logUpdatedAt": "2026-03-15T18:17:47.515Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,18 +76,31 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-15T18:11:34.979Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-15T18:17:10.181Z"
   },
   "runtime": {
     "loadMax": 2
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [],
+  "timeline": [
+    {
+      "level": "ok",
+      "text": "后台循环模式已启用。"
+    },
+    {
+      "level": "ok",
+      "text": "已向 EvoMap 完成节点注册。"
+    },
+    {
+      "level": "ok",
+      "text": "后台循环模式已启用。"
+    }
+  ],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -103,35 +116,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52800). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52833). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52906). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52962). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53027). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53062). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53122). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53179). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53237). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 53284). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
@@ -222,8 +206,37 @@
       "[Singleton] Evolver loop already running (PID 54950). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 55004). Exiting."
+      "[Singleton] Evolver loop already running (PID 55004). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55058). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55117). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55188). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55239). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55299). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Stale lock found (PID NaN). Taking over.",
+      "Loop mode enabled (internal daemon).",
+      "Scanning session logs...",
+      "[Heartbeat] Registered with hub. Node: node_97e143de9fe2",
+      "[HubSearch] Hit: sha256:3a3e536941f185aaaa756a2c7b3524251ed33331577e2f8841b52bd86cbdcee4 (score=2.3, mode=reference)",
+      "[SearchFirst] Hub hit: asset=sha256:3a3e536941f185aaaa756a2c7b3524251ed33331577e2f8841b52bd86cbdcee4, score=2.3, mode=reference",
+      "Evolution cycle failed: ENOENT: no such file or directory, rename '/Users/xyt/memory/evolution/personality_state.json.tmp' -> '/Users/xyt/memory/evolution/personality_state.json'",
+      "[Daemon] Restarting self (cycles=1, rssMb=1075)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "Loop mode enabled (internal daemon).",
+      "Scanning session logs..."
     ]
   },
-  "publishedAt": "2026-03-15T18:16:43.858Z"
+  "publishedAt": "2026-03-15T18:17:48.127Z"
 }
