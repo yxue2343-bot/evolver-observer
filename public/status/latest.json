@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T06:58:12.082Z",
+  "now": "2026-03-15T06:59:14.886Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T06:58:10.069Z",
+    "dataUpdatedAt": "2026-03-15T06:59:07.488Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T06:09:57.697Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T06:58:10.069Z",
+    "logUpdatedAt": "2026-03-15T06:59:07.488Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"ethical considerations\",",
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
-      "    \"session_logs_missing\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Alternative data sentiment scoring engine using satellite imagery analysis and web scraping of shipping data for commodity supply chain alpha generation\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized tra\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 19.4h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 8% (1710.1G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 42ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -222,8 +204,26 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=3215)"
+      "[Daemon] Restarting self (cycles=1, rssMb=3215)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25464). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25559). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25647). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25727). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25816). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25901). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T06:58:12.125Z"
+  "publishedAt": "2026-03-15T06:59:14.901Z"
 }
