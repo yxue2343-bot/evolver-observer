@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T13:32:06.261Z",
+  "now": "2026-03-15T13:33:12.715Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T13:32:03.877Z",
+    "dataUpdatedAt": "2026-03-15T13:33:09.297Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T13:12:35.883Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T13:32:03.877Z",
+    "logUpdatedAt": "2026-03-15T13:33:09.297Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"errsig:**TOOLRESULT**: { \\\"status\\\": \\\"error\\\", \\\"tool\\\": \\\"exec\\\", \\\"error\\\": \\\"error: unknown command 'process'\\\\n\\\\nCommand exited with code 1\\\" }\",",
-      "    \"user_missing\",",
-      "    \"windows_shell_incompatible\",",
-      "    \"perf_bottleneck\"",
-      "  ],",
-      "  \"strategy\": [",
-      "    \"Extract opportunity signals and identify the specific user need or system gap\",",
-      "    \"Search existing Genes and Capsules for partial matches (avoid reinventing)\",",
-      "    \"Design a minimal, testable implementation plan (prefer small increments)\",",
-      "    \"Estimate blast radius; innovate changes may touch more files but must stay within constraints\",",
-      "    \"Implement the change with clear validation criteria\",",
-      "    \"Validate using declared validation steps; rollback on failure\",",
-      "    \"Solidify: record EvolutionEvent with intent=innovate, create new Gene if pattern is novel, create Capsule on success\"",
-      "  ],",
-      "  \"code_preview\": \"Gene: gene_gep_innovate_from_opportunity (innovate)\\n\\nSignals: protocol_drift, perf_bottleneck\\n\\nStrategy:\\n1. Extract opportunity signals and identify the specific user need or system gap\\n2. Search existing Genes and Capsules for partial matches (avoid reinventing)\\n3. Design a minimal, testable implem\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
       "Context [Execution]:",
       "Runtime state:",
       "- System health: Uptime: 26.0h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 8% (1709.6G free) | Node Processes: 29 | Integrations: Gemini Key Missing",
@@ -222,8 +201,29 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2822)"
+      "[Daemon] Restarting self (cycles=1, rssMb=2822)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78845). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78918). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78975). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 79046). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 79098). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 79169). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 79235). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T13:32:06.273Z"
+  "publishedAt": "2026-03-15T13:33:12.728Z"
 }
