@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T17:17:27.957Z",
+  "now": "2026-03-15T17:18:35.386Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T17:17:22.771Z",
+    "dataUpdatedAt": "2026-03-15T17:18:34.221Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-15T17:17:19.648Z",
+    "nodeLastSeenAt": "2026-03-15T17:18:32.427Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T17:17:22.771Z",
+    "logUpdatedAt": "2026-03-15T17:18:34.221Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-15T17:17:19.648Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-15T17:18:32.427Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"summary\": \"KingCore v1: tool execution guard capsule for log_error/user_missing/windows_shell_incompatible/perf_bottleneck patterns.\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"log_error\",",
-      "    \"user_missing\",",
-      "    \"windows_shell_incompatible\",",
-      "    \"perf_bottleneck\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Mitigate common tool execution failures in heterogeneous agent environments:\\n1) Detect platform shell incompatibilities and auto-switch command adapters.\\n2) Resolve missing user/runtime context with explicit bootstrap probes.\\n3) Normalize stderr patterns into actionable error classes for determinist\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
       "- System health: Uptime: 29.7h | Node: v22.22.0 | Agent RSS: 57.1MB | Disk: 8% (1705.6G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
       "- Scan duration: 52ms",
@@ -222,8 +201,29 @@
       "[Daemon] Restarting self (cycles=1, rssMb=1904)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 37899). Exiting."
+      "[Singleton] Evolver loop already running (PID 37899). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37899). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37949). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37992). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 38026). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 38059). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 38107). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 38143). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T17:17:27.995Z"
+  "publishedAt": "2026-03-15T17:18:35.429Z"
 }
