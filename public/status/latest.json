@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T05:08:55.642Z",
+  "now": "2026-03-15T05:09:58.680Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T05:08:54.837Z",
+    "dataUpdatedAt": "2026-03-15T05:09:55.174Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-15T05:08:54.793Z",
+    "nodeLastSeenAt": "2026-03-15T05:09:54.639Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T05:08:54.837Z",
+    "logUpdatedAt": "2026-03-15T05:09:55.174Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -78,9 +78,9 @@
     "ok": true,
     "online": true,
     "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-15T05:08:54.793Z"
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-15T05:09:54.639Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sun 2026-03-15 13:03 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
-      "**ASSISTANT**: 进度 25%：已选路线 `minimax_then_codex`。已完成：任务分流，当前执行路径是 MiniMax-M2.5 (high) 起步，必要时再接 Codex。下一步：让当前 worker 开始执行检索/整理。тәыassistant to=functions.background_task մեկնաբանություն rogue {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-on",
-      "**USER**: [Sun 2026-03-15 13:04 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
-      "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。출장샵assistant to=functions.background_task մեկնաբանություն rogue {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stal",
-      "**USER**: [Sun 2026-03-15 13:04 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 85%：验收发现问题。已完成：识别出当前路线/结果的未通过点。下一步：经理改派更合适的执行路径。",
-      "**ASSISTANT**: 进度 85%：验收发现问题。已完成：识别出当前路线/结果的未通过点。下一步：经理改派更合适的执行路径。",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sun 2026-03-15 13:04 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 进度 25%：已选路线 `single_minimax`。已完成：任务分流，当前执行路径是 MiniMax-M2.5 (high)。下一步：让当前 worker 开始执行检索/整理。",
-      "**USER**: [Sun 2026-03-15 13:05 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 2 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。",
-      "**ASSISTANT**: 进度 70%：执行阶段已完成 2 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。ｯﾁｮｲassistant to=functions.background_task մեկնաբանություն rogue {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalled-after 300 ",
-      "**USER**: [Sun 2026-03-15 13:05 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 85%：验收发现问题。已完成：识别出当前路线/结果的未通过点。下一步：经理改派更合适的执行路径。",
-      "**ASSISTANT**: 进度 85%：验收发现问题。已完成：识别出当前路线/结果的未通过点。下一步：经理改派更合适的执行路径。期开奖结果assistant to=functions.background_task մեկնաբանություն rogue {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalled-after 300 --tail-lin",
-      "**USER**: Critical turn directive: the user already supplied the material inline and this likely fits a direct one-shot answer. Prefer answering directly unless the request clearly needs fresh evidence. [Sun 2026-03-15 13:05 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not",
-      "**ASSISTANT**: 一句话结论：`heartbeat patrol scan` 这轮还没有稳定完成。已完成：当前结果还没有稳定通过验收。。下一步：我建议先根据验收意见继续返工，再重新给你一个最终总结。",
-      "--- SESSION (9230c4b1-af1c-4354-86c9-827cde3b5ef7.jsonl) ---",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做",
       "**ASSISTANT**: [TOOL: background_task]",
       "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-idea-1773533124\",   \"title\": \"\",   \"shape\": \"single_minimax\",   \"shape_reason\": \"mechanical read/organize task fits minimax\",   \"backend\": \"langgraph\",   \"started\": true,   \"workflow\": \"LangGraph background workflow\",   \"initial_worker\": \"Mini",
       "**ASSISTANT**: 已提交后台执行。 - `task_id`: `oclg-idea-1773533124` - 正在通过 `LangGraph background workflow` 异步运行 - 初始执行路径：`MiniMax-M2.5 (high) child session` - 我会继续在这里同步进展，不需要你盯着等 这次任务会按你给的规则直接读候选池与状态文件，做 A/B/C 分档、生成 4 条正式早报内容、尝试仅对 A 档做 1 次集中式 Codex 深挖，并回写 `/Users/xyt/.openclaw/workspace-fresh-03/radar/subjournal-idea-stat",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 64583). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 64651). Exiting."
+      "[Singleton] Evolver loop already running (PID 64651). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64755). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64843). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64898). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64986). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 65060). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 65168). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T05:08:55.655Z"
+  "publishedAt": "2026-03-15T05:09:58.692Z"
 }
