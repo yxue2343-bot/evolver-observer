@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T10:07:00.226Z",
+  "now": "2026-03-15T10:08:03.352Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T10:07:00.223Z",
+    "dataUpdatedAt": "2026-03-15T10:08:00.783Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T09:11:04.553Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T10:07:00.223Z",
+    "logUpdatedAt": "2026-03-15T10:08:00.783Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**USER**: [Sat 2026-03-14 18:49 GMT+8] 请把这个任务交给后台：检查 /Users/xyt/project/mature_orch_poc/runtime_openclaw_jobs 里现在有多少个 .json 文件，并用一两句话告诉我这些文件主要是做什么的。",
-      "**ASSISTANT**: [TOOL: background_task]",
-      "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-inspect-runtime_openclaw_job-1773485409\",   \"title\": \"\",   \"shape\": \"minimax_then_codex\",   \"shape_reason\": \"defaulting to cheap first pass with codex closure\",   \"backend\": \"langgraph\",   \"started\": true }",
-      "**ASSISTANT**: [[reply_to_current]] 已交给后台了。 任务 ID：`oclg-inspect-runtime_openclaw_job-1773485409` 我会等后台跑完后，把 `.json` 文件数量和它们的大致用途用简短人话回给你。",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 1",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
-      "```bash",
-      "cat > ./logs/status_undefined.json << 'STATUSEOF'",
-      "{",
       "  \"result\": \"success|failed\",",
       "  \"en\": \"Status: [INTENT] <describe what you did in 1-2 sentences, in English>\",",
       "  \"zh\": \"状态: [意图] <用中文描述你做了什么，1-2句>\"",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 9431). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 9510). Exiting."
+      "[Singleton] Evolver loop already running (PID 9510). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9579). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9679). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9743). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9814). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9869). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9923). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 9992). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T10:07:00.235Z"
+  "publishedAt": "2026-03-15T10:08:03.379Z"
 }
