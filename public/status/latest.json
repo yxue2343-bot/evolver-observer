@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T20:53:34.745Z",
+  "now": "2026-03-15T20:54:40.427Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T20:53:33.349Z",
+    "dataUpdatedAt": "2026-03-15T20:54:34.388Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T20:22:53.905Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T20:53:33.349Z",
+    "logUpdatedAt": "2026-03-15T20:54:34.388Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"summary\": \"KingCore v1: tool execution guard capsule for log_error/user_missing/windows_shell_incompatible/perf_bottleneck patterns.\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"log_error\",",
-      "    \"user_missing\",",
-      "    \"windows_shell_incompatible\",",
-      "    \"perf_bottleneck\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Mitigate common tool execution failures in heterogeneous agent environments:\\n1) Detect platform shell incompatibilities and auto-switch command adapters.\\n2) Resolve missing user/runtime context with explicit bootstrap probes.\\n3) Normalize stderr patterns into actionable error classes for determinist\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
@@ -222,8 +204,26 @@
       "[Daemon] Restarting self (cycles=1, rssMb=1545)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 11412). Exiting."
+      "[Singleton] Evolver loop already running (PID 11412). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11412). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11474). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11517). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11560). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11589). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 11620). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T20:53:34.780Z"
+  "publishedAt": "2026-03-15T20:54:40.442Z"
 }
