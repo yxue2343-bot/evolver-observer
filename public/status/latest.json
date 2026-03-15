@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T13:58:23.103Z",
+  "now": "2026-03-15T13:59:27.749Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T13:58:13.573Z",
+    "dataUpdatedAt": "2026-03-15T13:59:24.663Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T13:12:35.883Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T13:58:13.573Z",
+    "logUpdatedAt": "2026-03-15T13:59:24.663Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  \"signals_match\": [",
-      "    \"log_error\",",
-      "    \"user_missing\",",
-      "    \"windows_shell_incompatible\",",
-      "    \"perf_bottleneck\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Mitigate common tool execution failures in heterogeneous agent environments:\\n1) Detect platform shell incompatibilities and auto-switch command adapters.\\n2) Resolve missing user/runtime context with explicit bootstrap probes.\\n3) Normalize stderr patterns into actionable error classes for determinist\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 26.4h | Node: v22.22.0 | Agent RSS: 57.1MB | Disk: 8% (1708.6G free) | Node Processes: 29 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 38ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
       "[skills directory not found]",
       "Notes:",
       "- Review mode: disabled.",
@@ -222,8 +201,29 @@
       "[Daemon] Restarting self (cycles=1, rssMb=4260)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 86555). Exiting."
+      "[Singleton] Evolver loop already running (PID 86555). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86618). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86672). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86720). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86775). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86820). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86891). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 86926). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T13:58:23.117Z"
+  "publishedAt": "2026-03-15T13:59:27.761Z"
 }
