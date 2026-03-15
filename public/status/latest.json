@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T18:18:53.366Z",
+  "now": "2026-03-15T18:19:57.002Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T18:18:51.371Z",
+    "dataUpdatedAt": "2026-03-15T18:19:48.429Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T18:17:10.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T18:18:51.371Z",
+    "logUpdatedAt": "2026-03-15T18:19:48.429Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: perf_bottleneck",
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: perf_bottleneck",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: perf_bottleneck",
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution p ...[TRUNCATED]",
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:3a3e536941f185aaaa756a2c7b3524251ed33331577e2f8841b52bd86cbdcee4 (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Cross-sectional momentum factor with industry-neutral construction using Fama-MacBeth regression and Newey-West standard errors for risk premium estimation",
-      "- Payload:",
       "```json",
       "{",
       "  \"type\": \"Capsule\",",
@@ -222,8 +204,26 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2309)"
+      "[Daemon] Restarting self (cycles=1, rssMb=2309)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55791). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55849). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55917). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55917). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55917). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55917). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T18:18:53.389Z"
+  "publishedAt": "2026-03-15T18:19:57.010Z"
 }
