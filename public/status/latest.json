@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T05:07:52.708Z",
+  "now": "2026-03-15T05:08:55.642Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T05:07:44.466Z",
+    "dataUpdatedAt": "2026-03-15T05:08:54.837Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-15T04:08:55.912Z",
+    "nodeLastSeenAt": "2026-03-15T05:08:54.793Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T05:07:44.466Z",
+    "logUpdatedAt": "2026-03-15T05:08:54.837Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 0,
+      "value": 1,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 0,
+      "value": 1,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": false,
+    "online": true,
     "status": "active",
-    "totalPublished": 0,
-    "totalPromoted": 0,
-    "lastSeenAt": "2026-03-15T04:08:55.912Z"
+    "totalPublished": 1,
+    "totalPromoted": 1,
+    "lastSeenAt": "2026-03-15T05:08:54.793Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "IMPORTANT: If you see 3+ consecutive \"repair\" cycles with the same gene, you MUST switch to \"innovate\" intent.",
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-15.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**:  收到，已发起心跳 patrol 扫描（后台异步）： - **task_id**: `oclg-heartbeat-patrol-scan-1773550990` - **workflow**: LangGraph background workflow - **initial_worker**: MiniMax-M2.5 (high) child session first; Codex may be used later for closure - **进度更新会在群里继续** 结果返回后我会第一时间同步给你。",
-      "**USER**: [Sun 2026-03-15 13:03 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 已收到，后台开始处理：`heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
-      "**ASSISTANT**: 已收到，后台开始处理：`heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Sun 2026-03-15 13:03 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
       "**ASSISTANT**: 进度 25%：已选路线 `minimax_then_codex`。已完成：任务分流，当前执行路径是 MiniMax-M2.5 (high) 起步，必要时再接 Codex。下一步：让当前 worker 开始执行检索/整理。тәыassistant to=functions.background_task մեկնաբանություն rogue {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-on",
       "**USER**: [Sun 2026-03-15 13:04 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 63987). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 64073). Exiting."
+      "[Singleton] Evolver loop already running (PID 64073). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64166). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64260). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64333). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64414). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64500). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64583). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 64651). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T05:07:52.720Z"
+  "publishedAt": "2026-03-15T05:08:55.655Z"
 }
