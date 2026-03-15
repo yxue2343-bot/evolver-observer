@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T01:09:40.671Z",
+  "now": "2026-03-15T01:10:43.388Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T01:09:36.876Z",
+    "dataUpdatedAt": "2026-03-15T01:10:37.236Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-15T01:08:53.176Z",
+    "nodeLastSeenAt": "2026-03-15T01:09:53.607Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T01:09:36.876Z",
+    "logUpdatedAt": "2026-03-15T01:10:37.236Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-03-15T01:08:53.176Z"
+    "lastSeenAt": "2026-03-15T01:09:53.607Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-15.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**USER**: [Sun 2026-03-15 08:58 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。",
       "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 已交回首轮结果。下一步：进入验收检查。】【”】【assistant to=functions.background_task in analysis ్షjson {\"action\":\"submit\",\"task\":\"Run HEARTBEAT patrol: execute `python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalle",
       "**USER**: [Sun 2026-03-15 08:59 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。",
       "**ASSISTANT**: 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。无码中文字幕 to=functions.background_task commentary  天天中彩票不能json {\"action\":\"submit\",\"task\":\"Run HEARTBEAT patrol: execute `python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalled-after 300 --ta",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 14147). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 14230). Exiting."
+      "[Singleton] Evolver loop already running (PID 14230). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14321). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14405). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14491). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14575). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14684). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 14754). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T01:09:40.678Z"
+  "publishedAt": "2026-03-15T01:10:43.396Z"
 }
