@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T10:34:30.209Z",
+  "now": "2026-03-15T10:35:33.430Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T10:34:29.678Z",
+    "dataUpdatedAt": "2026-03-15T10:35:30.093Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T10:11:09.803Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T10:34:29.678Z",
+    "logUpdatedAt": "2026-03-15T10:35:30.093Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```bash",
-      "cat > ./logs/status_undefined.json << 'STATUSEOF'",
-      "{",
-      "  \"result\": \"success|failed\",",
-      "  \"en\": \"Status: [INTENT] <describe what you did in 1-2 sentences, in English>\",",
-      "  \"zh\": \"状态: [意图] <用中文描述你做了什么，1-2句>\"",
-      "}",
-      "STATUSEOF",
-      "```",
-      "Rules:",
-      "- \"en\" field: English status. \"zh\" field: Chinese status. Content must match (different language).",
-      "- Add \"result\" with value success or failed.",
-      "- INTENT must be one of: INNOVATION, REPAIR, OPTIMIZE (or Chinese: 创新, 修复, 优化)",
-      "- Do NOT use generic text like \"Step Complete\", \"Cycle finished\", \"周期已完成\". Describe the actual work.",
-      "- Example:",
-      "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
-      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1279)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 17530). Exiting.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 19304). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 19380). Exiting."
+      "[Singleton] Evolver loop already running (PID 19380). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19454). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19505). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19591). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19647). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19684). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 19707). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T10:34:30.220Z"
+  "publishedAt": "2026-03-15T10:35:33.442Z"
 }
