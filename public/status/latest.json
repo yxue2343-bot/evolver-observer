@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T11:21:41.186Z",
+  "now": "2026-03-15T11:22:45.331Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T11:21:39.881Z",
+    "dataUpdatedAt": "2026-03-15T11:22:40.245Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T11:11:16.544Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T11:21:39.881Z",
+    "logUpdatedAt": "2026-03-15T11:22:40.245Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**USER**: [Sat 2026-03-14 20:06 GMT+8] 请把这个任务交给后台：检查 /Users/xyt/project/mature_orch_poc/runtime_openclaw_jobs 里现在有多少个 .json 文件，并用一两句话告诉我这些文件主要是做什么的。",
-      "**ASSISTANT**: [TOOL: background_task]",
-      "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-count-and-summarize-runtime_-1773489975\",   \"title\": \"\",   \"shape\": \"single_minimax\",   \"shape_reason\": \"mechanical read/organize task fits minimax\",   \"backend\": \"langgraph\",   \"started\": true }",
-      "**ASSISTANT**: [[reply_to_current]] 已交给后台了。 任务号：`oclg-count-and-summarize-runtime_-1773489975` 这是个低风险的机械检查任务，后台会去统计该目录下 `.json` 文件数量，并顺带概括这些文件主要用途。要不要我等它跑完后，直接把结果回给你？",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
       "```bash",
       "cat > ./logs/status_undefined.json << 'STATUSEOF'",
       "{",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 35806). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 35844). Exiting."
+      "[Singleton] Evolver loop already running (PID 35844). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35922). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35991). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36056). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36110). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36165). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36204). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T11:21:41.201Z"
+  "publishedAt": "2026-03-15T11:22:45.342Z"
 }
