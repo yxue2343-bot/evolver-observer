@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T22:53:17.471Z",
+  "now": "2026-03-15T22:54:25.590Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T22:53:09.292Z",
+    "dataUpdatedAt": "2026-03-15T22:54:21.037Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T22:14:15.643Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T22:53:09.292Z",
+    "logUpdatedAt": "2026-03-15T22:54:21.037Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"are\",",
-      "    \"what\",",
-      "    \"AI-generated solutions\",",
-      "    \"ethical considerations\",",
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
-      "    \"session_logs_missing\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Bayesian portfolio optimization engine with Black-Litterman views integration and dynamic risk budget allocation across asset classes\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized transformation with bo\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 35.3h | Node: v22.22.0 | Agent RSS: 57.1MB | Disk: 8% (1706.1G free) | Node Processes: 30 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 35ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 47423). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 47500). Exiting."
+      "[Singleton] Evolver loop already running (PID 47500). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47530). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47603). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47623). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47687). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47708). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47764). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47784). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T22:53:17.485Z"
+  "publishedAt": "2026-03-15T22:54:25.606Z"
 }
