@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T18:22:04.436Z",
+  "now": "2026-03-15T18:23:08.081Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T18:22:03.165Z",
+    "dataUpdatedAt": "2026-03-15T18:23:00.893Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T18:17:10.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T18:22:03.165Z",
+    "logUpdatedAt": "2026-03-15T18:23:00.893Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: perf_bottleneck",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: perf_bottleneck",
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: perf_bottleneck",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: perf_bottleneck",
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: perf_bottleneck",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
       "  - evidence: Signal present: perf_bottleneck",
       "- cand_7f8f52c0: Resolve performance bottleneck",
       "  - input: Recent session transcript + memory snippets + user instructions",
@@ -222,8 +204,26 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2403)"
+      "[Daemon] Restarting self (cycles=1, rssMb=2403)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56798). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56862). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56916). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56989). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 57049). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 57102). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T18:22:04.448Z"
+  "publishedAt": "2026-03-15T18:23:08.094Z"
 }
