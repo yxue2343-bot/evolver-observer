@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T04:59:29.617Z",
+  "now": "2026-03-15T05:00:32.518Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T04:59:21.668Z",
+    "dataUpdatedAt": "2026-03-15T05:00:32.018Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T04:08:55.912Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T04:59:21.668Z",
+    "logUpdatedAt": "2026-03-15T05:00:32.018Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- Workspace sync: optional/disabled in this environment.",
-      "Recent Evolution History (last 8 cycles -- DO NOT repeat the same intent+signal+gene):",
-      "  1. [innovate] signals=[user_missing, user_feature_request] gene=gene_gep_innovate_from_opportunity outcome=failed @2026-02-07T15:13:21.173Z",
-      "  2. [repair] signals=[log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing] gene=gene_gep_repair_from_errors outcome=success @2026-02-07T15:20:54.236Z",
-      "  3. [repair] signals=[log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing] gene=gene_gep_repair_from_errors outcome=success @2026-02-07T15:32:21.769Z",
-      "IMPORTANT: If you see 3+ consecutive \"repair\" cycles with the same gene, you MUST switch to \"innovate\" intent.",
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-15.md",
-      "```",
-      "Recent session transcript:",
       "```",
       "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
       "**ASSISTANT**:  收到，已发起心跳 patrol 扫描（后台异步）： - **task_id**: `oclg-heartbeat-patrol-scan-1773550391` - **workflow**: LangGraph background workflow - **initial_worker**: MiniMax-M2.5 (high) child session first; Codex may be used later for closure - **进度更新会在群里继续** 结果返回后我会第一时间同步给你。",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 59255). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 59343). Exiting."
+      "[Singleton] Evolver loop already running (PID 59343). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59431). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59506). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59605). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59702). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59774). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59858). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 59943). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T04:59:29.629Z"
+  "publishedAt": "2026-03-15T05:00:32.530Z"
 }
