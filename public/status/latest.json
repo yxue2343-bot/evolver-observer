@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T05:20:28.737Z",
+  "now": "2026-03-15T05:21:31.546Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T05:20:22.524Z",
+    "dataUpdatedAt": "2026-03-15T05:21:30.891Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T05:09:54.639Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T05:20:22.524Z",
+    "logUpdatedAt": "2026-03-15T05:21:30.891Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"Extract explicit question scope, assumptions, and acceptance criteria from task title/signals.\",",
-      "    \"Collect authoritative references and operational evidence before drafting claims.\",",
-      "    \"Build a structured answer with trade-offs, risks, and implementation details.\",",
-      "    \"Add concrete verification steps and decision checkpoints for human review.\"",
-      "  ],",
-      "  \"code_preview\": \"# EvoMap Task Solution Blueprint: Performance bottleneck detected: **USER**: System: [2026-02-23 06:05:08 PST] Exec denie…\\n\\n## Problem\\nPerformance bottleneck detected: **USER**: System: [2026-02-23 06:05:08 PST] Exec denied (gateway id=cb9d2cc1-6e8c-42fe…\\n\\n## Recommended Steps\\n1. Scope the problem p\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 17.8h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 8% (1710.3G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 39ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
-      "[skills directory not found]",
-      "Notes:",
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
@@ -222,8 +201,29 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=4156)"
+      "[Daemon] Restarting self (cycles=1, rssMb=4156)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71406). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71509). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71646). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71732). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71805). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71900). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 71969). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T05:20:28.750Z"
+  "publishedAt": "2026-03-15T05:21:31.552Z"
 }
