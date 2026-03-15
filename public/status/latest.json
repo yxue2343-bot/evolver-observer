@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T08:18:28.543Z",
+  "now": "2026-03-15T08:19:31.572Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T08:18:27.028Z",
+    "dataUpdatedAt": "2026-03-15T08:19:26.352Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T08:11:04.650Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T08:18:27.028Z",
+    "logUpdatedAt": "2026-03-15T08:19:26.352Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
-      "    \"session_logs_missing\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Regulatory capital optimization engine using internal models approach with stressed VaR and incremental risk charge computation for Basel compliance\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized transfo\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 20.7h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 8% (1710.0G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 35ms",
-      "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
       "Notes:",
@@ -222,8 +204,26 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=4278)"
+      "[Daemon] Restarting self (cycles=1, rssMb=4278)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58343). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58441). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58525). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58609). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58694). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58808). Exiting."
     ]
   },
-  "publishedAt": "2026-03-15T08:18:28.555Z"
+  "publishedAt": "2026-03-15T08:19:31.585Z"
 }
