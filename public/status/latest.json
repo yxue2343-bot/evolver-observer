@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-15T21:41:24.637Z",
+  "now": "2026-03-15T21:42:28.983Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-15T21:39:46.223Z",
+    "dataUpdatedAt": "2026-03-15T21:41:54.864Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-15T21:28:33.355Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-15T21:39:46.223Z",
+    "logUpdatedAt": "2026-03-15T21:41:54.864Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -108,8 +108,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "      \"os_release\": \"6.1.0-42-cloud-amd64\",",
-      "      \"evolver_version\": \"1.7.0\",",
       "      \"cwd\": \".\",",
       "      \"captured_at\": \"2026-02-07T15:32:21.678Z\"",
       "    },",
@@ -227,8 +225,10 @@
       "Starting capability evolver...",
       "[Singleton] Stale lock found (PID NaN). Taking over.",
       "Loop mode enabled (internal daemon).",
-      "Scanning session logs..."
+      "Scanning session logs...",
+      "[Heartbeat] Hello failed (will retry via heartbeat): The operation was aborted due to timeout",
+      "[SearchFirst] No hub match (reason: below_threshold). Proceeding with local evolution."
     ]
   },
-  "publishedAt": "2026-03-15T21:41:24.650Z"
+  "publishedAt": "2026-03-15T21:42:28.994Z"
 }
