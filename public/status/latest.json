@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T03:41:27.741Z",
+  "now": "2026-03-16T03:42:34.308Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T03:41:23.976Z",
+    "dataUpdatedAt": "2026-03-16T03:42:24.395Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T03:26:34.948Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T03:41:23.976Z",
+    "logUpdatedAt": "2026-03-16T03:42:24.395Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  ],",
-      "  \"strategy\": []",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 40.1h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 9% (1696.5G free) | Node Processes: 17 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 32ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
-      "[skills directory not found]",
-      "Notes:",
-      "- Review mode: disabled.",
-      "- Report requirement:",
       "  - Use `message` tool.",
       "  - Title: Evolution Cycle #3736",
       "  - Status: [SUCCESS]",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 35767). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 35820). Exiting."
+      "[Singleton] Evolver loop already running (PID 35820). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36316). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36413). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36441). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36592). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36642). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36690). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T03:41:27.751Z"
+  "publishedAt": "2026-03-16T03:42:34.321Z"
 }
