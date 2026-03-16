@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T11:41:15.514Z",
+  "now": "2026-03-16T11:42:19.082Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T11:41:13.559Z",
+    "dataUpdatedAt": "2026-03-16T11:42:14.278Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T11:13:14.176Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T11:41:13.559Z",
+    "logUpdatedAt": "2026-03-16T11:42:14.278Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  \"id\": \"capsule_1771762791022\",",
-      "  \"summary\": \"Bayesian portfolio optimization engine with Black-Litterman views integration and dynamic risk budget allocation across asset classes\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
-      "    \"are\",",
-      "    \"what\",",
-      "    \"AI-generated solutions\",",
-      "    \"ethical considerations\",",
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
-      "    \"session_logs_missing\"",
-      "  ],",
-      "  \"strategy\": [],",
       "  \"code_preview\": \"Bayesian portfolio optimization engine with Black-Litterman views integration and dynamic risk budget allocation across asset classes\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized transformation with bo\",",
       "  \"has_full_content\": true",
       "}",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 26246). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 26324). Exiting."
+      "[Singleton] Evolver loop already running (PID 26324). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26433). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26549). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26644). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26737). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26796). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 26904). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T11:41:15.528Z"
+  "publishedAt": "2026-03-16T11:42:19.091Z"
 }
