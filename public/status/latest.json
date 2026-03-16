@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T02:16:33.153Z",
+  "now": "2026-03-16T02:17:38.171Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T02:16:24.308Z",
+    "dataUpdatedAt": "2026-03-16T02:17:34.927Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-16T02:16:27.193Z",
+    "nodeLastSeenAt": "2026-03-16T02:17:37.181Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T02:16:24.308Z",
+    "logUpdatedAt": "2026-03-16T02:17:34.927Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-16T02:16:27.193Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-16T02:17:37.181Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。]} We need answer to last user? The last visible content ends with user huge dump ending `]}` likely malformed but before that latest actu",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**:  一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。",
-      "**USER**: [Mon 2026-03-16 09:27 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Mon 2026-03-16 09:27 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [TOOL: background_task]",
-      "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-heartbeat-patrol-scan-1773627119\",   \"title\": \"\",   \"shape\": \"minimax_then_codex\",   \"shape_reason\": \"defaulting to cheap first pass with codex closure\",   \"backend\": \"langgraph\",   \"started\": true,   \"workflow\": \"LangGraph background workflow",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply wit",
       "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
       "--- SESSION (496ad2ee-cf2e-4dfe-bec9-b8032ba55fbc.jsonl) ---",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 6125). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 6125). Exiting."
+      "[Singleton] Evolver loop already running (PID 6125). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6157). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6224). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6262). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6298). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6337). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6366). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6400). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T02:16:33.170Z"
+  "publishedAt": "2026-03-16T02:17:38.185Z"
 }
