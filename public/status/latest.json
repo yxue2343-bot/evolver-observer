@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T18:18:59.375Z",
+  "now": "2026-03-16T18:20:01.027Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T18:18:50.023Z",
+    "dataUpdatedAt": "2026-03-16T18:19:53.048Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T18:17:22.228Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T18:18:50.023Z",
+    "logUpdatedAt": "2026-03-16T18:19:53.048Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,6 +103,9 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
+      "  - evidence: Signal present: perf_bottleneck",
+      "- cand_7f8f52c0: Resolve performance bottleneck",
       "  - input: Recent session transcript + memory snippets + user instructions",
       "  - output: A safe, auditable evolution patch guided by GEP assets",
       "  - invariants: Protocol order, small reversible patches, validation, append-only events",
@@ -148,9 +151,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 54.7h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 9% (1693.0G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 54.8h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 9% (1693.0G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 37ms",
+      "- Scan duration: 39ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -158,7 +161,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #6289",
+      "  - Title: Evolution Cycle #6315",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -219,11 +222,8 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=3109)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 99306). Exiting."
+      "[Daemon] Restarting self (cycles=1, rssMb=2995)"
     ]
   },
-  "publishedAt": "2026-03-16T18:18:59.398Z"
+  "publishedAt": "2026-03-16T18:20:01.038Z"
 }
