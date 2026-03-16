@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T18:23:04.373Z",
+  "now": "2026-03-16T18:24:05.854Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T18:23:03.081Z",
+    "dataUpdatedAt": "2026-03-16T18:24:03.408Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T18:17:22.228Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T18:23:03.081Z",
+    "logUpdatedAt": "2026-03-16T18:24:03.408Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:601d53007b394529af57f022b8c956ec802d9a4dca9947b8840dc0a67fe2b4ca (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Order book imbalance alpha generator using level-2 data microstructure features with gradient boosted tree ensemble for short-term prediction",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771762894274\",",
-      "  \"summary\": \"Order book imbalance alpha generator using level-2 data microstructure features with gradient boosted tree ensemble for short-term prediction\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
       "    \"are\",",
       "    \"what\",",
       "    \"AI-generated solutions\",",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 1295). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 1375). Exiting."
+      "[Singleton] Evolver loop already running (PID 1375). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1464). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1537). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1608). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1682). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1762). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1817). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T18:23:04.399Z"
+  "publishedAt": "2026-03-16T18:24:05.864Z"
 }
