@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T01:15:55.442Z",
+  "now": "2026-03-16T01:17:05.418Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T01:15:48.963Z",
+    "dataUpdatedAt": "2026-03-16T01:17:00.656Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-16T01:15:19.218Z",
+    "nodeLastSeenAt": "2026-03-16T01:16:26.281Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T01:15:48.963Z",
+    "logUpdatedAt": "2026-03-16T01:17:00.656Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 1,
     "totalPromoted": 1,
-    "lastSeenAt": "2026-03-16T01:15:19.218Z"
+    "lastSeenAt": "2026-03-16T01:16:26.281Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 已收到，后台开始处理：`heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。",
-      "**USER**: You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 2 times] ...",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 1 轮后台执行。下一步：如果你要，我可以继续帮你抽查产物内容，或直接发起下一轮回归测试。",
-      "**USER**: You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
-      "**USER**: [Mon 2026-03-16 08:49 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 一句话结论：这轮后台任务已完成并通过验收，结果已经正确产出。已完成：已按要求完成并通过验收，结果已写入 `/Users/xyt/.openclaw/workspace/automation/patrol_codex.py`，本轮共完成 2 轮后台执行。下一步",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Mon 2026-03-16 08:49 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "**ASSISTANT**: [TOOL: background_task]",
       "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-heartbeat-patrol-scan-1773623495\",   \"title\": \"\",   \"shape\": \"minimax_then_codex\",   \"shape_reason\": \"defaulting to cheap first pass with codex closure\",   \"backend\": \"langgraph\",   \"started\": true,   \"workflow\": \"LangGraph background workflow",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 92848). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 92881). Exiting."
+      "[Singleton] Evolver loop already running (PID 92881). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 92881). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93015). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93061). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93092). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93092). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93129). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 93156). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T01:15:55.457Z"
+  "publishedAt": "2026-03-16T01:17:05.460Z"
 }
