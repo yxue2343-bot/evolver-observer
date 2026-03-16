@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T01:08:13.338Z",
+  "now": "2026-03-16T01:09:16.988Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T01:08:08.885Z",
+    "dataUpdatedAt": "2026-03-16T01:09:10.429Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T00:23:46.012Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T01:08:08.885Z",
+    "logUpdatedAt": "2026-03-16T01:09:10.429Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -90,6 +90,10 @@
   "timeline": [
     {
       "level": "ok",
+      "text": "已连上 EvoMap，心跳正常。"
+    },
+    {
+      "level": "ok",
       "text": "已向 EvoMap 完成节点注册。"
     },
     {
@@ -116,9 +120,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "}",
-      "STATUSEOF",
-      "```",
       "Rules:",
       "- \"en\" field: English status. \"zh\" field: Chinese status. Content must match (different language).",
       "- Add \"result\" with value success or failed.",
@@ -235,8 +236,11 @@
       "Loop mode enabled (internal daemon).",
       "[Evolver] System load 9.49 exceeds max 9. Backing off 60000ms.",
       "[DormantHypothesis] Saved partial state before backoff: system_load_exceeded",
-      "[Heartbeat] Registered with hub. Node: node_97e143de9fe2"
+      "[Heartbeat] Registered with hub. Node: node_97e143de9fe2",
+      "[Heartbeat] Connected to hub. Node: node_97e143de9fe2",
+      "[DormantHypothesis] Recovered partial state from previous backoff: system_load_exceeded",
+      "Scanning session logs..."
     ]
   },
-  "publishedAt": "2026-03-16T01:08:13.350Z"
+  "publishedAt": "2026-03-16T01:09:17.003Z"
 }
