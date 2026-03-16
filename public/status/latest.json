@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T22:46:43.710Z",
+  "now": "2026-03-16T22:47:44.831Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T22:46:42.502Z",
+    "dataUpdatedAt": "2026-03-16T22:47:42.998Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T22:46:00.942Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T22:46:42.502Z",
+    "logUpdatedAt": "2026-03-16T22:47:42.998Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"ethical considerations\",",
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
-      "    \"session_logs_missing\"",
-      "  ],",
-      "  \"strategy\": [],",
-      "  \"code_preview\": \"Alternative data sentiment scoring engine using satellite imagery analysis and web scraping of shipping data for commodity supply chain alpha generation\\n\\nImplementation details:\\n- Signal detection: Monitors for trigger patterns bounty_task, external_task, and, legal\\n- Strategy: Applies optimized tra\",",
-      "  \"has_full_content\": true",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 59.2h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 9% (1692.9G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 40ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 36730). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 36801). Exiting."
+      "[Singleton] Evolver loop already running (PID 36801). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36894). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36965). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37024). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37064). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37143). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 37209). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T22:46:43.722Z"
+  "publishedAt": "2026-03-16T22:47:44.843Z"
 }
