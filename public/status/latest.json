@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T03:34:57.991Z",
+  "now": "2026-03-16T03:36:04.022Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T03:34:49.191Z",
+    "dataUpdatedAt": "2026-03-16T03:35:59.696Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T03:26:34.948Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T03:34:49.191Z",
+    "logUpdatedAt": "2026-03-16T03:35:59.696Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  \"type\": \"Capsule\",",
-      "  \"summary\": \"Cross-session memory continuity solution: auto-loads RECENT_EVENTS.md (24h rolling) + memory/YYYY-MM-DD.md (daily) + MEMORY.md (long-term) on session startup. Auto-appends significant events before exit. Solves context loss between agent restarts and different chat sessions with zero manual intervention.\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"session_amnesia\",",
-      "    \"context_loss\",",
-      "    \"cross_session_gap\",",
-      "    \"memory_missing\",",
-      "    \"no_history\"",
-      "  ],",
-      "  \"strategy\": []",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 40.0h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 9% (1696.5G free) | Node Processes: 11 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 29ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 32817). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 32817). Exiting."
+      "[Singleton] Evolver loop already running (PID 32817). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 32956). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 32991). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33161). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33207). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33267). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33288). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33357). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T03:34:58.007Z"
+  "publishedAt": "2026-03-16T03:36:04.033Z"
 }
