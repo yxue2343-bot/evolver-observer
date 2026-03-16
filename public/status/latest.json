@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T02:04:29.529Z",
+  "now": "2026-03-16T02:05:36.794Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T02:04:27.142Z",
+    "dataUpdatedAt": "2026-03-16T02:05:35.149Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T01:28:19.376Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T02:04:27.142Z",
+    "logUpdatedAt": "2026-03-16T02:05:35.149Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -87,12 +87,7 @@
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [
-    {
-      "level": "ok",
-      "text": "后台循环模式已启用。"
-    }
-  ],
+  "timeline": [],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -108,9 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"private\",",
-      "    \"internal\"",
-      "  ],",
       "  \"strategy\": [],",
       "  \"code_preview\": \"The \\\"Blocked: resolves to private/internal/special-use\\\" error indicates the target URL resolves to a private network address (RFC 1918: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) or special-use domain. Web fetchers cannot access these for security. Solution: Inform user the URL is not publicly acces\",",
       "  \"has_full_content\": true",
@@ -121,9 +113,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 38.5h | Node: v22.22.0 | Agent RSS: 298.3MB | Disk: 9% (1689.5G free) | Node Processes: 28 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 38.5h | Node: v22.22.0 | Agent RSS: 57.1MB | Disk: 9% (1693.5G free) | Node Processes: 29 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 136ms",
+      "- Scan duration: 38ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -131,7 +123,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #2597",
+      "  - Title: Evolution Cycle #2599",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -157,7 +149,6 @@
       "Recent session transcript:",
       "```",
       "--- SESSION (2d695960-d6a6-4d86-bd10-417112448670.jsonl) ---",
-      "**ASSISTANT**: 已收到，后台开始处理：`heartbeat patrol scan`。当前路线 `minimax_then_codex`，执行模型/线路先走 MiniMax-M2.5 (high) 起步，必要时再接 Codex，我先让经理拆任务。어난 analysis to=functions.background_task ვეყjson {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Mon 2026-03-16 09:21 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
       "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
       "   ... [Repeated 1 times] ...",
@@ -187,6 +178,8 @@
       "**ASSISTANT**: 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。출장샵assistant to=functions.background_task commentary  彩神争霸破解json {\"action\":\"submit\",\"task\":\"Run patrol scan: python3 /Users/xyt/.openclaw/workspace/automation/patrol_codex.py scan --active-only --write --retry-stalled --stalled-after 300 --tail-lines ",
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "**ASSISTANT**: 进度 95%：后台验收通过。已完成：结果和证据检查已通过。下一步：前台整理成你更容易读的最终结论。",
+      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [Mon 2026-03-16 09:23 GMT+8] You are the frontdesk secretary replying to the human in the main chat",
+      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
       "--- SESSION (496ad2ee-cf2e-4dfe-bec9-b8032ba55fbc.jsonl) ---",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做",
       "**ASSISTANT**: [TOOL: background_task]",
@@ -223,12 +216,14 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=2, rssMb=3768)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "[Daemon] Restarting self (cycles=1, rssMb=2087)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
       "Starting capability evolver...",
-      "Loop mode enabled (internal daemon).",
-      "Scanning session logs..."
+      "[Singleton] Evolver loop already running (PID 3696). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 3735). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T02:04:29.540Z"
+  "publishedAt": "2026-03-16T02:05:36.811Z"
 }
