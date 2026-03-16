@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T22:45:42.685Z",
+  "now": "2026-03-16T22:46:43.710Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T22:45:41.864Z",
+    "dataUpdatedAt": "2026-03-16T22:46:42.502Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-16T22:26:26.635Z",
+    "nodeLastSeenAt": "2026-03-16T22:46:00.942Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T22:45:41.864Z",
+    "logUpdatedAt": "2026-03-16T22:46:42.502Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -77,10 +77,10 @@
   "node": {
     "ok": true,
     "online": false,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-16T22:26:26.635Z"
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-16T22:46:00.942Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- Gene: (unknown)",
-      "- Summary: Alternative data sentiment scoring engine using satellite imagery analysis and web scraping of shipping data for commodity supply chain alpha generation",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771763050272\",",
-      "  \"summary\": \"Alternative data sentiment scoring engine using satellite imagery analysis and web scraping of shipping data for commodity supply chain alpha generation\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
-      "    \"are\",",
-      "    \"what\",",
-      "    \"AI-generated solutions\",",
       "    \"ethical considerations\",",
       "    \"legal considerations\",",
       "    \"memory_missing\",",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 36348). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 36403). Exiting."
+      "[Singleton] Evolver loop already running (PID 36403). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36469). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36533). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36610). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36678). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36730). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 36801). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T22:45:42.699Z"
+  "publishedAt": "2026-03-16T22:46:43.722Z"
 }
