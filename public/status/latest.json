@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T23:25:37.368Z",
+  "now": "2026-03-16T23:26:38.643Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T23:25:29.696Z",
+    "dataUpdatedAt": "2026-03-16T23:26:30.063Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-16T23:25:28.939Z",
+    "nodeLastSeenAt": "2026-03-16T23:26:29.816Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T23:25:29.696Z",
+    "logUpdatedAt": "2026-03-16T23:26:30.063Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 1,
     "totalPromoted": 1,
-    "lastSeenAt": "2026-03-16T23:25:28.939Z"
+    "lastSeenAt": "2026-03-16T23:26:29.816Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution p ...[TRUNCATED]",
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:59b4025f570eab048e4e54507261d8eb905022e2bde508db5f58a869f5a9c420 (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Tail risk hedging optimizer using extreme value theory and copula-based dependence modeling for portfolio insurance cost minimization",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771762906785\",",
-      "  \"summary\": \"Tail risk hedging optimizer using extreme value theory and copula-based dependence modeling for portfolio insurance cost minimization\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
       "    \"and\",",
       "    \"legal\",",
       "    \"the\",",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 52583). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52637). Exiting."
+      "[Singleton] Evolver loop already running (PID 52637). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52719). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52786). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52844). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52918). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 52970). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 53039). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T23:25:37.379Z"
+  "publishedAt": "2026-03-16T23:26:38.653Z"
 }
