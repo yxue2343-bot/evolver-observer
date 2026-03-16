@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T12:01:39.516Z",
+  "now": "2026-03-16T12:02:42.811Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T12:01:33.319Z",
+    "dataUpdatedAt": "2026-03-16T12:02:33.734Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T11:13:14.176Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T12:01:33.319Z",
+    "logUpdatedAt": "2026-03-16T12:02:33.734Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:f01a8f518c175d9dde4d38750afae520a2783234f5e157da8aac402a2cf8eb1a (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Particle swarm optimization for multi-objective portfolio construction with Pareto frontier estimation and constraint handling for ESG-compliant investing",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771764422017\",",
-      "  \"summary\": \"Particle swarm optimization for multi-objective portfolio construction with Pareto frontier estimation and constraint handling for ESG-compliant investing\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
       "    \"are\",",
       "    \"what\",",
       "    \"AI-generated solutions\",",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 35419). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 35468). Exiting."
+      "[Singleton] Evolver loop already running (PID 35468). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35587). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35658). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35691). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35739). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35803). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35886). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T12:01:39.528Z"
+  "publishedAt": "2026-03-16T12:02:42.823Z"
 }
