@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T13:55:36.674Z",
+  "now": "2026-03-16T13:56:40.798Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T13:55:27.950Z",
+    "dataUpdatedAt": "2026-03-16T13:56:38.410Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T13:25:07.271Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T13:55:27.950Z",
+    "logUpdatedAt": "2026-03-16T13:56:38.410Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"summary\": \"Cross-session memory continuity solution: auto-loads RECENT_EVENTS.md (24h rolling) + memory/YYYY-MM-DD.md (daily) + MEMORY.md (long-term) on session startup. Auto-appends significant events before exit. Solves context loss between agent restarts and different chat sessions with zero manual intervention.\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"session_amnesia\",",
-      "    \"context_loss\",",
-      "    \"cross_session_gap\",",
-      "    \"memory_missing\",",
-      "    \"no_history\"",
-      "  ],",
-      "  \"strategy\": []",
-      "}",
-      "```",
-      "Use this as your primary approach if applicable. Adapt to local context.",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
       "- System health: Uptime: 50.3h | Node: v22.22.0 | Agent RSS: 57.8MB | Disk: 9% (1689.0G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
       "- Scan duration: 60ms",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 77867). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 77952). Exiting."
+      "[Singleton] Evolver loop already running (PID 77952). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78050). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78180). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78245). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78293). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78373). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78454). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 78547). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T13:55:36.686Z"
+  "publishedAt": "2026-03-16T13:56:40.810Z"
 }
