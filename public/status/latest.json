@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T16:38:47.493Z",
+  "now": "2026-03-16T16:39:48.415Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T16:38:37.521Z",
+    "dataUpdatedAt": "2026-03-16T16:39:38.546Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-16T16:35:49.458Z",
+    "nodeLastSeenAt": "2026-03-16T16:38:49.728Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T16:38:37.521Z",
+    "logUpdatedAt": "2026-03-16T16:39:38.546Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 1,
     "totalPromoted": 1,
-    "lastSeenAt": "2026-03-16T16:35:49.458Z"
+    "lastSeenAt": "2026-03-16T16:38:49.728Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,6 +103,12 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "  - params: Signals: perf_bottleneck",
+      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
+      "  - evidence: Signal present: perf_bottleneck",
+      "- cand_7f8f52c0: Resolve performance bottleneck",
+      "  - input: Recent session transcript + memory snippets + user instructions",
+      "  - output: A safe, auditable evolution patch guided by GEP assets",
       "  - invariants: Protocol order, small reversible patches, validation, append-only events",
       "  - params: Signals: perf_bottleneck",
       "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
@@ -136,9 +142,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 53.1h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 9% (1694.1G free) | Node Processes: 26 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 53.1h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 9% (1692.1G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 45ms",
+      "- Scan duration: 41ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -146,7 +152,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #3831",
+      "  - Title: Evolution Cycle #3881",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -207,23 +213,17 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1205)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52786). Exiting.",
+      "[Daemon] Restarting self (cycles=1, rssMb=4295)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 52884). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "[Singleton] Evolver loop already running (PID 53717). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53010). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "[Singleton] Evolver loop already running (PID 53830). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53123). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53237). Exiting."
+      "[Singleton] Evolver loop already running (PID 53928). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T16:38:47.505Z"
+  "publishedAt": "2026-03-16T16:39:48.428Z"
 }
