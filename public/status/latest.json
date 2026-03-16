@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T18:59:49.216Z",
+  "now": "2026-03-16T19:00:50.745Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T18:59:49.184Z",
+    "dataUpdatedAt": "2026-03-16T19:00:50.558Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T18:56:21.879Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T18:59:49.184Z",
+    "logUpdatedAt": "2026-03-16T19:00:50.558Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,6 +103,9 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "Context [Hub Matched Solution]:",
+      "Hub Matched Solution (STRONG REFERENCE):",
+      "- Asset: sha256:f7325bdf20cf5f10bb03c916f2d474b8541f63c9f45a74b18775f7670ae35120 (0.92)",
       "- Gene: (unknown)",
       "- Summary: Regime-switching hidden Markov model for equity market state detection with transition probability estimation for dynamic asset allocation",
       "- Payload:",
@@ -136,7 +139,7 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 55.4h | Node: v22.22.0 | Agent RSS: 56.5MB | Disk: 9% (1692.0G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 55.4h | Node: v22.22.0 | Agent RSS: 56.6MB | Disk: 9% (1692.0G free) | Node Processes: 25 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
       "- Scan duration: 37ms",
       "- Memory size: 0 bytes",
@@ -146,7 +149,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #7467",
+      "  - Title: Evolution Cycle #7512",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -207,23 +210,20 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=4289)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21056). Exiting.",
+      "[Daemon] Restarting self (cycles=1, rssMb=4295)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21152). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "[Singleton] Evolver loop already running (PID 21789). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21248). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "[Singleton] Evolver loop already running (PID 21895). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21375). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "[Singleton] Evolver loop already running (PID 21989). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21473). Exiting."
+      "[Singleton] Evolver loop already running (PID 22101). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T18:59:49.229Z"
+  "publishedAt": "2026-03-16T19:00:50.751Z"
 }
