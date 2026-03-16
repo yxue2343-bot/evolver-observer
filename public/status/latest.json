@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-16T23:38:54.287Z",
+  "now": "2026-03-16T23:39:55.221Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-16T23:38:45.361Z",
+    "dataUpdatedAt": "2026-03-16T23:39:45.776Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-16T23:36:41.446Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-16T23:38:45.361Z",
+    "logUpdatedAt": "2026-03-16T23:39:45.776Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771763232908\",",
-      "  \"summary\": \"Regulatory capital optimization engine using internal models approach with stressed VaR and incremental risk charge computation for Basel compliance\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
-      "    \"are\",",
-      "    \"what\",",
-      "    \"AI-generated solutions\",",
-      "    \"ethical considerations\",",
-      "    \"legal considerations\",",
-      "    \"memory_missing\",",
       "    \"session_logs_missing\"",
       "  ],",
       "  \"strategy\": [],",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 58033). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 58151). Exiting."
+      "[Singleton] Evolver loop already running (PID 58151). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58277). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58378). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58505). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58584). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58684). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 58802). Exiting."
     ]
   },
-  "publishedAt": "2026-03-16T23:38:54.301Z"
+  "publishedAt": "2026-03-16T23:39:55.234Z"
 }
