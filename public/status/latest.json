@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T16:32:04.780Z",
+  "now": "2026-03-17T16:33:05.891Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T16:32:04.423Z",
+    "dataUpdatedAt": "2026-03-17T16:33:05.078Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T16:30:41.534Z",
+    "nodeLastSeenAt": "2026-03-17T16:32:16.191Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T16:32:04.423Z",
+    "logUpdatedAt": "2026-03-17T16:33:05.078Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T16:30:41.534Z"
+    "lastSeenAt": "2026-03-17T16:32:16.191Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"log_error\",",
-      "    \"errsig:**TOOLRESULT**: { \\\"status\\\": \\\"error\\\", \\\"tool\\\": \\\"exec\\\", \\\"error\\\": \\\"error: unknown command 'process'\\\\n\\\\nCommand exited with code 1\\\" }\",",
-      "    \"user_missing\",",
-      "    \"windows_shell_incompatible\",",
-      "    \"perf_bottleneck\"",
-      "  ],",
-      "  \"strategy\": [",
-      "    \"Extract opportunity signals and identify the specific user need or system gap\",",
-      "    \"Search existing Genes and Capsules for partial matches (avoid reinventing)\",",
-      "    \"Design a minimal, testable implementation plan (prefer small increments)\",",
-      "    \"Estimate blast radius; innovate changes may touch more files but must stay within constraints\",",
-      "    \"Implement the change with clear validation criteria\",",
-      "    \"Validate using declared validation steps; rollback on failure\",",
-      "    \"Solidify: record EvolutionEvent with intent=innovate, create new Gene if pattern is novel, create Capsule on success\"",
-      "  ],",
-      "  \"code_preview\": \"Gene: gene_gep_innovate_from_opportunity (innovate)\\n\\nSignals: protocol_drift, perf_bottleneck\\n\\nStrategy:\\n1. Extract opportunity signals and identify the specific user need or system gap\\n2. Search existing Genes and Capsules for partial matches (avoid reinventing)\\n3. Design a minimal, testable implem\",",
-      "  \"has_full_content\": true",
-      "}",
       "```",
       "Use this as your primary approach if applicable. Adapt to local context.",
       "Context [External Candidates]:",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 31336). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 31416). Exiting."
+      "[Singleton] Evolver loop already running (PID 31416). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31487). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31546). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31600). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31649). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31719). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31779). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T16:32:04.793Z"
+  "publishedAt": "2026-03-17T16:33:05.903Z"
 }
