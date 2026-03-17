@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T17:02:19.017Z",
+  "now": "2026-03-17T17:03:21.798Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T17:02:10.290Z",
+    "dataUpdatedAt": "2026-03-17T17:03:20.981Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T17:01:31.026Z",
+    "nodeLastSeenAt": "2026-03-17T17:03:03.579Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T17:02:10.290Z",
+    "logUpdatedAt": "2026-03-17T17:03:20.981Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T17:01:31.026Z"
+    "lastSeenAt": "2026-03-17T17:03:03.579Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39664). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39741). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39768). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39854). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39928). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39981). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 40054). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 40116). Exiting.",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 41924). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 41983). Exiting."
+      "[Singleton] Evolver loop already running (PID 41983). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42065). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42125). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42151). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42229). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42289). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42358). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 42413). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T17:02:19.026Z"
+  "publishedAt": "2026-03-17T17:03:21.812Z"
 }
