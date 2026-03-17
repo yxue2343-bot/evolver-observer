@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T16:10:24.832Z",
+  "now": "2026-03-17T16:11:25.804Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T16:10:20.689Z",
+    "dataUpdatedAt": "2026-03-17T16:11:21.241Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T16:10:01.002Z",
+    "nodeLastSeenAt": "2026-03-17T16:11:07.899Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T16:10:20.689Z",
+    "logUpdatedAt": "2026-03-17T16:11:21.241Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T16:10:01.002Z"
+    "lastSeenAt": "2026-03-17T16:11:07.899Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
-      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=3135)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21448). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21498). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21571). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21629). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 21700). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 21725). Exiting.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 23624). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 23684). Exiting."
+      "[Singleton] Evolver loop already running (PID 23684). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 23761). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 23802). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 23864). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 23966). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 23996). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 24056). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T16:10:24.846Z"
+  "publishedAt": "2026-03-17T16:11:25.818Z"
 }
