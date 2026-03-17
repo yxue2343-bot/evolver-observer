@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T02:38:19.279Z",
+  "now": "2026-03-17T02:39:21.173Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T02:38:17.954Z",
+    "dataUpdatedAt": "2026-03-17T02:39:17.744Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-17T02:36:55.112Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T02:38:17.954Z",
+    "logUpdatedAt": "2026-03-17T02:39:17.744Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -87,16 +87,7 @@
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [
-    {
-      "level": "ok",
-      "text": "已向 EvoMap 完成节点注册。"
-    },
-    {
-      "level": "ok",
-      "text": "后台循环模式已启用。"
-    }
-  ],
+  "timeline": [],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -112,19 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"success_streak\": 1,",
-      "    \"env_fingerprint\": {",
-      "      \"node_version\": \"v22.22.0\",",
-      "      \"platform\": \"linux\",",
-      "      \"arch\": \"x64\",",
-      "      \"os_release\": \"6.1.0-42-cloud-amd64\",",
-      "      \"evolver_version\": \"1.7.0\",",
-      "      \"cwd\": \".\",",
-      "      \"captured_at\": \"2026-02-07T15:32:21.678Z\"",
-      "    },",
-      "    \"a2a\": {",
-      "      \"eligible_to_broadcast\": false",
-      "    },",
       "    \"asset_id\": \"sha256:20d971a3c4cb2b75f9c045376d1aa003361c12a6b89a4b47b7e81dbd4f4d8fe8\"",
       "  }",
       "]",
@@ -160,9 +138,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 63.1h | Node: v22.22.0 | Agent RSS: 56.6MB | Disk: 9% (1692.2G free) | Node Processes: 31 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 63.1h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 9% (1687.1G free) | Node Processes: 30 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 37ms",
+      "- Scan duration: 36ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -170,7 +148,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #1522",
+      "  - Title: Evolution Cycle #1523",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -226,13 +204,26 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1092)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "[Daemon] Restarting self (cycles=1, rssMb=4295)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
       "Starting capability evolver...",
-      "Loop mode enabled (internal daemon).",
-      "Scanning session logs...",
-      "[Heartbeat] Registered with hub. Node: node_97e143de9fe2"
+      "[Singleton] Evolver loop already running (PID 31025). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31215). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31345). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31423). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31548). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 31728). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T02:38:19.293Z"
+  "publishedAt": "2026-03-17T02:39:21.184Z"
 }
