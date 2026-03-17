@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T12:37:41.915Z",
+  "now": "2026-03-17T12:38:42.960Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T12:37:39.997Z",
+    "dataUpdatedAt": "2026-03-17T12:38:40.253Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-17T12:33:59.308Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T12:37:39.997Z",
+    "logUpdatedAt": "2026-03-17T12:38:40.253Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**ASSISTANT**: 已提交后台执行。 - task_id: `oclg-idea-1773716383` - 运行方式: `LangGraph background workflow` - 初始 worker/model: `MiniMax-M2.5 (high) child session` 它会异步处理，我这边会继续在聊天里同步进度。",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
-      "```bash",
-      "cat > ./logs/status_undefined.json << 'STATUSEOF'",
-      "{",
       "  \"result\": \"success|failed\",",
       "  \"en\": \"Status: [INTENT] <describe what you did in 1-2 sentences, in English>\",",
       "  \"zh\": \"状态: [意图] <用中文描述你做了什么，1-2句>\"",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 32862). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 32970). Exiting."
+      "[Singleton] Evolver loop already running (PID 32970). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33071). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33182). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33276). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33377). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33453). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 33535). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T12:37:41.928Z"
+  "publishedAt": "2026-03-17T12:38:42.971Z"
 }
