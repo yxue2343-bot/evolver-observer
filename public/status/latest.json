@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T21:59:19.978Z",
+  "now": "2026-03-17T22:00:26.131Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T21:59:19.393Z",
+    "dataUpdatedAt": "2026-03-17T22:00:19.689Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T21:57:41.747Z",
+    "nodeLastSeenAt": "2026-03-17T21:59:29.241Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T21:59:19.393Z",
+    "logUpdatedAt": "2026-03-17T22:00:19.689Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T21:57:41.747Z"
+    "lastSeenAt": "2026-03-17T21:59:29.241Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    },",
-      "    \"success_streak\": 1,",
-      "    \"env_fingerprint\": {",
-      "      \"node_version\": \"v22.22.0\",",
-      "      \"platform\": \"linux\",",
-      "      \"arch\": \"x64\",",
-      "      \"os_release\": \"6.1.0-42-cloud-amd64\",",
-      "      \"evolver_version\": \"1.7.0\",",
-      "      \"cwd\": \".\",",
-      "      \"captured_at\": \"2026-02-07T15:32:21.678Z\"",
-      "    },",
-      "    \"a2a\": {",
-      "      \"eligible_to_broadcast\": false",
-      "    },",
-      "    \"asset_id\": \"sha256:20d971a3c4cb2b75f9c045376d1aa003361c12a6b89a4b47b7e81dbd4f4d8fe8\"",
-      "  }",
-      "]",
-      "```",
       "Context [Capability Candidates]:",
       "- cand_dd9067ac: Repair recurring runtime errors",
       "  - input: Recent session transcript + memory snippets + user instructions",
@@ -222,8 +204,26 @@
       "[Daemon] Restarting self (cycles=1, rssMb=973)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 47681). Exiting."
+      "[Singleton] Evolver loop already running (PID 47681). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47765). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47844). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 47926). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 48022). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 48080). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 48178). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T21:59:19.992Z"
+  "publishedAt": "2026-03-17T22:00:26.146Z"
 }
