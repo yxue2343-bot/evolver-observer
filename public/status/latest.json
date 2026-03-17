@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T08:02:49.162Z",
+  "now": "2026-03-17T08:03:51.794Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T08:02:48.274Z",
+    "dataUpdatedAt": "2026-03-17T08:03:47.999Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-17T07:48:04.684Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T08:02:48.274Z",
+    "logUpdatedAt": "2026-03-17T08:03:47.999Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -76,7 +76,7 @@
   },
   "node": {
     "ok": true,
-    "online": true,
+    "online": false,
     "status": "active",
     "totalPublished": 1,
     "totalPromoted": 1,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做",
-      "**ASSISTANT**: [TOOL: background_task]",
-      "**TOOLRESULT**: {   \"ok\": true,   \"action\": \"submit\",   \"task_id\": \"oclg-idea-1773716383\",   \"title\": \"\",   \"shape\": \"single_minimax\",   \"shape_reason\": \"mechanical read/organize task fits minimax\",   \"backend\": \"langgraph\",   \"started\": true,   \"workflow\": \"LangGraph background workflow\",   \"initial_worker\": \"Mini",
-      "**ASSISTANT**: 已提交后台执行。 - task_id: `oclg-idea-1773716383` - 运行方式: `LangGraph background workflow` - 初始 worker/model: `MiniMax-M2.5 (high) child session` 它会异步处理，我这边会继续在聊天里同步进度。",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
       "```bash",
       "cat > ./logs/status_undefined.json << 'STATUSEOF'",
       "{",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 89163). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 89313). Exiting."
+      "[Singleton] Evolver loop already running (PID 89313). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89400). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89430). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89461). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89489). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89545). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 89545). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T08:02:49.170Z"
+  "publishedAt": "2026-03-17T08:03:51.808Z"
 }
