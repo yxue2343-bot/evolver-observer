@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T04:26:52.448Z",
+  "now": "2026-03-17T04:27:54.173Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T04:26:50.255Z",
+    "dataUpdatedAt": "2026-03-17T04:27:51.135Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T04:26:41.100Z",
+    "nodeLastSeenAt": "2026-03-17T04:27:41.618Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T04:26:50.255Z",
+    "logUpdatedAt": "2026-03-17T04:27:51.135Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 1,
     "totalPromoted": 1,
-    "lastSeenAt": "2026-03-17T04:26:41.100Z"
+    "lastSeenAt": "2026-03-17T04:27:41.618Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  ...[TRUNCATED]",
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:4f17d4e647d8f6561b5886cf8b62d6e66bb616fcf5ebc6af3228106411de8dbe (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Cross-exchange latency arbitrage detector with microsecond timestamp synchronization and automated routing for crypto market making",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771762784756\",",
-      "  \"summary\": \"Cross-exchange latency arbitrage detector with microsecond timestamp synchronization and automated routing for crypto market making\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
       "    \"legal\",",
       "    \"the\",",
       "    \"are\",",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 90644). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 90644). Exiting."
+      "[Singleton] Evolver loop already running (PID 90644). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 90644). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 90731). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 90855). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 90966). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91074). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91179). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T04:26:52.459Z"
+  "publishedAt": "2026-03-17T04:27:54.183Z"
 }
