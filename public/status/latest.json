@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T11:32:34.437Z",
+  "now": "2026-03-17T11:33:35.720Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T11:32:32.105Z",
+    "dataUpdatedAt": "2026-03-17T11:33:32.854Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-17T11:31:03.907Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T11:32:32.105Z",
+    "logUpdatedAt": "2026-03-17T11:33:32.854Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -108,24 +108,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- INTENT must be one of: INNOVATION, REPAIR, OPTIMIZE (or Chinese: 创新, 修复, 优化)",
-      "- Do NOT use generic text like \"Step Complete\", \"Cycle finished\", \"周期已完成\". Describe the actual work.",
-      "- Example:",
-      "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
-      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=4, rssMb=2076)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
-      "Starting capability evolver...",
-      "[Singleton] Stale lock found (PID NaN). Taking over.",
-      "Loop mode enabled (internal daemon).",
-      "Scanning session logs...",
-      "[Heartbeat] Hello failed (will retry via heartbeat): The operation was aborted due to timeout",
-      "[HubSearch] Hit: sha256:4292bde8c97698757dd308c3c41661d98646e343e1272c33acd5b3d89fe399f1 (score=0.85, mode=reference)",
-      "[SearchFirst] Hub hit: asset=sha256:4292bde8c97698757dd308c3c41661d98646e343e1272c33acd5b3d89fe399f1, score=0.85, mode=reference",
-      "[MemoryGraph] Attempt write failed: ENOENT: no such file or directory, rename '/Users/xyt/memory/evolution/memory_graph_state.json.tmp' -> '/Users/xyt/memory/evolution/memory_graph_state.json'",
-      "[MemoryGraph] Refusing to evolve without causal memory. Target: /Users/xyt/memory/evolution/memory_graph.jsonl",
-      "Evolution cycle failed: MemoryGraph Attempt write failed: ENOENT: no such file or directory, rename '/Users/xyt/memory/evolution/memory_graph_state.json.tmp' -> '/Users/xyt/memory/evolution/memory_graph_state.json'",
-      "[Daemon] Restarting self (cycles=1, rssMb=853)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 4053). Exiting.",
@@ -227,8 +209,26 @@
       "[Singleton] Evolver loop already running (PID 6414). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 6506). Exiting."
+      "[Singleton] Evolver loop already running (PID 6506). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6580). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6690). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6744). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6810). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6902). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 6973). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T11:32:34.448Z"
+  "publishedAt": "2026-03-17T11:33:35.727Z"
 }
