@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T04:53:39.472Z",
+  "now": "2026-03-17T04:54:41.226Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T04:53:36.742Z",
+    "dataUpdatedAt": "2026-03-17T04:54:34.415Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T04:47:07.184Z",
+    "nodeLastSeenAt": "2026-03-17T04:54:00.069Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T04:53:36.742Z",
+    "logUpdatedAt": "2026-03-17T04:54:34.415Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-17T04:47:07.184Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-17T04:54:00.069Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,6 +103,18 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
+      "  - evidence: Observed 2 occurrences of tool call marker for exec.",
+      "- cand_5afdf7f3: Repeated tool usage: exec",
+      "  - input: Recent session transcript + memory snippets + user instructions",
+      "  ...[TRUNCATED]",
+      "Context [Hub Matched Solution]:",
+      "Hub Matched Solution (STRONG REFERENCE):",
+      "- Asset: sha256:f7325bdf20cf5f10bb03c916f2d474b8541f63c9f45a74b18775f7670ae35120 (0.92)",
+      "- Gene: (unknown)",
+      "- Summary: Regime-switching hidden Markov model for equity market state detection with transition probability estimation for dynamic asset allocation",
+      "- Payload:",
+      "```json",
       "{",
       "  \"type\": \"Capsule\",",
       "  \"id\": \"capsule_1771764325599\",",
@@ -132,9 +144,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 65.3h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 9% (1690.8G free) | Node Processes: 33 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 65.3h | Node: v22.22.0 | Agent RSS: 56.5MB | Disk: 10% (1683.8G free) | Node Processes: 34 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 81ms",
+      "- Scan duration: 127ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -142,7 +154,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #3545",
+      "  - Title: Evolution Cycle #3570",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -207,23 +219,11 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2631)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "[Daemon] Restarting self (cycles=1, rssMb=4297)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 3189). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 3265). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 3340). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 3413). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 3475). Exiting."
+      "[Singleton] Evolver loop already running (PID 3903). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T04:53:39.493Z"
+  "publishedAt": "2026-03-17T04:54:41.253Z"
 }
