@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T19:04:05.628Z",
+  "now": "2026-03-17T19:05:08.126Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T19:04:04.807Z",
+    "dataUpdatedAt": "2026-03-17T19:05:05.061Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T19:03:42.082Z",
+    "nodeLastSeenAt": "2026-03-17T19:04:34.255Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T19:04:04.807Z",
+    "logUpdatedAt": "2026-03-17T19:05:05.061Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T19:03:42.082Z"
+    "lastSeenAt": "2026-03-17T19:04:34.255Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    },",
-      "    \"a2a\": {",
-      "      \"eligible_to_broadcast\": false",
-      "    },",
-      "    \"asset_id\": \"sha256:20d971a3c4cb2b75f9c045376d1aa003361c12a6b89a4b47b7e81dbd4f4d8fe8\"",
-      "  }",
-      "]",
-      "```",
-      "Context [Capability Candidates]:",
-      "- cand_dd9067ac: Repair recurring runtime errors",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runti",
-      "...[TRUNCATED_CAPABILITIES]...",
       "Context [Hub Matched Solution]:",
       "(no hub match)",
       "Context [External Candidates]:",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 82776). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 82833). Exiting."
+      "[Singleton] Evolver loop already running (PID 82833). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 82917). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 82938). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83017). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83051). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83119). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83176). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T19:04:05.642Z"
+  "publishedAt": "2026-03-17T19:05:08.139Z"
 }
