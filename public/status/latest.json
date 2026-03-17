@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T09:40:07.379Z",
+  "now": "2026-03-17T09:41:18.058Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -10,7 +10,7 @@
   "freshness": {
     "dataUpdatedAt": "2026-03-17T09:39:49.088Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T09:37:36.603Z",
+    "nodeLastSeenAt": "2026-03-17T09:41:16.354Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
     "logUpdatedAt": "2026-03-17T09:39:49.088Z",
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 1,
+      "value": 0,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 1,
+      "value": 0,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -76,11 +76,11 @@
   },
   "node": {
     "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 1,
-    "totalPromoted": 1,
-    "lastSeenAt": "2026-03-17T09:37:36.603Z"
+    "online": false,
+    "status": "archived",
+    "totalPublished": 0,
+    "totalPromoted": 0,
+    "lastSeenAt": "2026-03-17T09:41:16.354Z"
   },
   "runtime": {
     "loadMax": 2
@@ -234,5 +234,5 @@
       "[SearchFirst] No hub match (reason: hub_http_429). Proceeding with local evolution."
     ]
   },
-  "publishedAt": "2026-03-17T09:40:07.391Z"
+  "publishedAt": "2026-03-17T09:41:18.075Z"
 }
