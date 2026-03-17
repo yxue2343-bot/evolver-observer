@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T00:44:49.365Z",
+  "now": "2026-03-17T00:45:51.716Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T00:44:43.575Z",
+    "dataUpdatedAt": "2026-03-17T00:45:44.292Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-17T00:31:23.718Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T00:44:43.575Z",
+    "logUpdatedAt": "2026-03-17T00:45:44.292Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "      \"arch\": \"x64\",",
-      "      \"os_release\": \"6.1.0-42-cloud-amd64\",",
-      "      \"evolver_version\": \"1.7.0\",",
-      "      \"cwd\": \".\",",
-      "      \"captured_at\": \"2026-02-07T15:32:21.678Z\"",
-      "    },",
-      "    \"a2a\": {",
-      "      \"eligible_to_broadcast\": false",
-      "    },",
-      "    \"asset_id\": \"sha256:20d971a3c4cb2b75f9c045376d1aa003361c12a6b89a4b47b7e81dbd4f4d8fe8\"",
-      "  }",
-      "]",
-      "```",
-      "Context [Capability Candidates]:",
-      "- cand_7f8f52c0: Resolve performance bottleneck",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
       "  - params: Signals: perf_bottleneck",
       "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
       "  - evidence: Signal present: perf_bottleneck",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 82789). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 82868). Exiting."
+      "[Singleton] Evolver loop already running (PID 82868). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 82935). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 82998). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83081). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83140). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83208). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 83262). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T00:44:49.372Z"
+  "publishedAt": "2026-03-17T00:45:51.727Z"
 }
