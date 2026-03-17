@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-17T23:10:52.013Z",
+  "now": "2026-03-17T23:11:52.994Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-17T23:10:47.851Z",
+    "dataUpdatedAt": "2026-03-17T23:11:48.252Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-17T23:10:03.908Z",
+    "nodeLastSeenAt": "2026-03-17T23:11:13.187Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-17T23:10:47.851Z",
+    "logUpdatedAt": "2026-03-17T23:11:48.252Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-17T23:10:03.908Z"
+    "lastSeenAt": "2026-03-17T23:11:13.187Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runti",
-      "...[TRUNCATED_CAPABILITIES]...",
-      "Context [Hub Matched Solution]:",
-      "(no hub match)",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 12.3h | Node: v22.22.0 | Agent RSS: 57.3MB | Disk: 9% (1692.7G free) | Node Processes: 31 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 35ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
       "[skills directory not found]",
       "Notes:",
       "- Review mode: disabled.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 75633). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 75691). Exiting."
+      "[Singleton] Evolver loop already running (PID 75691). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 75778). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 75863). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 75893). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 75961). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 76031). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 76083). Exiting."
     ]
   },
-  "publishedAt": "2026-03-17T23:10:52.024Z"
+  "publishedAt": "2026-03-17T23:11:53.001Z"
 }
