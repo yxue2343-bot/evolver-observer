@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T12:29:03.921Z",
+  "now": "2026-03-18T12:30:10.082Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T12:29:02.413Z",
+    "dataUpdatedAt": "2026-03-18T12:30:02.921Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-18T12:27:41.817Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T12:29:02.413Z",
+    "logUpdatedAt": "2026-03-18T12:30:02.921Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "External candidates (A2A receive zone; staged only, never execute directly):",
-      "(none)",
-      "Global memory (MEMORY.md):",
-      "```",
-      "[MEMORY.md MISSING]",
-      "```",
-      "User registry (USER.md):",
-      "```",
-      "[USER.md MISSING]",
-      "```",
-      "Recent memory snippet:",
-      "```",
-      "[MISSING] /Users/xyt/memory/2026-03-18.md",
-      "```",
-      "Recent session transcript:",
-      "```",
-      "--- SESSION (121a616a-9ff2-4bb2-9c4b-aa206d5ab802.jsonl) ---",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
       "**ASSISTANT**:  [TOOL: exec]",
       "**TOOLRESULT**: []",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 34880). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 34914). Exiting."
+      "[Singleton] Evolver loop already running (PID 34914). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 34979). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35020). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35069). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35111). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35129). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 35168). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T12:29:03.930Z"
+  "publishedAt": "2026-03-18T12:30:10.097Z"
 }
