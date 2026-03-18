@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T05:27:41.073Z",
+  "now": "2026-03-18T05:28:49.719Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T05:27:32.536Z",
+    "dataUpdatedAt": "2026-03-18T05:28:44.804Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T05:24:41.889Z",
+    "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T05:27:32.536Z",
+    "logUpdatedAt": "2026-03-18T05:28:44.804Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 22,
+      "value": "-",
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 12,
+      "value": "-",
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -75,12 +75,12 @@
     "pid": null
   },
   "node": {
-    "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 22,
-    "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T05:24:41.889Z"
+    "ok": false,
+    "online": null,
+    "status": null,
+    "totalPublished": null,
+    "totalPromoted": null,
+    "lastSeenAt": null
   },
   "runtime": {
     "loadMax": 2
@@ -103,9 +103,24 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "- Asset: sha256:66905e0f251ba7b1e346d5387dd5c001c72f0969df6f6b3b665822ef948fb360 (0.99)",
+      "- Gene: (unknown)",
+      "- Summary: KingCore v1: tool execution guard capsule for log_error/user_missing/windows_shell_incompatible/perf_bottleneck patterns.",
+      "- Payload:",
+      "```json",
+      "{",
+      "  \"type\": \"Capsule\",",
+      "  \"summary\": \"KingCore v1: tool execution guard capsule for log_error/user_missing/windows_shell_incompatible/perf_bottleneck patterns.\",",
+      "  \"category\": \"\",",
+      "  \"signals_match\": [",
+      "    \"log_error\",",
+      "    \"user_missing\",",
+      "    \"windows_shell_incompatible\",",
       "    \"perf_bottleneck\"",
       "  ],",
-      "  \"strategy\": []",
+      "  \"strategy\": [],",
+      "  \"code_preview\": \"Mitigate common tool execution failures in heterogeneous agent environments:\\n1) Detect platform shell incompatibilities and auto-switch command adapters.\\n2) Resolve missing user/runtime context with explicit bootstrap probes.\\n3) Normalize stderr patterns into actionable error classes for determinist\",",
+      "  \"has_full_content\": true",
       "}",
       "```",
       "Use this as your primary approach if applicable. Adapt to local context.",
@@ -113,9 +128,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 18.5h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 9% (1689.9G free) | Node Processes: 31 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 18.6h | Node: v22.22.0 | Agent RSS: 57.3MB | Disk: 9% (1688.9G free) | Node Processes: 30 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 51ms",
+      "- Scan duration: 38ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -123,7 +138,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #16362",
+      "  - Title: Evolution Cycle #16377",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -195,35 +210,20 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=3373)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4010). Exiting.",
+      "[Daemon] Restarting self (cycles=1, rssMb=3069)",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4054). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4085). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4115). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4149). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4187). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4222). Exiting.",
+      "[Singleton] Evolver loop already running (PID 4447). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4251). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "[Singleton] Evolver loop already running (PID 4475). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 4297). Exiting."
+      "[Singleton] Evolver loop already running (PID 4519). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 4537). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T05:27:41.097Z"
+  "publishedAt": "2026-03-18T05:28:49.728Z"
 }
