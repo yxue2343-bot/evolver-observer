@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T07:32:31.525Z",
+  "now": "2026-03-18T07:33:40.540Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T07:32:24.247Z",
+    "dataUpdatedAt": "2026-03-18T07:33:34.707Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T07:30:41.893Z",
+    "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T07:32:24.247Z",
+    "logUpdatedAt": "2026-03-18T07:33:34.707Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": 22,
+      "value": "-",
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": 12,
+      "value": "-",
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -75,12 +75,12 @@
     "pid": null
   },
   "node": {
-    "ok": true,
-    "online": true,
-    "status": "active",
-    "totalPublished": 22,
-    "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T07:30:41.893Z"
+    "ok": false,
+    "online": null,
+    "status": null,
+    "totalPublished": null,
+    "totalPromoted": null,
+    "lastSeenAt": null
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- INTENT must be one of: INNOVATION, REPAIR, OPTIMIZE (or Chinese: 创新, 修复, 优化)",
-      "- Do NOT use generic text like \"Step Complete\", \"Cycle finished\", \"周期已完成\". Describe the actual work.",
-      "- Example:",
-      "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
-      "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2653)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 36865). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 36940). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 37010). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 37055). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 37132). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 37206). Exiting.",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 39231). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 39294). Exiting."
+      "[Singleton] Evolver loop already running (PID 39294). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39384). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39441). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39507). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39613). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39657). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39740). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 39802). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T07:32:31.540Z"
+  "publishedAt": "2026-03-18T07:33:40.553Z"
 }
