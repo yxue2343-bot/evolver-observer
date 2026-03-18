@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T06:41:06.001Z",
+  "now": "2026-03-18T06:42:14.245Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T06:41:01.297Z",
+    "dataUpdatedAt": "2026-03-18T06:42:11.849Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": null,
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T06:41:01.297Z",
+    "logUpdatedAt": "2026-03-18T06:42:11.849Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runtime errors",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runtime errors",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runtime errors",
-      "  - input: Recent session transcript + memory snippets + user instructions",
       "  - output: A safe, auditable evolution patch guided by GEP assets",
       "  - in ...[TRUNCATED]",
       "Context [Hub Matched Solution]:",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 20437). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 20489). Exiting."
+      "[Singleton] Evolver loop already running (PID 20489). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20563). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20616). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20655). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20709). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20758). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20819). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 20878). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T06:41:06.019Z"
+  "publishedAt": "2026-03-18T06:42:14.255Z"
 }
