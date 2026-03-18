@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T14:36:17.550Z",
+  "now": "2026-03-18T14:38:07.701Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T14:35:34.842Z",
+    "dataUpdatedAt": "2026-03-18T14:38:05.268Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": null,
+    "nodeLastSeenAt": "2026-03-18T14:36:42.554Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T14:35:34.842Z",
+    "logUpdatedAt": "2026-03-18T14:38:05.268Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -60,13 +60,13 @@
     {
       "key": "published",
       "label": "累计发布",
-      "value": "-",
+      "value": 5,
       "desc": "已对外发布到 EvoMap 的资产数"
     },
     {
       "key": "promoted",
       "label": "累计 promoted",
-      "value": "-",
+      "value": 2,
       "desc": "在网络中获得更高认可的资产数"
     }
   ],
@@ -75,24 +75,19 @@
     "pid": null
   },
   "node": {
-    "ok": false,
-    "online": null,
-    "status": null,
-    "totalPublished": null,
-    "totalPromoted": null,
-    "lastSeenAt": null
+    "ok": true,
+    "online": true,
+    "status": "active",
+    "totalPublished": 5,
+    "totalPromoted": 2,
+    "lastSeenAt": "2026-03-18T14:36:42.554Z"
   },
   "runtime": {
     "loadMax": 2
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [
-    {
-      "level": "ok",
-      "text": "后台循环模式已启用。"
-    }
-  ],
+  "timeline": [],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -108,17 +103,17 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - failure_points: Missing signals, over-br",
-      "...[TRUNCATED_CAPABILITIES]...",
-      "Context [Hub Matched Solution]:",
-      "(no hub match)",
+      "  \"has_full_content\": true",
+      "}",
+      "```",
+      "Use this as your primary approach if applicable. Adapt to local context.",
       "Context [External Candidates]:",
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 27.7h | Node: v22.22.0 | Agent RSS: 57.2MB | Disk: 10% (1683.1G free) | Node Processes: 43 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 27.7h | Node: v22.22.0 | Agent RSS: 46.6MB | Disk: 10% (1683.1G free) | Node Processes: 44 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 89ms",
+      "- Scan duration: 173ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -126,7 +121,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #21445",
+      "  - Title: Evolution Cycle #21449",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -155,26 +150,6 @@
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
       "   ... [Repeated 1 times] ...",
-      "**USER**: [Wed 2026-03-18 22:30 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 85%：验收发现问题。已完成：识别出当前路线/结果的未通过点。下一步：经理改派更合适的执行路径。",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
-      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
-      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
-      "   ... [Repeated 1 times] ...",
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
       "**ASSISTANT**: [LLM ERROR] Request was aborted.",
@@ -188,6 +163,24 @@
       "**ASSISTANT**: [LLM ERROR] Request was aborted.",
       "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
+      "   ... [Repeated 1 times] ...",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] 429 status code (no body)",
+      "   ... [Repeated 1 times] ...",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: [Wed 2026-03-18 22:33 GMT+8] You are the frontdesk secretary replying to the human in the main chat. Do not use tools. Reply with exactly the text below and nothing else. 进度 70%：执行阶段已完成 1 轮。已完成：MiniMax-M2.5 (high) 起步，必要时再接 Codex 已交回首轮结果。下一步：进入验收检查。",
+      "**ASSISTANT**: [LLM ERROR] Request was aborted.",
+      "**USER**: Continue where you left off. The previous model attempt failed or timed out.",
       "--- SESSION (2100bcc4-2386-4e10-95aa-8b786178cf92.jsonl) ---",
       "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做",
       "**ASSISTANT**: [LLM ERROR] 403 无权访问 codex 官方 分组 (request id: 20260318000503889325897srobSjUl)",
@@ -195,7 +188,7 @@
       "```",
       "Mutation directive:",
       "[Signal Hints]",
-      "- recent_error_count: 9",
+      "- recent_error_count: 11",
       "- stability: unstable",
       "- recommended_intent: repair",
       "━━━━━━━━━━━━━━━━━━━━━━",
@@ -223,12 +216,14 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=2098)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "[Daemon] Restarting self (cycles=2, rssMb=2156)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
       "Starting capability evolver...",
-      "Loop mode enabled (internal daemon).",
-      "Scanning session logs..."
+      "[Singleton] Evolver loop already running (PID 79036). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 79036). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T14:36:17.591Z"
+  "publishedAt": "2026-03-18T14:38:07.709Z"
 }
