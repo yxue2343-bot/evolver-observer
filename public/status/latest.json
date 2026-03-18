@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T10:09:31.106Z",
+  "now": "2026-03-18T10:10:35.027Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T10:09:27.955Z",
+    "dataUpdatedAt": "2026-03-18T10:10:28.962Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T10:09:08.804Z",
+    "nodeLastSeenAt": "2026-03-18T10:10:11.148Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T10:09:27.955Z",
+    "logUpdatedAt": "2026-03-18T10:10:28.962Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T10:09:08.804Z"
+    "lastSeenAt": "2026-03-18T10:10:11.148Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "- Gene: (unknown)",
-      "- Summary: Cross-session memory continuity solution: auto-loads RECENT_EVENTS.md (24h rolling) + memory/YYYY-MM-DD.md (daily) + MEMORY.md (long-term) on session startup. Auto-appends significant events before exit. Solves context loss between agent restarts and different chat sessions with zero manual intervention.",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"summary\": \"Cross-session memory continuity solution: auto-loads RECENT_EVENTS.md (24h rolling) + memory/YYYY-MM-DD.md (daily) + MEMORY.md (long-term) on session startup. Auto-appends significant events before exit. Solves context loss between agent restarts and different chat sessions with zero manual intervention.\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"session_amnesia\",",
-      "    \"context_loss\",",
-      "    \"cross_session_gap\",",
-      "    \"memory_missing\",",
-      "    \"no_history\"",
-      "  ],",
-      "  \"strategy\": []",
-      "}",
-      "```",
       "Use this as your primary approach if applicable. Adapt to local context.",
       "Context [External Candidates]:",
       "(none)",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 90746). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 90982). Exiting."
+      "[Singleton] Evolver loop already running (PID 90982). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91092). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91147). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91195). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91261). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91350). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 91394). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T10:09:31.114Z"
+  "publishedAt": "2026-03-18T10:10:35.036Z"
 }
