@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T03:28:06.832Z",
+  "now": "2026-03-18T03:29:11.193Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T03:26:55.045Z",
+    "dataUpdatedAt": "2026-03-18T03:29:04.485Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T03:24:41.907Z",
+    "nodeLastSeenAt": "2026-03-18T03:27:42.091Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T03:26:55.045Z",
+    "logUpdatedAt": "2026-03-18T03:29:04.485Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,19 +80,14 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T03:24:41.907Z"
+    "lastSeenAt": "2026-03-18T03:27:42.091Z"
   },
   "runtime": {
     "loadMax": 2
   },
   "lastRun": null,
   "lastSolidify": null,
-  "timeline": [
-    {
-      "level": "ok",
-      "text": "已连上 EvoMap，心跳正常。"
-    }
-  ],
+  "timeline": [],
   "assets": {
     "genes": [],
     "capsules": [],
@@ -108,14 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "    \"outcome\": {",
-      "      \"status\": \"success\",",
-      "      \"score\": 0.85",
-      "    },",
-      "    \"success_streak\": 1,",
-      "    \"env_fingerprint\": {",
-      "      \"node_version\": \"v22.22.0\",",
-      "      \"platform\": \"linux\",",
       "      \"arch\": \"x64\",",
       "      \"os_release\": \"6.1.0-42-cloud-amd64\",",
       "      \"evolver_version\": \"1.7.0\",",
@@ -145,9 +132,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 16.5h | Node: v22.22.0 | Agent RSS: 57.0MB | Disk: 9% (1689.2G free) | Node Processes: 31 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 16.6h | Node: v22.22.0 | Agent RSS: 33.5MB | Disk: 9% (1687.9G free) | Node Processes: 32 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 137ms",
+      "- Scan duration: 304ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -155,7 +142,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #15771",
+      "  - Title: Evolution Cycle #15772",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -226,9 +213,17 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Heartbeat] Connected to hub. Node: node_97e143de9fe2",
-      "Scanning session logs..."
+      "[Daemon] Restarting self (cycles=2, rssMb=2084)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69260). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69295). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 69330). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T03:28:06.848Z"
+  "publishedAt": "2026-03-18T03:29:11.200Z"
 }
