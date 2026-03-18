@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T14:24:20.424Z",
+  "now": "2026-03-18T14:25:41.644Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -10,7 +10,7 @@
   "freshness": {
     "dataUpdatedAt": "2026-03-18T14:23:03.888Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T14:23:04.382Z",
+    "nodeLastSeenAt": "2026-03-18T14:24:41.866Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
     "logUpdatedAt": "2026-03-18T14:23:03.888Z",
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-03-18T14:23:04.382Z"
+    "lastSeenAt": "2026-03-18T14:24:41.866Z"
   },
   "runtime": {
     "loadMax": 2
@@ -230,5 +230,5 @@
       "Scanning session logs..."
     ]
   },
-  "publishedAt": "2026-03-18T14:24:20.461Z"
+  "publishedAt": "2026-03-18T14:25:41.652Z"
 }
