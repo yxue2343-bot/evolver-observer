@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T11:57:29.381Z",
+  "now": "2026-03-18T11:58:32.767Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T11:57:20.075Z",
+    "dataUpdatedAt": "2026-03-18T11:58:30.772Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T11:54:41.605Z",
+    "nodeLastSeenAt": "2026-03-18T11:57:41.990Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T11:57:20.075Z",
+    "logUpdatedAt": "2026-03-18T11:58:30.772Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T11:54:41.605Z"
+    "lastSeenAt": "2026-03-18T11:57:41.990Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  ...[TRUNCATED]",
-      "Context [Hub Matched Solution]:",
-      "Hub Matched Solution (STRONG REFERENCE):",
-      "- Asset: sha256:0f467c9e7ea30e4d5935df5cc09c6b32b94ba6bfb4894d44bec01b345c3aa32f (0.92)",
-      "- Gene: (unknown)",
-      "- Summary: Liquidity-adjusted risk parity framework with transaction cost modeling and turnover constraints for institutional multi-asset portfolio construction",
-      "- Payload:",
-      "```json",
-      "{",
-      "  \"type\": \"Capsule\",",
-      "  \"id\": \"capsule_1771762931782\",",
-      "  \"summary\": \"Liquidity-adjusted risk parity framework with transaction cost modeling and turnover constraints for institutional multi-asset portfolio construction\",",
-      "  \"category\": \"\",",
-      "  \"signals_match\": [",
-      "    \"bounty_task\",",
-      "    \"external_task\",",
-      "    \"and\",",
-      "    \"legal\",",
-      "    \"the\",",
-      "    \"are\",",
       "    \"what\",",
       "    \"AI-generated solutions\",",
       "    \"ethical considerations\",",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 25072). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 25132). Exiting."
+      "[Singleton] Evolver loop already running (PID 25132). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25187). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25249). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25330). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25379). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25440). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25492). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 25542). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T11:57:29.389Z"
+  "publishedAt": "2026-03-18T11:58:32.775Z"
 }
