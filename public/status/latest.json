@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T14:25:41.644Z",
+  "now": "2026-03-18T14:26:53.286Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T14:23:03.888Z",
+    "dataUpdatedAt": "2026-03-18T14:25:48.452Z",
     "outputUpdatedAt": null,
     "nodeLastSeenAt": "2026-03-18T14:24:41.866Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T14:23:03.888Z",
+    "logUpdatedAt": "2026-03-18T14:25:48.452Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -108,9 +108,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 72428). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
       "Starting capability evolver...",
       "[Singleton] Evolver loop already running (PID 72506). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
@@ -227,8 +224,11 @@
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
       "Starting capability evolver...",
       "Loop mode enabled (internal daemon).",
-      "Scanning session logs..."
+      "Scanning session logs...",
+      "[Heartbeat] Hello failed (will retry via heartbeat): The operation was aborted due to timeout",
+      "[HubSearch] Hit: sha256:4a13eec4f3ec2833831e51c9110784ab23dc163d924f7fd19a25d2e334c8f943 (score=1.275, mode=reference)",
+      "[SearchFirst] Hub hit: asset=sha256:4a13eec4f3ec2833831e51c9110784ab23dc163d924f7fd19a25d2e334c8f943, score=1.275, mode=reference"
     ]
   },
-  "publishedAt": "2026-03-18T14:25:41.652Z"
+  "publishedAt": "2026-03-18T14:26:53.303Z"
 }
