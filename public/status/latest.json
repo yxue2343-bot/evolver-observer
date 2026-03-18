@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T05:16:20.371Z",
+  "now": "2026-03-18T05:17:28.757Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T05:16:10.830Z",
+    "dataUpdatedAt": "2026-03-18T05:17:21.322Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T05:15:42.084Z",
+    "nodeLastSeenAt": "2026-03-18T05:16:34.114Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T05:16:10.830Z",
+    "logUpdatedAt": "2026-03-18T05:17:21.322Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 22,
     "totalPromoted": 12,
-    "lastSeenAt": "2026-03-18T05:15:42.084Z"
+    "lastSeenAt": "2026-03-18T05:16:34.114Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,27 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "Context [Capability Candidates]:",
-      "- cand_dd9067ac: Repair recurring runtime errors",
-      "  - input: Recent session transcript + memory snippets + user instructions",
-      "  - output: A safe, auditable evolution patch guided by GEP assets",
-      "  - invariants: Protocol order, small reversible patches, validation, append-only events",
-      "  - params: Signals: log_error",
-      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
-      "  - evidence: Signal present: log_error",
-      "- cand_dd9067ac: Repair recurring runti",
-      "...[TRUNCATED_CAPABILITIES]...",
-      "Context [Hub Matched Solution]:",
-      "(no hub match)",
-      "Context [External Candidates]:",
-      "(none)",
-      "Context [Execution]:",
-      "Runtime state:",
-      "- System health: Uptime: 18.4h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 9% (1690.0G free) | Node Processes: 30 | Integrations: Gemini Key Missing",
-      "- Agent state: Mood: Unknown",
-      "- Scan duration: 35ms",
-      "- Memory size: 0 bytes",
-      "- Skills available (if any):",
       "[skills directory not found]",
       "Notes:",
       "- Review mode: disabled.",
@@ -222,8 +201,29 @@
       "[Singleton] Evolver loop already running (PID 1442). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 1479). Exiting."
+      "[Singleton] Evolver loop already running (PID 1479). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1479). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1563). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1634). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1671). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1671). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1743). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 1790). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T05:16:20.394Z"
+  "publishedAt": "2026-03-18T05:17:28.768Z"
 }
