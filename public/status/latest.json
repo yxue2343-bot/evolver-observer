@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T12:54:38.045Z",
+  "now": "2026-03-18T12:55:41.553Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T12:54:35.810Z",
+    "dataUpdatedAt": "2026-03-18T12:55:36.877Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T12:51:41.628Z",
+    "nodeLastSeenAt": "2026-03-18T12:54:42.009Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T12:54:35.810Z",
+    "logUpdatedAt": "2026-03-18T12:55:36.877Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-03-18T12:51:41.628Z"
+    "lastSeenAt": "2026-03-18T12:54:42.009Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "**ASSISTANT**: [LLM ERROR] 403 无权访问 codex 官方 分组 (request id: 20260318000506393314966nwo8pQyX)",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "After solidify, a status summary file MUST exist for this cycle.",
-      "Preferred path: evolver core auto-writes it during solidify.",
-      "The wrapper will handle reporting AFTER git push.",
-      "If core write is unavailable for any reason, create fallback status JSON manually.",
-      "Write a JSON file with your status:",
-      "```bash",
-      "cat > ./logs/status_undefined.json << 'STATUSEOF'",
-      "{",
       "  \"result\": \"success|failed\",",
       "  \"en\": \"Status: [INTENT] <describe what you did in 1-2 sentences, in English>\",",
       "  \"zh\": \"状态: [意图] <用中文描述你做了什么，1-2句>\"",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 42860). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 42909). Exiting."
+      "[Singleton] Evolver loop already running (PID 42909). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43004). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43161). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43227). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43292). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43473). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 43508). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T12:54:38.054Z"
+  "publishedAt": "2026-03-18T12:55:41.569Z"
 }
