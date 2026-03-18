@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T13:26:45.715Z",
+  "now": "2026-03-18T13:27:48.093Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T13:26:40.711Z",
+    "dataUpdatedAt": "2026-03-18T13:27:41.777Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T13:26:02.077Z",
+    "nodeLastSeenAt": "2026-03-18T13:27:23.974Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T13:26:40.711Z",
+    "logUpdatedAt": "2026-03-18T13:27:41.777Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-03-18T13:26:02.077Z"
+    "lastSeenAt": "2026-03-18T13:27:23.974Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,24 +103,6 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
-      "```",
-      "--- SESSION (121a616a-9ff2-4bb2-9c4b-aa206d5ab802.jsonl) ---",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
-      "**ASSISTANT**:  [TOOL: exec]",
-      "**TOOLRESULT**: []",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old ",
-      "--- SESSION (2100bcc4-2386-4e10-95aa-8b786178cf92.jsonl) ---",
-      "**USER**: Critical turn directive: this request is obvious non-trivial research or lookup. Do not deliberate for long and do not use other tools first. Call `background_task` with `action=\"submit\"` immediately. [cron:7868b3d5-0ad7-4a4a-955d-a71dd136adb3 科研雷达早报（子刊级Idea导向）] 你是“科研机会早报（正式发报阶段）”。你的唯一输入是预筛候选池，不要重新做",
-      "**ASSISTANT**: [LLM ERROR] 403 无权访问 codex 官方 分组 (request id: 20260318000503889325897srobSjUl)",
-      "**ASSISTANT**: [LLM ERROR] 403 无权访问 codex 官方 分组 (request id: 20260318000506393314966nwo8pQyX)",
-      "```",
-      "Mutation directive:",
-      "[Signal Hints]",
-      "- recent_error_count: 0",
-      "- stability: stable",
-      "- recommended_intent: optimize",
-      "━━━━━━━━━━━━━━━━━━━━━━",
-      "MANDATORY POST-SOLIDIFY STEP (Wrapper Authority -- Cannot Be Skipped)",
       "━━━━━━━━━━━━━━━━━━━━━━",
       "After solidify, a status summary file MUST exist for this cycle.",
       "Preferred path: evolver core auto-writes it during solidify.",
@@ -222,8 +204,26 @@
       "[Singleton] Evolver loop already running (PID 55847). Exiting.",
       "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 55916). Exiting."
+      "[Singleton] Evolver loop already running (PID 55916). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55993). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55993). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 55993). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56076). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56102). Exiting.",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit",
+      "Starting capability evolver...",
+      "[Singleton] Evolver loop already running (PID 56153). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T13:26:45.723Z"
+  "publishedAt": "2026-03-18T13:27:48.106Z"
 }
