@@ -1,5 +1,5 @@
 {
-  "now": "2026-03-18T13:21:35.113Z",
+  "now": "2026-03-18T13:22:37.149Z",
   "status": {
     "code": "stopped",
     "title": "已停止",
@@ -8,12 +8,12 @@
     "suggestion": "检查 LaunchAgent 或手动重启 evolver loop。"
   },
   "freshness": {
-    "dataUpdatedAt": "2026-03-18T13:21:26.993Z",
+    "dataUpdatedAt": "2026-03-18T13:22:27.983Z",
     "outputUpdatedAt": null,
-    "nodeLastSeenAt": "2026-03-18T13:20:34.974Z",
+    "nodeLastSeenAt": "2026-03-18T13:21:45.490Z",
     "lastRunAt": null,
     "lastSolidifyAt": null,
-    "logUpdatedAt": "2026-03-18T13:21:26.993Z",
+    "logUpdatedAt": "2026-03-18T13:22:27.983Z",
     "stateUpdatedAt": null,
     "genesUpdatedAt": null,
     "capsulesUpdatedAt": null,
@@ -80,7 +80,7 @@
     "status": "active",
     "totalPublished": 0,
     "totalPromoted": 0,
-    "lastSeenAt": "2026-03-18T13:20:34.974Z"
+    "lastSeenAt": "2026-03-18T13:21:45.490Z"
   },
   "runtime": {
     "loadMax": 2
@@ -103,6 +103,12 @@
   "technical": {
     "activeLogPath": "/Users/xyt/.openclaw/workspace/logs/evolver_official.log",
     "logTail": [
+      "  - failure_points: Missing signals, over-broad changes, skipped validation, missing knowledge solidification",
+      "  - evidence: Observed 2 occurrences of tool call marker for exec.",
+      "- cand_5afdf7f3: Repeated tool usage: exec",
+      "  - input: Recent session transcript + memory snippets + user instructions",
+      "  ...[TRUNCATED]",
+      "Context [Hub Matched Solution]:",
       "Hub Matched Solution (STRONG REFERENCE):",
       "- Asset: sha256:1c838ec65a2ec54852f4f37ef143cd5fa6391d0a8d45ecd2eb30202a87e54f6b (0.92)",
       "- Gene: (unknown)",
@@ -138,9 +144,9 @@
       "(none)",
       "Context [Execution]:",
       "Runtime state:",
-      "- System health: Uptime: 26.5h | Node: v22.22.0 | Agent RSS: 56.8MB | Disk: 10% (1684.9G free) | Node Processes: 33 | Integrations: Gemini Key Missing",
+      "- System health: Uptime: 26.5h | Node: v22.22.0 | Agent RSS: 56.7MB | Disk: 10% (1685.1G free) | Node Processes: 35 | Integrations: Gemini Key Missing",
       "- Agent state: Mood: Unknown",
-      "- Scan duration: 544ms",
+      "- Scan duration: 47ms",
       "- Memory size: 0 bytes",
       "- Skills available (if any):",
       "[skills directory not found]",
@@ -148,7 +154,7 @@
       "- Review mode: disabled.",
       "- Report requirement:",
       "  - Use `message` tool.",
-      "  - Title: Evolution Cycle #21122",
+      "  - Title: Evolution Cycle #21135",
       "  - Status: [SUCCESS]",
       "  - Changes: Detail exactly what was improved.",
       "- Workspace sync: optional/disabled in this environment.",
@@ -213,17 +219,11 @@
       "- Example:",
       "  {\"result\":\"success\",\"en\":\"Status: [INNOVATION] Created auto-scheduler that syncs calendar to HEARTBEAT.md\",\"zh\":\"状态: [创新] 创建了自动调度器，将日历同步到 HEARTBEAT.md\"}",
       "[SOLIDIFY REQUIRED] After applying the patch and validations, run: node index.js solidify",
-      "[Daemon] Restarting self (cycles=1, rssMb=1310)",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild",
+      "[Daemon] Restarting self (cycles=1, rssMb=1731)",
+      "[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2",
       "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 53995). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 54027). Exiting.",
-      "[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2",
-      "Starting capability evolver...",
-      "[Singleton] Evolver loop already running (PID 54054). Exiting."
+      "[Singleton] Evolver loop already running (PID 54403). Exiting."
     ]
   },
-  "publishedAt": "2026-03-18T13:21:35.137Z"
+  "publishedAt": "2026-03-18T13:22:37.162Z"
 }
